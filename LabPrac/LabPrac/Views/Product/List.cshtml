@@ -1,0 +1,34 @@
+﻿@model IEnumerable<LabPrac.DTO.ProductDTO>
+
+<h2>Product List</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Stock Quantity</th>
+            <th>Category</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Description</td>
+                <td>@product.Price</td>
+                <td>@product.StockQuantity</td>
+                <td>@product.Category</td>
+                <td>
+                    @Html.ActionLink("Details", "Details", new { id = product.ProductId }) |
+                    @Html.ActionLink("Edit", "Edit", new { id = product.ProductId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = product.ProductId }, new { style = "color: red;" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@Html.ActionLink("Create New Product", "Create", null, new { @class = "btn btn-primary" })

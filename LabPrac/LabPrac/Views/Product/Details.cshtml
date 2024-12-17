@@ -1,0 +1,43 @@
+﻿
+@model LabPrac.DTO.ProductDTO
+
+<html>
+<head>
+    <title>Product Details</title>
+</head>
+<body>
+    <h2>Product Details</h2>
+    
+    <table border="1">
+        <tr>
+            <td>Product ID:</td>
+            <td>@Model.ProductId</td>
+        </tr>
+        <tr>
+            <td>Name:</td>
+            <td>@Model.Name</td>
+        </tr>
+        <tr>
+            <td>Description:</td>
+            <td>@Model.Description</td>
+        </tr>
+        <tr>
+            <td>Price:</td>
+            <td>$@Model.Price</td>
+        </tr>
+        <tr>
+            <td>Stock Quantity:</td>
+            <td>@Model.StockQuantity</td>
+        </tr>
+        <tr>
+            <td>Category:</td>
+            <td>@Model.Category</td>
+        </tr>
+    </table>
+
+    <div style="margin-top: 20px;">
+        @Html.ActionLink("Back to List", "List") |
+        @Html.ActionLink("Edit", "Edit", new { id = Model.ProductId })
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+﻿
+@model Resturant.DTO.MenuItemDTO
+
+<html>
+<head>
+    <title>Create Product</title>
+</head>
+<body>
+    <h2>Create New Product</h2>
+
+    @using (Html.BeginForm("Create", "MenuItem", FormMethod.Post))
+    {
+        <table>
+            <tr>
+                <td> ItemId:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.ItemId)
+                    @Html.ValidationMessageFor(model => model.ItemId)
+                </td>
+            </tr>
+            <tr>
+                <td>Availability:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.Availability)
+                    @Html.ValidationMessageFor(model => model.Availability)
+                </td>
+            </tr>
+            <tr>
+                <td>Price:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.Price)
+                    @Html.ValidationMessageFor(model => model.Price)
+                </td>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.Name)
+                    @Html.ValidationMessageFor(model => model.Name)
+                </td>
+            </tr>
+            <tr>
+                <td>Description:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.Description)
+                    @Html.ValidationMessageFor(model => model.Description)
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Create Menu" />
+                </td>
+            </tr>
+        </table>
+    }
+
+    <div style="margin-top: 20px;">
+        @Html.ActionLink("Back to List", "List")
+    </div>
+</body>
+</html>

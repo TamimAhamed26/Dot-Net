@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF ORM", "EF ORM\EF ORM.csproj", "{AB89593F-3851-44F0-AE03-B34B587A96A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB89593F-3851-44F0-AE03-B34B587A96A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB89593F-3851-44F0-AE03-B34B587A96A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB89593F-3851-44F0-AE03-B34B587A96A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB89593F-3851-44F0-AE03-B34B587A96A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCE6ABEA-B743-4EE8-8D97-12B09B1DC64D}
+	EndGlobalSection
+EndGlobal

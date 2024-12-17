@@ -1,0 +1,38 @@
+﻿@model Hotel.DTO.RoomDTO
+
+<html>
+<head>
+    <title>Delete Room</title>
+</head>
+<body>
+    <h2>Delete Room</h2>
+
+    <p>@ViewBag.ConfirmationMessage</p>
+
+    <table>
+        <tr>
+            <td>Room Number:</td>
+            <td>@Model.RoomNumber</td>
+        </tr>
+        <tr>
+            <td>Type:</td>
+            <td>@Model.Type</td>
+        </tr>
+        <tr>
+            <td>Price:</td>
+            <td>@Model.Price</td>
+        </tr>
+        <tr>
+            <td>Availability:</td>
+            <td>@Model.Availability</td>
+        </tr>
+    </table>
+
+    @using (Html.BeginForm("DeleteConfirmed", "Room", FormMethod.Post))
+    {
+        @Html.HiddenFor(model => model.RoomNumber)
+        <input type="submit" value="Yes, Delete" class="btn btn-danger" />
+        @Html.ActionLink("Cancel", "List", null, new { @class = "btn btn-secondary" })
+    }
+</body>
+</html>

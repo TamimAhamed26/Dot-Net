@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{080BA260-9EF2-4E3B-A30F-2D34458BD5D9}|CFapiMigration\\CFapiMigration.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\cfapimigration\\dto\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080BA260-9EF2-4E3B-A30F-2D34458BD5D9}|CFapiMigration\\CFapiMigration.csproj|solutionrelative:cfapimigration\\dto\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080BA260-9EF2-4E3B-A30F-2D34458BD5D9}|CFapiMigration\\CFapiMigration.csproj|c:\\users\\gigabyte\\desktop\\dot net\\cfapi\\cfapimigration\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080BA260-9EF2-4E3B-A30F-2D34458BD5D9}|CFapiMigration\\CFapiMigration.csproj|solutionrelative:cfapimigration\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080BA260-9EF2-4E3B-A30F-2D34458BD5D9}|CFapiMigration\\CFapiMigration.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\cfapimigration\\dto\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080BA260-9EF2-4E3B-A30F-2D34458BD5D9}|CFapiMigration\\CFapiMigration.csproj|solutionrelative:cfapimigration\\dto\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080BA260-9EF2-4E3B-A30F-2D34458BD5D9}|CFapiMigration\\CFapiMigration.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\cfapimigration\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{080BA260-9EF2-4E3B-A30F-2D34458BD5D9}|CFapiMigration\\CFapiMigration.csproj|solutionrelative:cfapimigration\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080BA260-9EF2-4E3B-A30F-2D34458BD5D9}|CFapiMigration\\CFapiMigration.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\cfapimigration\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080BA260-9EF2-4E3B-A30F-2D34458BD5D9}|CFapiMigration\\CFapiMigration.csproj|solutionrelative:cfapimigration\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080BA260-9EF2-4E3B-A30F-2D34458BD5D9}|CFapiMigration\\CFapiMigration.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\cfapimigration\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080BA260-9EF2-4E3B-A30F-2D34458BD5D9}|CFapiMigration\\CFapiMigration.csproj|solutionrelative:cfapimigration\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080BA260-9EF2-4E3B-A30F-2D34458BD5D9}|CFapiMigration\\CFapiMigration.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\cfapimigration\\models\\contextfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080BA260-9EF2-4E3B-A30F-2D34458BD5D9}|CFapiMigration\\CFapiMigration.csproj|solutionrelative:cfapimigration\\models\\contextfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080BA260-9EF2-4E3B-A30F-2D34458BD5D9}|CFapiMigration\\CFapiMigration.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\cfapimigration\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080BA260-9EF2-4E3B-A30F-2D34458BD5D9}|CFapiMigration\\CFapiMigration.csproj|solutionrelative:cfapimigration\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080BA260-9EF2-4E3B-A30F-2D34458BD5D9}|CFapiMigration\\CFapiMigration.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\cfapimigration\\migrations\\202412051450290_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080BA260-9EF2-4E3B-A30F-2D34458BD5D9}|CFapiMigration\\CFapiMigration.csproj|solutionrelative:cfapimigration\\migrations\\202412051450290_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CourseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\CFapiMigration\\DTO\\CourseDTO.cs",
+              "RelativeDocumentMoniker": "CFapiMigration\\DTO\\CourseDTO.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\CFapiMigration\\DTO\\CourseDTO.cs",
+              "RelativeToolTip": "CFapiMigration\\DTO\\CourseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T20:03:42.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\CFapiMigration\\DTO\\StudentDTO.cs",
+              "RelativeDocumentMoniker": "CFapiMigration\\DTO\\StudentDTO.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\CFapiMigration\\DTO\\StudentDTO.cs",
+              "RelativeToolTip": "CFapiMigration\\DTO\\StudentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T20:03:21.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\CFapiMigration\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "CFapiMigration\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\CFapiMigration\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "CFapiMigration\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowBoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:19:40.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "202412051450290_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\CFapiMigration\\Migrations\\202412051450290_InitialCreate.cs",
+              "RelativeDocumentMoniker": "CFapiMigration\\Migrations\\202412051450290_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\CFapiMigration\\Migrations\\202412051450290_InitialCreate.cs",
+              "RelativeToolTip": "CFapiMigration\\Migrations\\202412051450290_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T14:50:43.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\CFapiMigration\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "CFapiMigration\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\CFapiMigration\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "CFapiMigration\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T14:46:27.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContextFile.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\CFapiMigration\\Models\\ContextFile.cs",
+              "RelativeDocumentMoniker": "CFapiMigration\\Models\\ContextFile.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\CFapiMigration\\Models\\ContextFile.cs",
+              "RelativeToolTip": "CFapiMigration\\Models\\ContextFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T14:38:26.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\CFapiMigration\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "CFapiMigration\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\CFapiMigration\\Models\\Course.cs",
+              "RelativeToolTip": "CFapiMigration\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T14:36:43.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\CFapiMigration\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "CFapiMigration\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\CFapiMigration\\Models\\Student.cs",
+              "RelativeToolTip": "CFapiMigration\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T14:36:18.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\CFapiMigration\\Web.config",
+              "RelativeDocumentMoniker": "CFapiMigration\\Web.config",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\CFAPI\\CFapiMigration\\Web.config",
+              "RelativeToolTip": "CFapiMigration\\Web.config",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-05T12:13:57.966Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

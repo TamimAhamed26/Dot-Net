@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="hotelModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Bookings">
+    <Key>
+      <PropertyRef Name="BookingID" />
+    </Key>
+    <Property Name="BookingID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoomNumber" Type="int" Nullable="false" />
+    <Property Name="CustomerName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="CheckIn" Type="date" Nullable="false" />
+    <Property Name="CheckOut" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Rooms">
+    <Key>
+      <PropertyRef Name="RoomNumber" />
+    </Key>
+    <Property Name="RoomNumber" Type="int" Nullable="false" />
+    <Property Name="Type" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Price" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="Availability" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Room_Booking">
+    <End Role="Rooms" Type="Self.Rooms" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Bookings" Type="Self.Bookings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rooms">
+        <PropertyRef Name="RoomNumber" />
+      </Principal>
+      <Dependent Role="Bookings">
+        <PropertyRef Name="RoomNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="hotelModelStoreContainer">
+    <EntitySet Name="Bookings" EntityType="Self.Bookings" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Rooms" EntityType="Self.Rooms" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Room_Booking" Association="Self.FK_Room_Booking">
+      <End Role="Rooms" EntitySet="Rooms" />
+      <End Role="Bookings" EntitySet="Bookings" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

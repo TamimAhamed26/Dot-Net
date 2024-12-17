@@ -1,0 +1,70 @@
+﻿@model LabPrac.DTO.CustomerDTO
+
+<html>
+<head>
+    <title>Edit Customer</title>
+</head>
+<body>
+    <h2>Edit Customer</h2>
+
+    @using (Html.BeginForm("Edit", "Customer", FormMethod.Post))
+    {
+        @Html.HiddenFor(model => model.CustomerId)
+
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.FirstName)
+                    @Html.ValidationMessageFor(model => model.FirstName)
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.LastName)
+                    @Html.ValidationMessageFor(model => model.LastName)
+                </td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.Email)
+                    @Html.ValidationMessageFor(model => model.Email)
+                </td>
+            </tr>
+            <tr>
+                <td>Phone:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.Phone)
+                    @Html.ValidationMessageFor(model => model.Phone)
+                </td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.Address)
+                    @Html.ValidationMessageFor(model => model.Address)
+                </td>
+            </tr>
+            <tr>
+                <td>Date Joined:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.DateJoined, new { @Value = Model.DateJoined.ToString("yyyy-MM-dd") })
+                    <label>yyyy-MM-dd</label>
+                    @Html.ValidationMessageFor(model => model.DateJoined)
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Save Changes" />
+                </td>
+            </tr>
+        </table>
+    }
+
+    <div style="margin-top: 20px;">
+        @Html.ActionLink("Back to List", "List")
+    </div>
+</body>
+</html>

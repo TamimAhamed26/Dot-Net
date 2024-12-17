@@ -1,0 +1,87 @@
+﻿@model IEnumerable<demo.DTO.ProgramDTO>
+@{
+    ViewBag.Title = "Programs List";
+}
+
+<h2>Programs List</h2>
+
+<div class="card mb-4">
+    <div class="card-body">
+        @using (Html.BeginForm("List", "Program", FormMethod.Get, new { @class = "row g-3" }))
+        {
+            <div class="col-md-3">
+                <label class="form-label">Search by Name</label>
+                <input type="text" name="searchTerm" value="@(ViewBag.SearchTerm ?? "")" class="form-control" placeholder="Enter program name..." />
+            </div>
+
+            <div class="col-md-2">
+                <label class="form-label">Min TRP</label>
+                <input type="number" name="minTRP" value="@(ViewBag.MinTRP ?? "")" class="form-control" step="0.1" />
+            </div>
+
+            <div class="col-md-2">
+                <label class="form-label">Max TRP</label>
+                <input type="number" name="maxTRP" value="@(ViewBag.MaxTRP ?? "")" class="form-control" step="0.1" />
+            </div>
+
+            <div class="col-md-3">
+                <label class="form-label">Channel</label>
+                @Html.DropDownList("channelId",
+                    (SelectList)ViewBag.Channels,
+                    "-- All Channels --",
+                    new { @class = "form-control" })
+            </div>
+
+            <div class="col-md-2 d-flex align-items-end">
+                <button type="submit" class="btn btn-primary">Search</button>
+                <a href="@Url.Action("List")" class="btn btn-secondary ms-2">Clear</a>
+            </div>
+        }
+    </div>
+</div>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Program ID</th>
+            <th>Program Name</th>
+            <th>TRP Score</th>
+            <th>
+                <!-- Sort by ChannelName -->
+                <a href="@Url.Action("List", new { searchTerm = ViewBag.SearchTerm, minTRP = ViewBag.MinTRP, maxTRP = ViewBag.MaxTRP, channelId = ViewBag.SelectedChannelId, sortOrder = ViewBag.CurrentSort == "ChannelName" ? "ChannelNameDesc" : "ChannelName" })">
+                    Channel Name
+                    @if (ViewBag.CurrentSort == "ChannelName")
+                    {
+                        <span>&uarr;</span> <!-- Up Arrow  -->
+                    }
+                    else if (ViewBag.CurrentSort == "ChannelNameDesc")
+                    {
+                        <span>&darr;</span> <!-- Down Arrow  -->
+                    }
+                </a>
+            </th>
+            <th>Air Time</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProgramId</td>
+                <td>@item.ProgramName</td>
+                <td>@item.TRPScore</td>
+                <td>@(((SelectList)ViewBag.Channels).SingleOrDefault(x => x.Value == item.ChannelId.ToString())?.Text ?? "N/A")</td>
+                <td>@item.AirTime</td>
+                <td>
+                    @Html.ActionLink("Details", "Details", new { id = item.ProgramId }, new { @class = "btn btn-sm btn-secondary" })
+                    @Html.ActionLink("Edit", "Index", "Login", new { id = item.ProgramId }, new { @class = "btn btn-sm btn-success" })
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ProgramId }, new { @class = "btn btn-sm btn-danger" })
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/Program/create" class="btn btn-primary">Create</a>

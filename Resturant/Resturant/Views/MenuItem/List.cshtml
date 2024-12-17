@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Resturant.DTO.MenuItemDTO>
+
+@{
+    ViewBag.Title = "List";
+}
+
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<!-- Feedback messages -->
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
+
+<!-- Feedback messages -->
+@if (TempData["ISuccess"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["ISuccess"]
+    </div>
+}
+
+@if (TempData["IError"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["IError"]
+    </div>
+}
+
+<h2>List</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>MenuId</th>
+        <th>ItemId</th>
+        <th>Availability</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Name</th>
+
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.MenuId</td>
+            <td>@item.ItemId</td>
+            <td>@item.Availability</td>
+            <td>@item.Description</td>
+            <td>@item.Price</td>
+            <td>@item.Name</td>
+
+            <td>
+                @Html.ActionLink("Details", "Details", new { id = item.MenuId }, new { @class = "btn btn-secondary" })
+                @Html.ActionLink("Edit", "Edit", new { id = item.MenuId }, new { @class = "btn btn-success" })
+                @Html.ActionLink("Delete", "Delete", new { id = item.MenuId }, new { @class = "btn btn-danger" })
+            </td>
+
+
+        </tr>
+    }
+</table>
+<a href="/MenuItem/create" class="btn btn-primary">Create</a>

@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Hotel.DTO.RoomDTO>
+
+@{
+    ViewBag.Title = "List";
+}
+
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<!-- Feedback messages -->
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
+
+<!-- Feedback messages -->
+@if (TempData["ISuccess"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["ISuccess"]
+    </div>
+}
+
+@if (TempData["IError"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["IError"]
+    </div>
+}
+
+<h2>List</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>RoomNumber</th>
+        <th>Type</th>
+        <th>Price</th>
+        <th>Availability</th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.RoomNumber</td>
+            <td>@item.Type</td>
+            <td>@item.Price</td>
+            <td>@item.Availability</td>
+
+            <td>
+                @Html.ActionLink("Details", "Details", new { id = item.RoomNumber }, new { @class = "btn btn-secondary" })
+                @Html.ActionLink("Edit", "Edit", new { id = item.RoomNumber }, new { @class = "btn btn-success" })
+                @Html.ActionLink("Delete", "Delete", new { id = item.RoomNumber }, new { @class = "btn btn-danger" })
+            </td>
+
+
+        </tr>
+    }
+</table>
+<a href="/Room/Create" class="btn btn-primary">Create</a>

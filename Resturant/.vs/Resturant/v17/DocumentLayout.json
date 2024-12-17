@@ -1,0 +1,210 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{440F0536-DC6E-47A3-936B-EECEC16265A4}|Resturant\\Resturant.csproj|c:\\users\\gigabyte\\desktop\\dot net\\resturant\\resturant\\controllers\\menuitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440F0536-DC6E-47A3-936B-EECEC16265A4}|Resturant\\Resturant.csproj|solutionrelative:resturant\\controllers\\menuitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440F0536-DC6E-47A3-936B-EECEC16265A4}|Resturant\\Resturant.csproj|c:\\users\\gigabyte\\desktop\\dot net\\resturant\\resturant\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440F0536-DC6E-47A3-936B-EECEC16265A4}|Resturant\\Resturant.csproj|solutionrelative:resturant\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440F0536-DC6E-47A3-936B-EECEC16265A4}|Resturant\\Resturant.csproj|c:\\users\\gigabyte\\desktop\\dot net\\resturant\\resturant\\views\\menuitem\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{440F0536-DC6E-47A3-936B-EECEC16265A4}|Resturant\\Resturant.csproj|solutionrelative:resturant\\views\\menuitem\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440F0536-DC6E-47A3-936B-EECEC16265A4}|Resturant\\Resturant.csproj|c:\\users\\gigabyte\\desktop\\dot net\\resturant\\resturant\\views\\menuitem\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{440F0536-DC6E-47A3-936B-EECEC16265A4}|Resturant\\Resturant.csproj|solutionrelative:resturant\\views\\menuitem\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440F0536-DC6E-47A3-936B-EECEC16265A4}|Resturant\\Resturant.csproj|c:\\users\\gigabyte\\desktop\\dot net\\resturant\\resturant\\views\\menuitem\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{440F0536-DC6E-47A3-936B-EECEC16265A4}|Resturant\\Resturant.csproj|solutionrelative:resturant\\views\\menuitem\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440F0536-DC6E-47A3-936B-EECEC16265A4}|Resturant\\Resturant.csproj|c:\\users\\gigabyte\\desktop\\dot net\\resturant\\resturant\\views\\menuitem\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{440F0536-DC6E-47A3-936B-EECEC16265A4}|Resturant\\Resturant.csproj|solutionrelative:resturant\\views\\menuitem\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440F0536-DC6E-47A3-936B-EECEC16265A4}|Resturant\\Resturant.csproj|c:\\users\\gigabyte\\desktop\\dot net\\resturant\\resturant\\dto\\menuitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440F0536-DC6E-47A3-936B-EECEC16265A4}|Resturant\\Resturant.csproj|solutionrelative:resturant\\dto\\menuitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440F0536-DC6E-47A3-936B-EECEC16265A4}|Resturant\\Resturant.csproj|c:\\users\\gigabyte\\desktop\\dot net\\resturant\\resturant\\ef\\res.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440F0536-DC6E-47A3-936B-EECEC16265A4}|Resturant\\Resturant.csproj|solutionrelative:resturant\\ef\\res.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440F0536-DC6E-47A3-936B-EECEC16265A4}|Resturant\\Resturant.csproj|c:\\users\\gigabyte\\desktop\\dot net\\resturant\\resturant\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440F0536-DC6E-47A3-936B-EECEC16265A4}|Resturant\\Resturant.csproj|solutionrelative:resturant\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440F0536-DC6E-47A3-936B-EECEC16265A4}|Resturant\\Resturant.csproj|c:\\users\\gigabyte\\desktop\\dot net\\resturant\\resturant\\ef\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440F0536-DC6E-47A3-936B-EECEC16265A4}|Resturant\\Resturant.csproj|solutionrelative:resturant\\ef\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440F0536-DC6E-47A3-936B-EECEC16265A4}|Resturant\\Resturant.csproj|c:\\users\\gigabyte\\desktop\\dot net\\resturant\\resturant\\ef\\res.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{440F0536-DC6E-47A3-936B-EECEC16265A4}|Resturant\\Resturant.csproj|solutionrelative:resturant\\ef\\res.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\Resturant\\Views\\MenuItem\\Create.cshtml",
+              "RelativeDocumentMoniker": "Resturant\\Views\\MenuItem\\Create.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\Resturant\\Views\\MenuItem\\Create.cshtml",
+              "RelativeToolTip": "Resturant\\Views\\MenuItem\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T18:30:45.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\Resturant\\Views\\MenuItem\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Resturant\\Views\\MenuItem\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\Resturant\\Views\\MenuItem\\Edit.cshtml",
+              "RelativeToolTip": "Resturant\\Views\\MenuItem\\Edit.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T17:47:38.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\Resturant\\Views\\MenuItem\\Details.cshtml",
+              "RelativeDocumentMoniker": "Resturant\\Views\\MenuItem\\Details.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\Resturant\\Views\\MenuItem\\Details.cshtml",
+              "RelativeToolTip": "Resturant\\Views\\MenuItem\\Details.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T17:38:36.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\Resturant\\Views\\MenuItem\\List.cshtml",
+              "RelativeDocumentMoniker": "Resturant\\Views\\MenuItem\\List.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\Resturant\\Views\\MenuItem\\List.cshtml",
+              "RelativeToolTip": "Resturant\\Views\\MenuItem\\List.cshtml",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAD4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T17:25:35.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuItemController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\Resturant\\Controllers\\MenuItemController.cs",
+              "RelativeDocumentMoniker": "Resturant\\Controllers\\MenuItemController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\Resturant\\Controllers\\MenuItemController.cs",
+              "RelativeToolTip": "Resturant\\Controllers\\MenuItemController.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAAAIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:12:45.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\Resturant\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Resturant\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\Resturant\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Resturant\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:12:11.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\Resturant\\EF\\Order.cs",
+              "RelativeDocumentMoniker": "Resturant\\EF\\Order.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\Resturant\\EF\\Order.cs",
+              "RelativeToolTip": "Resturant\\EF\\Order.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:08:12.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MenuItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\Resturant\\DTO\\MenuItemDTO.cs",
+              "RelativeDocumentMoniker": "Resturant\\DTO\\MenuItemDTO.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\Resturant\\DTO\\MenuItemDTO.cs",
+              "RelativeToolTip": "Resturant\\DTO\\MenuItemDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:07:10.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\Resturant\\DTO\\OrderDTO.cs",
+              "RelativeDocumentMoniker": "Resturant\\DTO\\OrderDTO.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\Resturant\\DTO\\OrderDTO.cs",
+              "RelativeToolTip": "Resturant\\DTO\\OrderDTO.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:06:46.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Res.Context.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\Resturant\\EF\\Res.Context.cs",
+              "RelativeDocumentMoniker": "Resturant\\EF\\Res.Context.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\Resturant\\EF\\Res.Context.cs",
+              "RelativeToolTip": "Resturant\\EF\\Res.Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:05:20.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Res.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\Resturant\\EF\\Res.edmx",
+              "RelativeDocumentMoniker": "Resturant\\EF\\Res.edmx",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Resturant\\Resturant\\EF\\Res.edmx [Diagram1]",
+              "RelativeToolTip": "Resturant\\EF\\Res.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-26T17:04:24.12Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

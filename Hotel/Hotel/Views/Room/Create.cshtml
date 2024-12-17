@@ -1,0 +1,51 @@
+﻿
+@model Hotel.DTO.RoomDTO
+
+<html>
+<head>
+    <title>Create Product</title>
+</head>
+<body>
+    <h2>Create New Product</h2>
+
+    {
+    @Html.HiddenFor(model => model.RoomNumber)
+
+    <table>
+        <tr>
+            <td>Type:</td>
+            <td>
+                @Html.DropDownListFor(model => model.Type,
+                    new SelectList(new[] { "Single", "Double", "Deluxe", "Premium" }),
+                    "Select Room Type",
+                    new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Type)
+            </td>
+        </tr>
+        <tr>
+            <td>Price:</td>
+            <td>
+                @Html.TextBoxFor(model => model.Price, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Price)
+            </td>
+        </tr>
+        <tr>
+            <td>Availability:</td>
+            <td>
+                @Html.DropDownListFor(model => model.Availability,
+                    new SelectList(new[] { new { Value = true, Text = "Available" }, new { Value = false, Text = "Not Available" } }, "Value", "Text"),
+                    "Select Availability",
+                    new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Availability)
+            </td>
+        </tr>
+    </table>
+
+    <input type="submit" value="Save" class="btn btn-primary" />
+    }
+
+    <div style="margin-top: 20px;">
+        @Html.ActionLink("Back to List", "List")
+    </div>
+</body>
+</html>

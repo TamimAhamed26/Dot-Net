@@ -1,0 +1,39 @@
+﻿@model demo.EF.Channel
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<html>
+<head>
+    <title>Programs for @Model.ChannelName</title>
+</head>
+<body>
+    <h2>Programs for @Model.ChannelName (@Model.EstablishedYear - @Model.Country)</h2>
+
+    @if (Model.Programs.Any())
+    {
+        <ul>
+            @foreach (var program in Model.Programs)
+            {
+                <li>
+                    <strong>@program.ProgramName</strong>
+                    - TRP: @program.TRPScore
+                    - AirTime: @program.AirTime
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>No programs available for this channel.</p>
+    }
+
+    <div style="margin-top: 20px;">
+        @Html.ActionLink("Back to Channel List", "List")
+    </div>
+</body>
+</html>

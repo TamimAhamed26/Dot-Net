@@ -1,0 +1,400 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\views\\channel\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\views\\channel\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\views\\program\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\views\\program\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|c:\\users\\gigabyte\\desktop\\dot net\\demo\\demo\\views\\channel\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\views\\channel\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\controllers\\programcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\controllers\\programcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\ef\\channel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\ef\\channel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|c:\\users\\gigabyte\\desktop\\dot net\\demo\\demo\\views\\channel\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\views\\channel\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\views\\program\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\views\\program\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\controllers\\channelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\controllers\\channelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|c:\\users\\gigabyte\\desktop\\dot net\\demo\\demo\\auth\\logged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\auth\\logged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\ef\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\ef\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\views\\program\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\views\\program\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\ef\\das.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\ef\\das.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\ef\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\ef\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\ef\\das.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\ef\\das.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\views\\channel\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\views\\channel\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\views\\program\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\views\\program\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\dto\\channeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\dto\\channeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\dto\\programdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1E16D51-46CF-4384-8F0C-A4478D115054}|demo\\demo.csproj|solutionrelative:demo\\dto\\programdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Views\\Channel\\Create.cshtml",
+              "RelativeDocumentMoniker": "demo\\Views\\Channel\\Create.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Views\\Channel\\Create.cshtml",
+              "RelativeToolTip": "demo\\Views\\Channel\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T18:30:57.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Views\\Channel\\Edit.cshtml",
+              "RelativeDocumentMoniker": "demo\\Views\\Channel\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Views\\Channel\\Edit.cshtml",
+              "RelativeToolTip": "demo\\Views\\Channel\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T17:47:28.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "demo\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "demo\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAtwCMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T14:51:45.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\EF\\User.cs",
+              "RelativeDocumentMoniker": "demo\\EF\\User.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\EF\\User.cs",
+              "RelativeToolTip": "demo\\EF\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T14:48:10.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Channel.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\EF\\Channel.cs",
+              "RelativeDocumentMoniker": "demo\\EF\\Channel.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\EF\\Channel.cs",
+              "RelativeToolTip": "demo\\EF\\Channel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T14:47:22.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Logged.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Auth\\Logged.cs",
+              "RelativeDocumentMoniker": "demo\\Auth\\Logged.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Auth\\Logged.cs",
+              "RelativeToolTip": "demo\\Auth\\Logged.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T14:31:43.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Views\\Program\\Edit.cshtml",
+              "RelativeDocumentMoniker": "demo\\Views\\Program\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Views\\Program\\Edit.cshtml",
+              "RelativeToolTip": "demo\\Views\\Program\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T13:46:59.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Views\\Program\\Details.cshtml",
+              "RelativeDocumentMoniker": "demo\\Views\\Program\\Details.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Views\\Program\\Details.cshtml",
+              "RelativeToolTip": "demo\\Views\\Program\\Details.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T13:36:16.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProgramController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Controllers\\ProgramController.cs",
+              "RelativeDocumentMoniker": "demo\\Controllers\\ProgramController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Controllers\\ProgramController.cs",
+              "RelativeToolTip": "demo\\Controllers\\ProgramController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMBAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:24:47.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "list.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Views\\Channel\\list.cshtml",
+              "RelativeDocumentMoniker": "demo\\Views\\Channel\\list.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Views\\Channel\\list.cshtml",
+              "RelativeToolTip": "demo\\Views\\Channel\\list.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T12:45:38.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Views\\Program\\List.cshtml",
+              "RelativeDocumentMoniker": "demo\\Views\\Program\\List.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Views\\Program\\List.cshtml",
+              "RelativeToolTip": "demo\\Views\\Program\\List.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAASwFMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T09:51:42.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChannelController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Controllers\\ChannelController.cs",
+              "RelativeDocumentMoniker": "demo\\Controllers\\ChannelController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Controllers\\ChannelController.cs",
+              "RelativeToolTip": "demo\\Controllers\\ChannelController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T10:52:12.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "demo\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "demo\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T14:55:37.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "demo\\DTO\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "demo\\DTO\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T14:48:58.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "das.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\EF\\das.edmx",
+              "RelativeDocumentMoniker": "demo\\EF\\das.edmx",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\EF\\das.edmx [Diagram1]",
+              "RelativeToolTip": "demo\\EF\\das.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-23T14:40:22.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "das.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\EF\\das.cs",
+              "RelativeDocumentMoniker": "demo\\EF\\das.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\EF\\das.cs",
+              "RelativeToolTip": "demo\\EF\\das.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T14:47:20.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Views\\Channel\\Details.cshtml",
+              "RelativeDocumentMoniker": "demo\\Views\\Channel\\Details.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Views\\Channel\\Details.cshtml",
+              "RelativeToolTip": "demo\\Views\\Channel\\Details.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T13:31:25.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Views\\Program\\Create.cshtml",
+              "RelativeDocumentMoniker": "demo\\Views\\Program\\Create.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Views\\Program\\Create.cshtml",
+              "RelativeToolTip": "demo\\Views\\Program\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T12:35:56.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\EF\\Program.cs",
+              "RelativeDocumentMoniker": "demo\\EF\\Program.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\EF\\Program.cs",
+              "RelativeToolTip": "demo\\EF\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:24:51.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "demo\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "demo\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T13:12:27.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "demo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "demo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwBwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T13:12:58.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ChannelDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\DTO\\ChannelDTO.cs",
+              "RelativeDocumentMoniker": "demo\\DTO\\ChannelDTO.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\DTO\\ChannelDTO.cs",
+              "RelativeToolTip": "demo\\DTO\\ChannelDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:25:04.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProgramDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\DTO\\ProgramDTO.cs",
+              "RelativeDocumentMoniker": "demo\\DTO\\ProgramDTO.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\demo\\demo\\DTO\\ProgramDTO.cs",
+              "RelativeToolTip": "demo\\DTO\\ProgramDTO.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T17:21:05.95Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

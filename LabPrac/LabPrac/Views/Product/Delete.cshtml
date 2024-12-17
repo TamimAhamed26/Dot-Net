@@ -1,0 +1,48 @@
+﻿
+<html>
+<head>
+    <title>Delete Product</title>
+</head>
+<body>
+    <h2>Delete Product</h2>
+
+    <div style="color: red;">
+        <h3>Are you sure you want to delete this product?</h3>
+    </div>
+
+    <table border="1">
+        <tr>
+            <td>Product ID:</td>
+            <td>@Model.ProductId</td>
+        </tr>
+        <tr>
+            <td>Name:</td>
+            <td>@Model.Name</td>
+        </tr>
+        <tr>
+            <td>Description:</td>
+            <td>@Model.Description</td>
+        </tr>
+        <tr>
+            <td>Price:</td>
+            <td>$@Model.Price</td>
+        </tr>
+        <tr>
+            <td>Stock Quantity:</td>
+            <td>@Model.StockQuantity</td>
+        </tr>
+        <tr>
+            <td>Category:</td>
+            <td>@Model.Category</td>
+        </tr>
+    </table>
+
+    @using (Html.BeginForm())
+    {
+        <div style="margin-top: 20px;">
+            <input type="submit" value="Delete" style="color: red;" />
+            @Html.ActionLink("Back to List", "List")
+        </div>
+    }
+</body>
+</html>

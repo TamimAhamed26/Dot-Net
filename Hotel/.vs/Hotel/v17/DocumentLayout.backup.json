@@ -1,0 +1,291 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\hotel\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|solutionrelative:hotel\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\hotel\\dto\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|solutionrelative:hotel\\dto\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\hotel\\dto\\checkoutaftercheckin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|solutionrelative:hotel\\dto\\checkoutaftercheckin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|c:\\users\\gigabyte\\source\\repos\\hotel\\hotel\\dto\\futuredateattribute .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|solutionrelative:hotel\\dto\\futuredateattribute .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|c:\\users\\gigabyte\\source\\repos\\hotel\\hotel\\views\\booking\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|solutionrelative:hotel\\views\\booking\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\hotel\\views\\room\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|solutionrelative:hotel\\views\\room\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|c:\\users\\gigabyte\\source\\repos\\hotel\\hotel\\views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|solutionrelative:hotel\\views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\hotel\\views\\room\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|solutionrelative:hotel\\views\\room\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\hotel\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|solutionrelative:hotel\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|c:\\users\\gigabyte\\source\\repos\\hotel\\hotel\\views\\room\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|solutionrelative:hotel\\views\\room\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\hotel\\dto\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|solutionrelative:hotel\\dto\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|c:\\users\\gigabyte\\source\\repos\\hotel\\hotel\\views\\room\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|solutionrelative:hotel\\views\\room\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\hotel\\ef\\hotel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|solutionrelative:hotel\\ef\\hotel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\hotel\\views\\room\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|solutionrelative:hotel\\views\\room\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\hotel\\ef\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|solutionrelative:hotel\\ef\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\hotel\\ef\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F4A6A87-D210-4DD9-A48A-DF5EB02A4147}|Hotel\\Hotel.csproj|solutionrelative:hotel\\ef\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FutureDateAttribute .cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\DTO\\FutureDateAttribute .cs",
+              "RelativeDocumentMoniker": "Hotel\\DTO\\FutureDateAttribute .cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\DTO\\FutureDateAttribute .cs",
+              "RelativeToolTip": "Hotel\\DTO\\FutureDateAttribute .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T14:20:53.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\Views\\Booking\\Create.cshtml",
+              "RelativeDocumentMoniker": "Hotel\\Views\\Booking\\Create.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\Views\\Booking\\Create.cshtml",
+              "RelativeToolTip": "Hotel\\Views\\Booking\\Create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T14:07:23.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\Views\\Booking\\List.cshtml",
+              "RelativeDocumentMoniker": "Hotel\\Views\\Booking\\List.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\Views\\Booking\\List.cshtml",
+              "RelativeToolTip": "Hotel\\Views\\Booking\\List.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T13:38:06.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\Views\\Room\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Hotel\\Views\\Room\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\Views\\Room\\Edit.cshtml",
+              "RelativeToolTip": "Hotel\\Views\\Room\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T14:58:13.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\Views\\Room\\List.cshtml",
+              "RelativeDocumentMoniker": "Hotel\\Views\\Room\\List.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\Views\\Room\\List.cshtml",
+              "RelativeToolTip": "Hotel\\Views\\Room\\List.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T14:37:14.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "Hotel\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "Hotel\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAowFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:28:23.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\DTO\\BookingDTO.cs",
+              "RelativeDocumentMoniker": "Hotel\\DTO\\BookingDTO.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\DTO\\BookingDTO.cs",
+              "RelativeToolTip": "Hotel\\DTO\\BookingDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:05:21.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CheckOutAfterCheckIn.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\DTO\\CheckOutAfterCheckIn.cs",
+              "RelativeDocumentMoniker": "Hotel\\DTO\\CheckOutAfterCheckIn.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\DTO\\CheckOutAfterCheckIn.cs",
+              "RelativeToolTip": "Hotel\\DTO\\CheckOutAfterCheckIn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T17:29:17.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "Hotel\\Controllers\\RoomController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "Hotel\\Controllers\\RoomController.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAAANgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:27:56.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\Views\\Room\\Details.cshtml",
+              "RelativeDocumentMoniker": "Hotel\\Views\\Room\\Details.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\Views\\Room\\Details.cshtml",
+              "RelativeToolTip": "Hotel\\Views\\Room\\Details.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T15:04:22.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\Views\\Room\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Hotel\\Views\\Room\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\Views\\Room\\Delete.cshtml",
+              "RelativeToolTip": "Hotel\\Views\\Room\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T11:39:41.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\Views\\Room\\Create.cshtml",
+              "RelativeDocumentMoniker": "Hotel\\Views\\Room\\Create.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\Views\\Room\\Create.cshtml",
+              "RelativeToolTip": "Hotel\\Views\\Room\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T15:23:51.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RoomDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\DTO\\RoomDTO.cs",
+              "RelativeDocumentMoniker": "Hotel\\DTO\\RoomDTO.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\DTO\\RoomDTO.cs",
+              "RelativeToolTip": "Hotel\\DTO\\RoomDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:06:13.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "hotel.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\EF\\hotel.edmx",
+              "RelativeDocumentMoniker": "Hotel\\EF\\hotel.edmx",
+              "ToolTip": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\EF\\hotel.edmx [Diagram1]",
+              "RelativeToolTip": "Hotel\\EF\\hotel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-25T13:59:46.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\EF\\Booking.cs",
+              "RelativeDocumentMoniker": "Hotel\\EF\\Booking.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\EF\\Booking.cs",
+              "RelativeToolTip": "Hotel\\EF\\Booking.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:03:55.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\EF\\Room.cs",
+              "RelativeDocumentMoniker": "Hotel\\EF\\Room.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\source\\repos\\Hotel\\Hotel\\EF\\Room.cs",
+              "RelativeToolTip": "Hotel\\EF\\Room.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:03:46.359Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

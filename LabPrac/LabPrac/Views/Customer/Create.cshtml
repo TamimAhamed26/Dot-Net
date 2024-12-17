@@ -1,0 +1,67 @@
+﻿@model LabPrac.DTO.CustomerDTO
+
+<html>
+<head>
+    <title>Create Customer</title>
+</head>
+<body>
+    <h2>Create New Customer</h2>
+
+    @using (Html.BeginForm("Create", "Customer", FormMethod.Post))
+    {
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.FirstName)
+                    @Html.ValidationMessageFor(model => model.FirstName)
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.LastName)
+                    @Html.ValidationMessageFor(model => model.LastName)
+                </td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.Email)
+                    @Html.ValidationMessageFor(model => model.Email)
+                </td>
+            </tr>
+            <tr>
+                <td>Phone:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.Phone)
+                    @Html.ValidationMessageFor(model => model.Phone)
+                </td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.Address)
+                    @Html.ValidationMessageFor(model => model.Address)
+                </td>
+            </tr>
+            <tr>
+                <td>Date Joined:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.DateJoined, new { type = "date" })
+                    @Html.ValidationMessageFor(model => model.DateJoined)
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Create Customer" />
+                </td>
+            </tr>
+        </table>
+    }
+
+    <div style="margin-top: 20px;">
+        @Html.ActionLink("Back to List", "List")
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\EF ORM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB89593F-3851-44F0-AE03-B34B587A96A1}|EF ORM\\EF ORM.csproj|c:\\users\\gigabyte\\desktop\\dot net\\ef orm\\ef orm\\models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB89593F-3851-44F0-AE03-B34B587A96A1}|EF ORM\\EF ORM.csproj|solutionrelative:ef orm\\models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Students.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\EF ORM\\EF ORM\\Models\\Students.cs",
+              "RelativeDocumentMoniker": "EF ORM\\Models\\Students.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\EF ORM\\EF ORM\\Models\\Students.cs",
+              "RelativeToolTip": "EF ORM\\Models\\Students.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T16:08:25.793Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8DE848BE-AFB6-4DEF-A2D3-616A9A52B016}|LabPrac\\LabPrac.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\labprac\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DE848BE-AFB6-4DEF-A2D3-616A9A52B016}|LabPrac\\LabPrac.csproj|solutionrelative:labprac\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DE848BE-AFB6-4DEF-A2D3-616A9A52B016}|LabPrac\\LabPrac.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\labprac\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8DE848BE-AFB6-4DEF-A2D3-616A9A52B016}|LabPrac\\LabPrac.csproj|solutionrelative:labprac\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DE848BE-AFB6-4DEF-A2D3-616A9A52B016}|LabPrac\\LabPrac.csproj|c:\\users\\gigabyte\\desktop\\dot net\\labprac\\labprac\\views\\product\\confirmdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8DE848BE-AFB6-4DEF-A2D3-616A9A52B016}|LabPrac\\LabPrac.csproj|solutionrelative:labprac\\views\\product\\confirmdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DE848BE-AFB6-4DEF-A2D3-616A9A52B016}|LabPrac\\LabPrac.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\labprac\\views\\customer\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8DE848BE-AFB6-4DEF-A2D3-616A9A52B016}|LabPrac\\LabPrac.csproj|solutionrelative:labprac\\views\\customer\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DE848BE-AFB6-4DEF-A2D3-616A9A52B016}|LabPrac\\LabPrac.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\labprac\\views\\customer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8DE848BE-AFB6-4DEF-A2D3-616A9A52B016}|LabPrac\\LabPrac.csproj|solutionrelative:labprac\\views\\customer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DE848BE-AFB6-4DEF-A2D3-616A9A52B016}|LabPrac\\LabPrac.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\labprac\\dto\\datejoinedvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DE848BE-AFB6-4DEF-A2D3-616A9A52B016}|LabPrac\\LabPrac.csproj|solutionrelative:labprac\\dto\\datejoinedvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DE848BE-AFB6-4DEF-A2D3-616A9A52B016}|LabPrac\\LabPrac.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\labprac\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DE848BE-AFB6-4DEF-A2D3-616A9A52B016}|LabPrac\\LabPrac.csproj|solutionrelative:labprac\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DE848BE-AFB6-4DEF-A2D3-616A9A52B016}|LabPrac\\LabPrac.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\labprac\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8DE848BE-AFB6-4DEF-A2D3-616A9A52B016}|LabPrac\\LabPrac.csproj|solutionrelative:labprac\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DE848BE-AFB6-4DEF-A2D3-616A9A52B016}|LabPrac\\LabPrac.csproj|c:\\users\\gigabyte\\desktop\\dot net\\labprac\\labprac\\dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DE848BE-AFB6-4DEF-A2D3-616A9A52B016}|LabPrac\\LabPrac.csproj|solutionrelative:labprac\\dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DE848BE-AFB6-4DEF-A2D3-616A9A52B016}|LabPrac\\LabPrac.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\labprac\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DE848BE-AFB6-4DEF-A2D3-616A9A52B016}|LabPrac\\LabPrac.csproj|solutionrelative:labprac\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\LabPrac\\Views\\Customer\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LabPrac\\Views\\Customer\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\LabPrac\\Views\\Customer\\Edit.cshtml",
+              "RelativeToolTip": "LabPrac\\Views\\Customer\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T16:05:37.272Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConfirmDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\LabPrac\\Views\\Product\\ConfirmDelete.cshtml",
+              "RelativeDocumentMoniker": "LabPrac\\Views\\Product\\ConfirmDelete.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\LabPrac\\Views\\Product\\ConfirmDelete.cshtml",
+              "RelativeToolTip": "LabPrac\\Views\\Product\\ConfirmDelete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T16:01:18.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\LabPrac\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "LabPrac\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\LabPrac\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "LabPrac\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:59:02.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\LabPrac\\Views\\Customer\\Create.cshtml",
+              "RelativeDocumentMoniker": "LabPrac\\Views\\Customer\\Create.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\LabPrac\\Views\\Customer\\Create.cshtml",
+              "RelativeToolTip": "LabPrac\\Views\\Customer\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T16:26:00.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\LabPrac\\Views\\Customer\\Details.cshtml",
+              "RelativeDocumentMoniker": "LabPrac\\Views\\Customer\\Details.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\LabPrac\\Views\\Customer\\Details.cshtml",
+              "RelativeToolTip": "LabPrac\\Views\\Customer\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T16:06:56.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\LabPrac\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "LabPrac\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\LabPrac\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "LabPrac\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T15:47:58.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\LabPrac\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "LabPrac\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\LabPrac\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "LabPrac\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAFAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T15:32:54.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\LabPrac\\Views\\Customer\\List.cshtml",
+              "RelativeDocumentMoniker": "LabPrac\\Views\\Customer\\List.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\LabPrac\\Views\\Customer\\List.cshtml",
+              "RelativeToolTip": "LabPrac\\Views\\Customer\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T14:56:15.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\LabPrac\\DTO\\CustomerDTO.cs",
+              "RelativeDocumentMoniker": "LabPrac\\DTO\\CustomerDTO.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\LabPrac\\DTO\\CustomerDTO.cs",
+              "RelativeToolTip": "LabPrac\\DTO\\CustomerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:55:40.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DateJoinedValidation.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\LabPrac\\DTO\\DateJoinedValidation.cs",
+              "RelativeDocumentMoniker": "LabPrac\\DTO\\DateJoinedValidation.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabPrac\\LabPrac\\DTO\\DateJoinedValidation.cs",
+              "RelativeToolTip": "LabPrac\\DTO\\DateJoinedValidation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:55:26.153Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

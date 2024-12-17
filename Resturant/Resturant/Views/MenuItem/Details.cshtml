@@ -1,0 +1,45 @@
+﻿@model Resturant.DTO.MenuItemDTO
+
+<html>
+<head>
+    <title>Channel Details</title>
+</head>
+<body>
+    <h2>Channel Details</h2>
+
+    <table border="1">
+        <tr>
+            <td>MenuId:</td>
+            <td>@Model.MenuId</td>
+        </tr>
+        <tr>
+            <td>ItemId:</td>
+            <td>@Model.ItemId</td>
+        </tr>
+
+        <tr>
+            <td>Availability:</td>
+            <td>@Model.Availability</td>
+        </tr>
+        <tr>
+            <td>Price:</td>
+            <td>@Model.Price</td>
+        </tr>
+        <tr>
+            <td>Name:</td>
+            <td>@Model.Name</td>
+        </tr>
+
+        <tr>
+            <td>Description:</td>
+            <td>@Model.Description</td>
+        </tr>
+
+
+    </table>
+
+    <div style="margin-top: 20px;">
+        @Html.ActionLink("Back to List", "List")
+    </div>
+</body>
+</html>

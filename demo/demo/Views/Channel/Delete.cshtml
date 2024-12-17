@@ -1,0 +1,20 @@
+﻿@model demo.EF.Channel
+<html>
+<head>
+    <title>Delete Channel</title>
+</head>
+<body>
+    <h2>Delete Channel</h2>
+    <p>Are you sure you want to delete the channel "<strong>@Model.ChannelName</strong>"?</p>
+    <p>This action cannot be undone.</p>
+    @using (Html.BeginForm("DeleteChannel", "Channel", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.ChannelId)
+        <div class="form-actions">
+            <input type="submit" value="Delete" class="btn btn-danger" />
+            @Html.ActionLink("Cancel", "List", null, new { @class = "btn btn-secondary" })        
+        </div>
+    }
+</body>
+</html>

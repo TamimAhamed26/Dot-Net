@@ -1,0 +1,42 @@
+﻿@model IEnumerable<LabPrac.DTO.CustomerDTO>
+
+<html>
+<head>
+    <title>Customer List</title>
+</head>
+<body>
+    <h2>Customer List</h2>
+
+    <table border="1">
+        <tr>
+            <th>Customer ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Date Joined</th>
+            <th>Actions</th>
+        </tr>
+        @foreach (var customer in Model)
+        {
+            <tr>
+                <td>@customer.CustomerId</td>
+                <td>@customer.FirstName</td>
+                <td>@customer.LastName</td>
+                <td>@customer.Email</td>
+                <td>@customer.Phone</td>
+                <td>@customer.DateJoined.ToShortDateString()</td>
+                <td>
+                    @Html.ActionLink("Details", "Details", new { id = customer.CustomerId }) |
+                    @Html.ActionLink("Edit", "Edit", new { id = customer.CustomerId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = customer.CustomerId })
+                </td>
+            </tr>
+        }
+    </table>
+
+    <div style="margin-top: 20px;">
+        @Html.ActionLink("Create New Customer", "Create")
+    </div>
+</body>
+</html>

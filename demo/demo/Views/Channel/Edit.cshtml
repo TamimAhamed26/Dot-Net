@@ -1,0 +1,44 @@
+﻿@model demo.DTO.ChannelDTO
+
+<html>
+<head>
+    <title>Edit Channel</title>
+</head>
+<body>
+    <h2>Edit Channel</h2>
+
+    @using (Html.BeginForm("Edit", "Channel", FormMethod.Post))
+    {
+        @Html.HiddenFor(model => model.ChannelId)
+
+        <table>
+            <tr>
+                <td>Channel Name:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.ChannelName)
+                    @Html.ValidationMessageFor(model => model.ChannelName)
+                </td>
+            </tr>
+            <tr>
+                <td>Established Year:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.EstablishedYear)
+                    @Html.ValidationMessageFor(model => model.EstablishedYear)
+                </td>
+            </tr>
+            <tr>
+                <td>Country:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.Country)
+                    @Html.ValidationMessageFor(model => model.Country)
+                </td>
+            </tr>
+        </table>
+
+        <input type="submit" value="Save" />
+    }
+    <div style="margin-top: 20px;">
+        @Html.ActionLink("Back to List", "List")
+    </div>
+</body>
+</html>

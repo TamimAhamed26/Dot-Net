@@ -1,0 +1,27 @@
+﻿@model demo.DTO.ProgramDTO
+
+<html>
+<head>
+    <title>Channel Details</title>
+</head>
+<body>
+    <h2>Channel Details</h2>
+
+    <table border="1">
+        <tr>
+            <td>ProgramName:</td>
+            <td>@Model.ProgramName</td>
+        </tr>
+        <tr>
+            <td>TRPScore:</td>
+            <td>@Model.TRPScore</td>
+        </tr>
+       
+
+    </table>
+
+    <div style="margin-top: 20px;">
+        @Html.ActionLink("Back to List", "List")
+    </div>
+</body>
+</html>

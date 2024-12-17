@@ -1,0 +1,61 @@
+﻿@model WebApplication1.Models.InfoAda
+
+@{
+    ViewBag.Title = "List";
+}
+
+<!-- <h2>List from List1</h2> -->
+
+@*if (ViewBag.Y != null)
+{
+    <span>@ViewBag.Y</span>
+}
+
+@<table class="table table-bordered">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <!--1.learn basic
+        <tr>
+            <td>22-46923-1</td>
+            <td>tamim</td>
+            <td>22</td>
+        </tr>  -->
+
+        <!--2. learn ViewBag -->
+        @if (ViewBag.Names != null && ViewBag.Ids != null && ViewBag.Ages != null)
+        {
+            for (int i = 0; i < ViewBag.Names.Length; i++)
+            {
+                <tr>
+                    <td>@ViewBag.Ids[i]</td>
+                    <td>@ViewBag.Names[i]</td>
+                    <td>@ViewBag.Ages[i]</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="3">No data available from ViewBag</td>
+            </tr>
+        }
+    </table>
+*@
+<!--3. get the passed instance S1 -->
+<h2>Details from InfoAda Object (S1)</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>@Model.Id</td>
+        <td>@Model.Name</td>
+        <td>@Model.Age</td>
+    </tr>
+</table>

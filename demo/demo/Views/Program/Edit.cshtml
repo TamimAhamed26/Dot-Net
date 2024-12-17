@@ -1,0 +1,59 @@
+﻿@model demo.DTO.ProgramDTO
+
+<html>
+<head>
+    <title>Edit Program</title>
+</head>
+<body>
+    <h2>Edit Program</h2>
+
+    @using (Html.BeginForm("Edit", "Program", FormMethod.Post))
+    {
+        @Html.HiddenFor(model => model.ProgramId)
+
+        <table>
+            <tr>
+                <td>ProgramName:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.ProgramName)
+                    @Html.ValidationMessageFor(model => model.ProgramName)
+                </td>
+            </tr>
+            <tr>
+                <td>TRPScore:</td>
+                <td>
+                    @if (ViewBag.IsAdmin != null && (bool)ViewBag.IsAdmin)
+                    {
+                        @Html.TextBoxFor(model => model.TRPScore)
+                        @Html.ValidationMessageFor(model => model.TRPScore)
+                    }
+                    else
+                    {
+                        <span>@Model.TRPScore</span>
+                        @Html.HiddenFor(model => model.TRPScore) <!-- Keep value for submission -->
+                    }
+                </td>
+            </tr>
+            <tr>
+                <td>ChannelId:</td>
+                <td>
+                    @Html.DisplayFor(model => model.ChannelId)
+                </td>
+            </tr>
+            <tr>
+                <td>AirTime:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.AirTime)
+                    @Html.ValidationMessageFor(model => model.AirTime)
+                </td>
+            </tr>
+        </table>
+
+        <input type="submit" value="Save" />
+    }
+
+    <div style="margin-top: 20px;">
+        @Html.ActionLink("Back to List", "List")
+    </div>
+</body>
+</html>

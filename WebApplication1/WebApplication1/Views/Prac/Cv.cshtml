@@ -1,0 +1,273 @@
+﻿@*
+    /1.hardcode
+       @{
+           ViewBag.Title = "Cv";
+       }
+
+       <h2>Curriculum Vitae</h2>
+
+       <h3>Personal Information</h3>
+
+
+           <ul>
+               <li><strong>Name:</strong> Tamim</li>
+               <li><strong>Email:</strong> tamim@example.com</li>
+               <li><strong>Phone:</strong> +1234567890</li>
+               <li><strong>Address:</strong> 123 Main Street, Dinajpur</li>
+           </ul>
+
+           <h3>Education</h3>
+           <ul>
+               <li>
+                   <strong>BSc in Computer Science</strong> - AIUB
+                   <ul>
+                       <li><strong>Year:</strong> 2018 - 2022</li>
+                       <li><strong>Result:</strong> CGPA 3.8/4.0</li>
+                   </ul>
+               </li>
+               <li>
+                   <strong>HSC</strong> - Dinajpur Govt City College
+                   <ul>
+                       <li><strong>Year:</strong> 2016 - 2018</li>
+                       <li><strong>Result:</strong> GPA 5.0/5.0</li>
+                   </ul>
+               </li>
+               <li>
+                   <strong>SSC</strong> - Dinajpur Zilla School
+                   <ul>
+                       <li><strong>Year:</strong> 2014 - 2016</li>
+                       <li><strong>Result:</strong> GPA 5.0/5.0</li>
+                   </ul>
+               </li>
+               <li>
+                   <strong>JSC</strong> - Dinajpur Zilla School
+                   <ul>
+                       <li><strong>Year:</strong> 2012 - 2014</li>
+                       <li><strong>Result:</strong> GPA 5.0/5.0</li>
+                   </ul>
+               </li>
+           </ul>
+
+           <h3>Work Experience</h3>
+           <ul>
+               <li>
+                   <strong>Software Developer</strong> - XYZ Company
+                   <ul>
+                       <li><strong>Year:</strong> 2022 - Present</li>
+                       <li><strong>Responsibilities:</strong> Developing web applications, maintaining databases, and collaborating with the team on various projects.</li>
+                   </ul>
+               </li>
+               <li>
+                   <strong>Intern</strong> - ABC Tech
+                   <ul>
+                       <li><strong>Year:</strong> Summer 2021</li>
+                       <li><strong>Responsibilities:</strong> Assisted in software development, performed testing, and provided support for ongoing projects.</li>
+                   </ul>
+               </li>
+           </ul>
+
+           <h3>Skills</h3>
+           <ul>
+               <li>Programming Languages: C#, JavaScript, Python</li>
+               <li>Web Technologies: ASP.NET, HTML, CSS, JavaScript</li>
+               <li>Databases: SQL Server, MySQL</li>
+               <li>Tools: Visual Studio, Git, Docker</li>
+           </ul>
+
+           <h3>Projects</h3>
+           <ul>
+               <li>
+                   <strong>Project Management System</strong>
+                   <ul>
+                       <li><strong>Description:</strong> A web application to manage projects, tasks, and teams.</li>
+                       <li><strong>Technologies:</strong> ASP.NET, SQL Server, JavaScript</li>
+                   </ul>
+               </li>
+               <li>
+                   <strong>E-commerce Website</strong>
+                   <ul>
+                       <li><strong>Description:</strong> An online platform for buying and selling products.</li>
+                       <li><strong>Technologies:</strong> ASP.NET, MySQL, HTML, CSS</li>
+                   </ul>
+               </li>
+           </ul>
+
+           <h3>Certifications</h3>
+           <ul>
+               <li>Microsoft Certified: Azure Fundamentals</li>
+               <li>Certified ScrumMaster (CSM)</li>
+           </ul>
+
+           <h3>Languages</h3>
+           <ul>
+               <li>English - Fluent</li>
+               <li>Bengali - Native</li>
+           </ul>
+
+           <h3>References</h3>
+           <ul>
+               <li>Available upon request</li>
+           </ul>
+*@
+<!--2.use viewbag -->
+
+@model WebApplication1.Models.InfoAda
+
+@{
+    ViewBag.Title = "Curriculum Vitae";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0 auto;
+            width: 80%;
+        }
+
+        h2 {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+            .section h3 {
+                border-bottom: 1px solid #ddd;
+                padding-bottom: 5px;
+            }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+            ul li {
+                margin-bottom: 10px;
+            }
+    </style>
+</head>
+<body>
+
+    <h2>Curriculum Vitae</h2>
+
+    <!-- Personal Information -->
+    <div class="section">
+        <h3>Personal Information</h3>
+        <ul>
+            <li><strong>Name:</strong> @Model.Name</li>
+            <li><strong>Email:</strong> @Model.Email</li>
+            <li><strong>Phone:</strong> @Model.Phone</li>
+            <li><strong>Address:</strong> @Model.Address</li>
+        </ul>
+    </div>
+
+    <!-- Education -->
+    <div class="section">
+        <h3>Educational Qualifications</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Degree</th>
+                    <th>University</th>
+                    <th>Year</th>
+                    <th>Result</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var edu in Model.EducationList)
+                {
+                    <tr>
+                        <td>@edu.Degree</td>
+                        <td>@edu.University</td>
+                        <td>@edu.Year</td>
+                        <td>@edu.Result</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Work Experience -->
+    <div class="section">
+        <h3>Work Experience</h3>
+        <ul>
+            @foreach (var exp in Model.WorkExperienceList)
+            {
+                <li>
+                    <strong>@exp.Position</strong> at @exp.Company (@exp.Year)
+                    <ul>
+                        <li>@exp.Responsibilities</li>
+                    </ul>
+                </li>
+            }
+        </ul>
+    </div>
+
+    <!-- Skills -->
+    <div class="section">
+        <h3>Skills</h3>
+        <ul>
+            @foreach (var skill in Model.Skills)
+            {
+                <li>@skill</li>
+            }
+        </ul>
+    </div>
+
+    <!-- Projects -->
+    <div class="section">
+        <h3>Projects</h3>
+        <ul>
+            @foreach (var project in Model.Projects)
+            {
+                <li><strong>@project.Name</strong> - @project.Description <br /><em>Technologies:</em> @project.Technologies</li>
+            }
+        </ul>
+    </div>
+
+    <!-- Certifications -->
+    <div class="section">
+        <h3>Certifications</h3>
+        <ul>
+            @foreach (var cert in Model.Certifications)
+            {
+                <li>@cert</li>
+            }
+        </ul>
+    </div>
+
+    <!-- Languages -->
+    <div class="section">
+        <h3>Languages</h3>
+        <ul>
+            @foreach (var lang in Model.Languages)
+            {
+                <li>@lang</li>
+            }
+        </ul>
+    </div>
+
+</body>
+</html>

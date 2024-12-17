@@ -1,0 +1,9 @@
+1.ADD CONNECTION STRING IN Web.config file
+<connectionStrings>
+		<add name="DefaultConnection"// any name e.g UMS//connection string=server name
+			 connectionString="Data Source=DESKTOP-CVHADU7\SQLEXPRESS;Initial Catalog=CodeFirst;Integrated Security=True"//Initial Catalog=db name
+			 providerName="System.Data.SqlClient" />
+</connectionStrings>
+
+
+2.package manager console:(1)Enable-Migrations (2) Add-Migration InitialCreate (3)Update-Database

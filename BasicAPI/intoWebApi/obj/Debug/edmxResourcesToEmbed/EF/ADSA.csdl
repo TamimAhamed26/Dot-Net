@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StudentModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Course">
+    <Key>
+      <PropertyRef Name="CourseId" />
+    </Key>
+    <Property Name="CourseId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DeptId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Department" Relationship="Self.FK__Course__DeptId__398D8EEE" FromRole="Course" ToRole="Department" />
+  </EntityType>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="DeptId" />
+    </Key>
+    <Property Name="DeptId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Established" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Courses" Relationship="Self.FK__Course__DeptId__398D8EEE" FromRole="Department" ToRole="Course" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="PerId" />
+    </Key>
+    <Property Name="PerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Dob" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="Username" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <Association Name="FK__Course__DeptId__398D8EEE">
+    <End Role="Department" Type="Self.Department" Multiplicity="1" />
+    <End Role="Course" Type="Self.Course" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="DeptId" />
+      </Principal>
+      <Dependent Role="Course">
+        <PropertyRef Name="DeptId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="StudentEntitie" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Courses" EntityType="Self.Course" />
+    <EntitySet Name="Departments" EntityType="Self.Department" />
+    <EntitySet Name="People" EntityType="Self.Person" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK__Course__DeptId__398D8EEE" Association="Self.FK__Course__DeptId__398D8EEE">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="Course" EntitySet="Courses" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

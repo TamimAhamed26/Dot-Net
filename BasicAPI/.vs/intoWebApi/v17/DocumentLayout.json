@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5D2A0D-E8C7-4919-AC65-BCA3D8F1E074}|intoWebApi\\intoWebApi.csproj|c:\\users\\gigabyte\\desktop\\dot net\\basicapi\\intowebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5D2A0D-E8C7-4919-AC65-BCA3D8F1E074}|intoWebApi\\intoWebApi.csproj|solutionrelative:intowebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5D2A0D-E8C7-4919-AC65-BCA3D8F1E074}|intoWebApi\\intoWebApi.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intowebapi\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5D2A0D-E8C7-4919-AC65-BCA3D8F1E074}|intoWebApi\\intoWebApi.csproj|solutionrelative:intowebapi\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5D2A0D-E8C7-4919-AC65-BCA3D8F1E074}|intoWebApi\\intoWebApi.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intowebapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5D2A0D-E8C7-4919-AC65-BCA3D8F1E074}|intoWebApi\\intoWebApi.csproj|solutionrelative:intowebapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5D2A0D-E8C7-4919-AC65-BCA3D8F1E074}|intoWebApi\\intoWebApi.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intowebapi\\ef\\adsa.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{2A5D2A0D-E8C7-4919-AC65-BCA3D8F1E074}|intoWebApi\\intoWebApi.csproj|solutionrelative:intowebapi\\ef\\adsa.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5D2A0D-E8C7-4919-AC65-BCA3D8F1E074}|intoWebApi\\intoWebApi.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intowebapi\\ef\\adsa.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5D2A0D-E8C7-4919-AC65-BCA3D8F1E074}|intoWebApi\\intoWebApi.csproj|solutionrelative:intowebapi\\ef\\adsa.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5D2A0D-E8C7-4919-AC65-BCA3D8F1E074}|intoWebApi\\intoWebApi.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intowebapi\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5D2A0D-E8C7-4919-AC65-BCA3D8F1E074}|intoWebApi\\intoWebApi.csproj|solutionrelative:intowebapi\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5D2A0D-E8C7-4919-AC65-BCA3D8F1E074}|intoWebApi\\intoWebApi.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intowebapi\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5D2A0D-E8C7-4919-AC65-BCA3D8F1E074}|intoWebApi\\intoWebApi.csproj|solutionrelative:intowebapi\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5D2A0D-E8C7-4919-AC65-BCA3D8F1E074}|intoWebApi\\intoWebApi.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intowebapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5D2A0D-E8C7-4919-AC65-BCA3D8F1E074}|intoWebApi\\intoWebApi.csproj|solutionrelative:intowebapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5D2A0D-E8C7-4919-AC65-BCA3D8F1E074}|intoWebApi\\intoWebApi.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intowebapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2A5D2A0D-E8C7-4919-AC65-BCA3D8F1E074}|intoWebApi\\intoWebApi.csproj|solutionrelative:intowebapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5D2A0D-E8C7-4919-AC65-BCA3D8F1E074}|intoWebApi\\intoWebApi.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intowebapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5D2A0D-E8C7-4919-AC65-BCA3D8F1E074}|intoWebApi\\intoWebApi.csproj|solutionrelative:intowebapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intoWebApi\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "intoWebApi\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intoWebApi\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "intoWebApi\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:56:26.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intoWebApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "intoWebApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intoWebApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "intoWebApi\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:38:23.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ADSA.Context.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intoWebApi\\EF\\ADSA.Context.cs",
+              "RelativeDocumentMoniker": "intoWebApi\\EF\\ADSA.Context.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intoWebApi\\EF\\ADSA.Context.cs",
+              "RelativeToolTip": "intoWebApi\\EF\\ADSA.Context.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:36:08.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ADSA.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intoWebApi\\EF\\ADSA.edmx",
+              "RelativeDocumentMoniker": "intoWebApi\\EF\\ADSA.edmx",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intoWebApi\\EF\\ADSA.edmx [Diagram1]",
+              "RelativeToolTip": "intoWebApi\\EF\\ADSA.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-12-04T19:30:37.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intoWebApi\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "intoWebApi\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intoWebApi\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "intoWebApi\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:45:04.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intoWebApi\\Controllers\\PersonController.cs",
+              "RelativeDocumentMoniker": "intoWebApi\\Controllers\\PersonController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intoWebApi\\Controllers\\PersonController.cs",
+              "RelativeToolTip": "intoWebApi\\Controllers\\PersonController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAEkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T17:30:39.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intoWebApi\\Web.config",
+              "RelativeDocumentMoniker": "intoWebApi\\Web.config",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intoWebApi\\Web.config",
+              "RelativeToolTip": "intoWebApi\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-04T13:41:51.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intoWebApi\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "intoWebApi\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intoWebApi\\Models\\Student.cs",
+              "RelativeToolTip": "intoWebApi\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:44:17.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intoWebApi\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "intoWebApi\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intoWebApi\\Models\\Person.cs",
+              "RelativeToolTip": "intoWebApi\\Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T17:39:55.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intoWebApi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "intoWebApi\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\BasicAPI\\intoWebApi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "intoWebApi\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T17:29:25.202Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

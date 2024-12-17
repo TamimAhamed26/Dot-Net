@@ -1,0 +1,42 @@
+﻿@model LabPrac.EF.Product
+
+<html>
+<head>
+    <title>Confirm Delete Product</title>
+</head>
+<body>
+    <h2>Confirm Delete</h2>
+
+    <div style="color: red;">
+        <h3>Are you sure you want to delete the product "@Model.Name"?</h3>
+        <p>This action will also delete the following related order items:</p>
+    </div>
+
+    <table border="1">
+        <tr>
+            <th>Order Item ID</th>
+            <th>Order ID</th>
+            <th>Quantity</th>
+        </tr>
+        @foreach (var orderItem in ViewBag.RelatedOrderItems)
+        {
+            <tr>
+                <td>@orderItem.OrderItemId</td>
+                <td>@orderItem.OrderId</td>
+                <td>@orderItem.Quantity</td>
+            </tr>
+        }
+    </table>
+
+    @using (Html.BeginForm("Delete", "Product", FormMethod.Post))
+    {
+        <input type="hidden" name="id" value="@Model.ProductId" />
+        <input type="hidden" name="confirm" value="true" />
+        <input type="submit" value="Yes, Delete" style="color: red;" />
+    }
+
+    <div style="margin-top: 20px;">
+        @Html.ActionLink("No, Cancel", "List", null, new { style = "text-decoration: none; margin-left: 10px;" })
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+﻿@model LabPrac.DTO.CustomerDTO
+
+<html>
+<head>
+    <title>Confirm Delete</title>
+</head>
+<body>
+    <h2>Confirm Delete</h2>
+
+    <div style="color: red;">
+        <h3>Warning!</h3>
+        <p>
+            The customer <b>@Model.FirstName @Model.LastName</b> has associated orders.
+            Deleting this customer will also delete their related orders.
+        </p>
+        <p>Are you sure you want to proceed?</p>
+    </div>
+
+    <table border="1">
+        <tr>
+            <td>Customer ID:</td>
+            <td>@Model.CustomerId</td>
+        </tr>
+        <tr>
+            <td>First Name:</td>
+            <td>@Model.FirstName</td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <td>@Model.LastName</td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td>@Model.Email</td>
+        </tr>
+    </table>
+
+    @using (Html.BeginForm("DeleteConfirmed", "Customer", FormMethod.Post))
+    {
+        @Html.HiddenFor(model => model.CustomerId) 
+        <div style="margin-top: 20px;">
+            <input type="submit" value="Yes, Delete Customer and Orders" style="color: red;" />
+            @Html.ActionLink("No, Cancel Deletion", "List")
+        </div>
+    }
+</body>
+</html>

@@ -1,0 +1,47 @@
+﻿
+@model demo.DTO.ChannelDTO
+
+<html>
+<head>
+    <title>Create Product</title>
+</head>
+<body>
+    <h2>Create New Product</h2>
+
+    @using (Html.BeginForm("Create", "Channel", FormMethod.Post))
+    {
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.ChannelName)
+                    @Html.ValidationMessageFor(model => model.ChannelName)
+                </td>
+            </tr>
+            <tr>
+                <td>EstablishedYear:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.EstablishedYear)
+                    @Html.ValidationMessageFor(model => model.EstablishedYear)
+                </td>
+            </tr>
+            <tr>
+                <td>Country:</td>
+                <td>
+                    @Html.TextBoxFor(model => model.Country)
+                    @Html.ValidationMessageFor(model => model.Country)
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Create Channel" />
+                </td>
+            </tr>
+        </table>
+    }
+
+    <div style="margin-top: 20px;">
+        @Html.ActionLink("Back to List", "List")
+    </div>
+</body>
+</html>

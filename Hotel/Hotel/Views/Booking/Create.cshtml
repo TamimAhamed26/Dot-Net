@@ -1,0 +1,52 @@
+﻿@model Hotel.DTO.BookingDTO
+
+@{
+    ViewBag.Title = "Create Booking";
+}
+
+<h2>Create Booking</h2>
+
+<!-- Feedback messages -->
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+@using (Html.BeginForm())
+{
+ <div class="form-group">
+     @Html.LabelFor(model => model.RoomNumber, "Room Number")
+     @Html.DropDownListFor(model => model.RoomNumber, (IEnumerable<SelectListItem>)ViewBag.RoomNumbers, "Select a Room", new { @class = "form-control" })
+     @Html.ValidationMessageFor(model => model.RoomNumber, "", new { @class = "text-danger" })
+ </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CustomerName, "Customer Name")
+        @Html.TextBoxFor(model => model.CustomerName, new { @class = "form-control", placeholder = "Enter Customer Name" })
+        @Html.ValidationMessageFor(model => model.CustomerName, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CheckIn, "Check-In Date")
+        @Html.TextBoxFor(model => model.CheckIn, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+        @Html.ValidationMessageFor(model => model.CheckIn, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CheckOut, "Check-Out Date")
+        @Html.TextBoxFor(model => model.CheckOut, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+        @Html.ValidationMessageFor(model => model.CheckOut, "", new { @class = "text-danger" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create Booking</button>
+    <a href="/Booking/List" class="btn btn-secondary">Cancel</a>
+}
