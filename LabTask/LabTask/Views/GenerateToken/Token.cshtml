@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Token Generator";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Token Generator</title>
+</head>
+<body>
+    <h2>select token</h2>
+    @using (Html.BeginForm("Token", "GenerateToken", FormMethod.Post))
+    {
+        <div>
+            <label>Select Visa Type:</label><br />
+            <input type="radio" name="visaType" value="Med" /> Medical (@ViewBag.MedRemaining left)<br />
+            <input type="radio" name="visaType" value="Tr" /> Tourist (@ViewBag.TrRemaining left)<br />
+            <input type="radio" name="visaType" value="Bu" /> Business (@ViewBag.BRemaining left)<br />
+            <input type="radio" name="visaType" value="GO" /> GO (Govt. Officials) (@ViewBag.GoRemaining left)<br />
+        </div>
+        <br />
+        <input type="submit" value="Generate Token" />
+    }
+
+    @if (ViewBag.NewToken != null)
+    {
+        <h3 style="color: green;">New Token Generated: @ViewBag.NewToken</h3>
+    }
+
+    <h4>Total Tokens Remaining: @ViewBag.GlobalRemaining</h4>
+
+    @if (ViewBag.Tokens != null)
+    {
+        <h3>All Generated Tokens:</h3>
+        <ul>
+            @foreach (var token in ViewBag.Tokens)
+            {
+                <li>@token</li>
+            }
+        </ul>
+    }
+
+    @if (ViewBag.Message != null)
+    {
+        <p style="color: red;">@ViewBag.Message</p>
+    }
+</body>
+</html>
+
+@Html.ActionLink("Go to Call Customer", "CallCustomer", "GenerateToken", null, new { @class = "btn btn-primary" })
+

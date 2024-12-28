@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59311BFC-63EB-40B1-98C3-E53357C15939}|LabTask\\LabTask.csproj|c:\\users\\gigabyte\\desktop\\dot net\\labtask\\labtask\\controllers\\generatetokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59311BFC-63EB-40B1-98C3-E53357C15939}|LabTask\\LabTask.csproj|solutionrelative:labtask\\controllers\\generatetokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59311BFC-63EB-40B1-98C3-E53357C15939}|LabTask\\LabTask.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\labtask\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59311BFC-63EB-40B1-98C3-E53357C15939}|LabTask\\LabTask.csproj|solutionrelative:labtask\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59311BFC-63EB-40B1-98C3-E53357C15939}|LabTask\\LabTask.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\labtask\\views\\generatetoken\\callcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59311BFC-63EB-40B1-98C3-E53357C15939}|LabTask\\LabTask.csproj|solutionrelative:labtask\\views\\generatetoken\\callcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59311BFC-63EB-40B1-98C3-E53357C15939}|LabTask\\LabTask.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\labtask\\views\\generatetoken\\token.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59311BFC-63EB-40B1-98C3-E53357C15939}|LabTask\\LabTask.csproj|solutionrelative:labtask\\views\\generatetoken\\token.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59311BFC-63EB-40B1-98C3-E53357C15939}|LabTask\\LabTask.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\labtask\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59311BFC-63EB-40B1-98C3-E53357C15939}|LabTask\\LabTask.csproj|solutionrelative:labtask\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59311BFC-63EB-40B1-98C3-E53357C15939}|LabTask\\LabTask.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\labtask\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59311BFC-63EB-40B1-98C3-E53357C15939}|LabTask\\LabTask.csproj|solutionrelative:labtask\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59311BFC-63EB-40B1-98C3-E53357C15939}|LabTask\\LabTask.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\labtask\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{59311BFC-63EB-40B1-98C3-E53357C15939}|LabTask\\LabTask.csproj|solutionrelative:labtask\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59311BFC-63EB-40B1-98C3-E53357C15939}|LabTask\\LabTask.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\labtask\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59311BFC-63EB-40B1-98C3-E53357C15939}|LabTask\\LabTask.csproj|solutionrelative:labtask\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CallCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\LabTask\\Views\\GenerateToken\\CallCustomer.cshtml",
+              "RelativeDocumentMoniker": "LabTask\\Views\\GenerateToken\\CallCustomer.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\LabTask\\Views\\GenerateToken\\CallCustomer.cshtml",
+              "RelativeToolTip": "LabTask\\Views\\GenerateToken\\CallCustomer.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T14:21:26.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\LabTask\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LabTask\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\LabTask\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LabTask\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-12-18T14:21:27.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\LabTask\\Views\\Web.config",
+              "RelativeDocumentMoniker": "LabTask\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\LabTask\\Views\\Web.config",
+              "RelativeToolTip": "LabTask\\Views\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-18T14:21:27.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\LabTask\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "LabTask\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\LabTask\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "LabTask\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-12-18T14:21:27.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\LabTask\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "LabTask\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\LabTask\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "LabTask\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T14:21:27.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Token.cshtml",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\LabTask\\Views\\GenerateToken\\Token.cshtml",
+              "RelativeDocumentMoniker": "LabTask\\Views\\GenerateToken\\Token.cshtml",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\LabTask\\Views\\GenerateToken\\Token.cshtml",
+              "RelativeToolTip": "LabTask\\Views\\GenerateToken\\Token.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T14:21:27.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenerateTokenController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\LabTask\\Controllers\\GenerateTokenController.cs",
+              "RelativeDocumentMoniker": "LabTask\\Controllers\\GenerateTokenController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\LabTask\\Controllers\\GenerateTokenController.cs",
+              "RelativeToolTip": "LabTask\\Controllers\\GenerateTokenController.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAADIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T14:21:31.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\LabTask\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LabTask\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\LabTask\\LabTask\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LabTask\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T14:21:33.965Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

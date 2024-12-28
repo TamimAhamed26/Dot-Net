@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Call Customer";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Call Customer</title>
+</head>
+<body>
+    <h2>Call Customer</h2>
+
+    @using (Html.BeginForm("CallCustomer", "GenerateToken", FormMethod.Get))
+    {
+        <div>
+            <label>Select Counter:</label><br />
+            <input type="radio" name="counter" value="Med" /> Medical<br />
+            <input type="radio" name="counter" value="Tr" /> Tourist<br />
+            <input type="radio" name="counter" value="B" /> Business<br />
+            <input type="radio" name="counter" value="GO" /> GO (Govt. Officials)<br />
+        </div>
+        <br />
+        <input type="submit" value="Call Token" />
+    }
+
+    @if (ViewBag.CalledToken != null)
+    {
+        <h3>Currently Called Token: @ViewBag.CalledToken</h3>
+    }
+
+    @if (ViewBag.CalledTokens != null)
+    {
+        <h3>Last Called Tokens:</h3>
+        <ul>
+            @foreach (var token in ViewBag.CalledTokens)
+            {
+                <li>@token.Key Counter: @token.Value</li>
+            }
+        </ul>
+    }
+
+    @if (ViewBag.Message != null)
+    {
+        <p style="color: red;">@ViewBag.Message</p>
+    }
+</body>
+</html>
