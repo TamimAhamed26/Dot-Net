@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89B5D90E-AC4D-438F-8D31-69452BC6F863}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\bal\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B5D90E-AC4D-438F-8D31-69452BC6F863}|BAL\\BAL.csproj|solutionrelative:bal\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89B5D90E-AC4D-438F-8D31-69452BC6F863}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\bal\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B5D90E-AC4D-438F-8D31-69452BC6F863}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89B5D90E-AC4D-438F-8D31-69452BC6F863}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\bal\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89B5D90E-AC4D-438F-8D31-69452BC6F863}|BAL\\BAL.csproj|solutionrelative:bal\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DB7C17-BC1B-4C55-83EB-533D1CF4EB22}|ApiLayer\\ApiLayer.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\apilayer\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7DB7C17-BC1B-4C55-83EB-533D1CF4EB22}|ApiLayer\\ApiLayer.csproj|solutionrelative:apilayer\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\dal\\repos\\customerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\customerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\dal\\repos\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B5D90E-AC4D-438F-8D31-69452BC6F863}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\bal\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B5D90E-AC4D-438F-8D31-69452BC6F863}|BAL\\BAL.csproj|solutionrelative:bal\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7DB7C17-BC1B-4C55-83EB-533D1CF4EB22}|ApiLayer\\ApiLayer.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\apilayer\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,39 +39,7 @@
       "RelativeMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89B5D90E-AC4D-438F-8D31-69452BC6F863}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\bal\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B5D90E-AC4D-438F-8D31-69452BC6F863}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89B5D90E-AC4D-438F-8D31-69452BC6F863}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\bal\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B5D90E-AC4D-438F-8D31-69452BC6F863}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7DB7C17-BC1B-4C55-83EB-533D1CF4EB22}|ApiLayer\\ApiLayer.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\apilayer\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A7DB7C17-BC1B-4C55-83EB-533D1CF4EB22}|ApiLayer\\ApiLayer.csproj|solutionrelative:apilayer\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7DB7C17-BC1B-4C55-83EB-533D1CF4EB22}|ApiLayer\\ApiLayer.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\apilayer\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7DB7C17-BC1B-4C55-83EB-533D1CF4EB22}|ApiLayer\\ApiLayer.csproj|solutionrelative:apilayer\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|solutionrelative:dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\dal\\repos\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\dal\\repos\\customerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\customerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\dal\\ef\\layercontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\apilayer\\dal\\ef\\layercontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\layercontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -61,6 +49,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\dal\\ef\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|solutionrelative:dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|solutionrelative:dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DB7C17-BC1B-4C55-83EB-533D1CF4EB22}|ApiLayer\\ApiLayer.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\apilayer\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A7DB7C17-BC1B-4C55-83EB-533D1CF4EB22}|ApiLayer\\ApiLayer.csproj|solutionrelative:apilayer\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B5D90E-AC4D-438F-8D31-69452BC6F863}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\bal\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B5D90E-AC4D-438F-8D31-69452BC6F863}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,10 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{89B5D90E-AC4D-438F-8D31-69452BC6F863}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\bal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89B5D90E-AC4D-438F-8D31-69452BC6F863}|BAL\\BAL.csproj|solutionrelative:bal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{812CD9EE-F5B8-47E9-A7F4-900B741E87E8}|DAL\\DAL.csproj|solutionrelative:dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,53 +94,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\ApiLayer\\Web.config",
-              "RelativeDocumentMoniker": "ApiLayer\\Web.config",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\ApiLayer\\Web.config",
-              "RelativeToolTip": "ApiLayer\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-07T19:09:07.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\ApiLayer\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "ApiLayer\\Controllers\\CustomerController.cs",
               "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\ApiLayer\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "ApiLayer\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T19:03:42.671Z"
+              "WhenOpened": "2024-12-07T19:03:42.671Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\ApiLayer\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ApiLayer\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\ApiLayer\\Controllers\\ProductController.cs",
               "RelativeToolTip": "ApiLayer\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAADIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T19:02:24.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\BAL\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "BAL\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\BAL\\Services\\ProductService.cs",
-              "RelativeToolTip": "BAL\\Services\\ProductService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T18:52:02.8Z",
               "EditorCaption": ""
             },
             {
@@ -151,7 +126,7 @@
               "RelativeDocumentMoniker": "BAL\\Services\\CustomerService.cs",
               "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\BAL\\Services\\CustomerService.cs",
               "RelativeToolTip": "BAL\\Services\\CustomerService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwCYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T18:50:06.681Z",
               "EditorCaption": ""
@@ -159,30 +134,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ProductDTO.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\BAL\\DTOs\\ProductDTO.cs",
-              "RelativeDocumentMoniker": "BAL\\DTOs\\ProductDTO.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\BAL\\DTOs\\ProductDTO.cs",
-              "RelativeToolTip": "BAL\\DTOs\\ProductDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ProductRepo.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\Repos\\ProductRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\ProductRepo.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\Repos\\ProductRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\ProductRepo.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T18:46:34.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CustomerDTO.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\BAL\\DTOs\\CustomerDTO.cs",
-              "RelativeDocumentMoniker": "BAL\\DTOs\\CustomerDTO.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\BAL\\DTOs\\CustomerDTO.cs",
-              "RelativeToolTip": "BAL\\DTOs\\CustomerDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T18:44:09.49Z"
+              "WhenOpened": "2024-12-07T18:00:28.067Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "IRepo.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\Interfaces\\IRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IRepo.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\Interfaces\\IRepo.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T17:35:39.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerRepo.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\Repos\\CustomerRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\CustomerRepo.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\Repos\\CustomerRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\CustomerRepo.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T17:41:07.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Repo.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\Repos\\Repo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\Repo.cs",
@@ -195,19 +185,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductRepo.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\Repos\\ProductRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Repos\\ProductRepo.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\Repos\\ProductRepo.cs",
-              "RelativeToolTip": "DAL\\Repos\\ProductRepo.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAqwEgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\BAL\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "BAL\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\BAL\\Services\\ProductService.cs",
+              "RelativeToolTip": "BAL\\Services\\ProductService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T18:00:28.067Z"
+              "WhenOpened": "2024-12-07T18:52:02.8Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
+              "Title": "CustomerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\BAL\\DTOs\\CustomerDTO.cs",
+              "RelativeDocumentMoniker": "BAL\\DTOs\\CustomerDTO.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\BAL\\DTOs\\CustomerDTO.cs",
+              "RelativeToolTip": "BAL\\DTOs\\CustomerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T18:44:09.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Layercontext .cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\EF\\Layercontext .cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Layercontext .cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\EF\\Layercontext .cs",
+              "RelativeToolTip": "DAL\\EF\\Layercontext .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T13:07:55.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\EF\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\EF\\Entities\\Product.cs",
+              "RelativeToolTip": "DAL\\EF\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T12:31:08.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\ApiLayer\\Web.config",
+              "RelativeDocumentMoniker": "ApiLayer\\Web.config",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\ApiLayer\\Web.config",
+              "RelativeToolTip": "ApiLayer\\Web.config",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-07T19:09:07.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\EF\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Entities\\Customer.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\EF\\Entities\\Customer.cs",
+              "RelativeToolTip": "DAL\\EF\\Entities\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T12:30:46.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\App.config",
               "RelativeDocumentMoniker": "DAL\\App.config",
@@ -215,35 +271,37 @@
               "RelativeToolTip": "DAL\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-07T12:27:56.937Z"
+              "WhenOpened": "2024-12-07T12:27:56.937Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CustomerRepo.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\Repos\\CustomerRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Repos\\CustomerRepo.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\Repos\\CustomerRepo.cs",
-              "RelativeToolTip": "DAL\\Repos\\CustomerRepo.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAABAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "DAL\\Class1.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\Class1.cs",
+              "RelativeToolTip": "DAL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T17:41:07.387Z"
+              "WhenOpened": "2024-12-07T09:14:42.335Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IRepo.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\Interfaces\\IRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Interfaces\\IRepo.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\Interfaces\\IRepo.cs",
-              "RelativeToolTip": "DAL\\Interfaces\\IRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\BAL\\DTOs\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "BAL\\DTOs\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\BAL\\DTOs\\ProductDTO.cs",
+              "RelativeToolTip": "BAL\\DTOs\\ProductDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T17:35:39.547Z"
+              "WhenOpened": "2024-12-07T18:46:34.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "202412071235453_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\Migrations\\202412071235453_InitialCreate.cs",
               "RelativeDocumentMoniker": "DAL\\Migrations\\202412071235453_InitialCreate.cs",
@@ -255,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Configuration.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "DAL\\Migrations\\Configuration.cs",
@@ -267,55 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\EF\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\EF\\Entities\\Product.cs",
-              "RelativeToolTip": "DAL\\EF\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T12:31:08.648Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\EF\\Entities\\Customer.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\Entities\\Customer.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\EF\\Entities\\Customer.cs",
-              "RelativeToolTip": "DAL\\EF\\Entities\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T12:30:46.728Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Layercontext .cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\EF\\Layercontext .cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\Layercontext .cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\EF\\Layercontext .cs",
-              "RelativeToolTip": "DAL\\EF\\Layercontext .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T12:29:26.11Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\Class1.cs",
-              "RelativeDocumentMoniker": "DAL\\Class1.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\DAL\\Class1.cs",
-              "RelativeToolTip": "DAL\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T09:14:42.335Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\ApiLayer\\BAL\\Class1.cs",
               "RelativeDocumentMoniker": "BAL\\Class1.cs",
