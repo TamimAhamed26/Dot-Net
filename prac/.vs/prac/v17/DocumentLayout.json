@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\prac\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|c:\\users\\gigabyte\\desktop\\dot net\\prac\\prac\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|solutionrelative:prac\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|c:\\users\\gigabyte\\desktop\\dot net\\prac\\prac\\migrations\\202501101421350_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|solutionrelative:prac\\migrations\\202501101421350_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|c:\\users\\gigabyte\\desktop\\dot net\\prac\\prac\\dto\\newsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|solutionrelative:prac\\dto\\newsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|c:\\users\\gigabyte\\desktop\\dot net\\prac\\prac\\ef\\entities\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|solutionrelative:prac\\ef\\entities\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|c:\\users\\gigabyte\\desktop\\dot net\\prac\\prac\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|solutionrelative:prac\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|c:\\users\\gigabyte\\desktop\\dot net\\prac\\prac\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|solutionrelative:prac\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|c:\\users\\gigabyte\\desktop\\dot net\\prac\\prac\\ef\\newscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|solutionrelative:prac\\ef\\newscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NewsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\prac\\prac\\DTO\\NewsDTO.cs",
+              "RelativeDocumentMoniker": "prac\\DTO\\NewsDTO.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\prac\\prac\\DTO\\NewsDTO.cs",
+              "RelativeToolTip": "prac\\DTO\\NewsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T15:07:58.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewsController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\prac\\prac\\Controllers\\NewsController.cs",
+              "RelativeDocumentMoniker": "prac\\Controllers\\NewsController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\prac\\prac\\Controllers\\NewsController.cs",
+              "RelativeToolTip": "prac\\Controllers\\NewsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:23:50.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "202501101421350_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\prac\\prac\\Migrations\\202501101421350_InitialCreate.cs",
+              "RelativeDocumentMoniker": "prac\\Migrations\\202501101421350_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\prac\\prac\\Migrations\\202501101421350_InitialCreate.cs",
+              "RelativeToolTip": "prac\\Migrations\\202501101421350_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:21:49.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\prac\\prac\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "prac\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\prac\\prac\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "prac\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:20:21.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\prac\\prac\\Web.config",
+              "RelativeDocumentMoniker": "prac\\Web.config",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\prac\\prac\\Web.config",
+              "RelativeToolTip": "prac\\Web.config",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAD4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-10T14:11:49.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "News.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\prac\\prac\\EF\\Entities\\News.cs",
+              "RelativeDocumentMoniker": "prac\\EF\\Entities\\News.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\prac\\prac\\EF\\Entities\\News.cs",
+              "RelativeToolTip": "prac\\EF\\Entities\\News.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:06:31.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NewsContext.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\prac\\prac\\EF\\NewsContext.cs",
+              "RelativeDocumentMoniker": "prac\\EF\\NewsContext.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\prac\\prac\\EF\\NewsContext.cs",
+              "RelativeToolTip": "prac\\EF\\NewsContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:05:24.387Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

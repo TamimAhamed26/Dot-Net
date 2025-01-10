@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\APICRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|c:\\users\\gigabyte\\desktop\\dot net\\apicrud\\apicrud\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|solutionrelative:apicrud\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|c:\\users\\gigabyte\\desktop\\dot net\\apicrud\\apicrud\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\APICRUD\\apicrud\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|solutionrelative:apicrud\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|c:\\users\\gigabyte\\desktop\\dot net\\apicrud\\apicrud\\ef\\entities\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|solutionrelative:apicrud\\ef\\entities\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|c:\\users\\gigabyte\\desktop\\dot net\\apicrud\\apicrud\\ef\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|solutionrelative:apicrud\\ef\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|c:\\users\\gigabyte\\desktop\\dot net\\apicrud\\apicrud\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|solutionrelative:apicrud\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|c:\\users\\gigabyte\\desktop\\dot net\\apicrud\\apicrud\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|solutionrelative:apicrud\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|c:\\users\\gigabyte\\desktop\\dot net\\apicrud\\apicrud\\migrations\\202412281543154_correction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|solutionrelative:apicrud\\migrations\\202412281543154_correction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|c:\\users\\gigabyte\\desktop\\dot net\\apicrud\\apicrud\\ef\\contextfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|solutionrelative:apicrud\\ef\\contextfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|c:\\users\\gigabyte\\desktop\\dot net\\apicrud\\apicrud\\migrations\\202412281538174_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\APICRUD\\apicrud\\ef\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|solutionrelative:apicrud\\ef\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\APICRUD\\apicrud\\ef\\entities\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|solutionrelative:apicrud\\ef\\entities\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\APICRUD\\apicrud\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|solutionrelative:apicrud\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\APICRUD\\apicrud\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|solutionrelative:apicrud\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\APICRUD\\apicrud\\migrations\\202412281538174_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|solutionrelative:apicrud\\migrations\\202412281538174_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\APICRUD\\apicrud\\migrations\\202412281543154_correction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|solutionrelative:apicrud\\migrations\\202412281543154_correction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\APICRUD\\apicrud\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA8D6589-9136-4BCF-AAC7-01E243B028A5}|APICRUD\\APICRUD.csproj|solutionrelative:apicrud\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,32 +55,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthorController.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\APICRUD\\APICRUD\\Controllers\\AuthorController.cs",
-              "RelativeDocumentMoniker": "APICRUD\\Controllers\\AuthorController.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\APICRUD\\APICRUD\\Controllers\\AuthorController.cs",
-              "RelativeToolTip": "APICRUD\\Controllers\\AuthorController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAtwFAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T18:37:37.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\APICRUD\\APICRUD\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "APICRUD\\Controllers\\BookController.cs",
               "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\APICRUD\\APICRUD\\Controllers\\BookController.cs",
               "RelativeToolTip": "APICRUD\\Controllers\\BookController.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFkAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAFkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-28T15:46:25.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "202412281543154_correction.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\APICRUD\\APICRUD\\Migrations\\202412281543154_correction.cs",
               "RelativeDocumentMoniker": "APICRUD\\Migrations\\202412281543154_correction.cs",
@@ -88,12 +75,11 @@
               "RelativeToolTip": "APICRUD\\Migrations\\202412281543154_correction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T15:43:20.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-28T15:43:20.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "202412281538174_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\APICRUD\\APICRUD\\Migrations\\202412281538174_InitialCreate.cs",
               "RelativeDocumentMoniker": "APICRUD\\Migrations\\202412281538174_InitialCreate.cs",
@@ -101,8 +87,7 @@
               "RelativeToolTip": "APICRUD\\Migrations\\202412281538174_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T15:38:32.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-28T15:38:32.873Z"
             },
             {
               "$type": "Document",
@@ -114,8 +99,7 @@
               "RelativeToolTip": "APICRUD\\Migrations\\Configuration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T15:37:34.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-28T15:37:34.29Z"
             },
             {
               "$type": "Document",
@@ -132,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Author.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\APICRUD\\APICRUD\\EF\\Entities\\Author.cs",
               "RelativeDocumentMoniker": "APICRUD\\EF\\Entities\\Author.cs",
@@ -140,12 +124,11 @@
               "RelativeToolTip": "APICRUD\\EF\\Entities\\Author.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T15:27:38.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-28T15:27:38.609Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\APICRUD\\APICRUD\\EF\\Entities\\Book.cs",
               "RelativeDocumentMoniker": "APICRUD\\EF\\Entities\\Book.cs",
@@ -153,12 +136,11 @@
               "RelativeToolTip": "APICRUD\\EF\\Entities\\Book.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T15:27:15.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-28T15:27:15.375Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "ContextFile.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\APICRUD\\APICRUD\\EF\\ContextFile.cs",
               "RelativeDocumentMoniker": "APICRUD\\EF\\ContextFile.cs",
@@ -168,6 +150,18 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-28T15:04:24.692Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\APICRUD\\APICRUD\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "APICRUD\\Controllers\\AuthorController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\APICRUD\\APICRUD\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "APICRUD\\Controllers\\AuthorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T18:37:37.602Z"
             }
           ]
         }
