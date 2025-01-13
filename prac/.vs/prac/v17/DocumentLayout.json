@@ -7,27 +7,27 @@
       "RelativeMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|solutionrelative:prac\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|c:\\users\\gigabyte\\desktop\\dot net\\prac\\prac\\migrations\\202501101421350_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\prac\\prac\\migrations\\202501101421350_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|solutionrelative:prac\\migrations\\202501101421350_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|c:\\users\\gigabyte\\desktop\\dot net\\prac\\prac\\dto\\newsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\prac\\prac\\dto\\newsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|solutionrelative:prac\\dto\\newsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|c:\\users\\gigabyte\\desktop\\dot net\\prac\\prac\\ef\\entities\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\prac\\prac\\ef\\entities\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|solutionrelative:prac\\ef\\entities\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|c:\\users\\gigabyte\\desktop\\dot net\\prac\\prac\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\prac\\prac\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|solutionrelative:prac\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|c:\\users\\gigabyte\\desktop\\dot net\\prac\\prac\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\prac\\prac\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|solutionrelative:prac\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|c:\\users\\gigabyte\\desktop\\dot net\\prac\\prac\\ef\\newscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\prac\\prac\\ef\\newscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42D9A78A-B871-4090-BD23-5C1A99A0C0BE}|prac\\prac.csproj|solutionrelative:prac\\ef\\newscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -54,8 +54,7 @@
               "RelativeToolTip": "prac\\DTO\\NewsDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T15:07:58.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T15:07:58.908Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "prac\\Migrations\\202501101421350_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T14:21:49.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T14:21:49.641Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "prac\\Migrations\\Configuration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T14:20:21.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T14:20:21.215Z"
             },
             {
               "$type": "Document",
@@ -119,8 +116,7 @@
               "RelativeToolTip": "prac\\EF\\Entities\\News.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T14:06:31.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T14:06:31.53Z"
             },
             {
               "$type": "Document",
@@ -132,8 +128,7 @@
               "RelativeToolTip": "prac\\EF\\NewsContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T14:05:24.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T14:05:24.387Z"
             }
           ]
         }

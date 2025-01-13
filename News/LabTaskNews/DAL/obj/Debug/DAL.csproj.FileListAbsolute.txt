@@ -1,0 +1,14 @@
+C:\Users\student\Desktop\task\LabTaskNews\DAL\bin\Debug\DAL.dll.config
+C:\Users\student\Desktop\task\LabTaskNews\DAL\bin\Debug\DAL.dll
+C:\Users\student\Desktop\task\LabTaskNews\DAL\bin\Debug\DAL.pdb
+C:\Users\student\Desktop\task\LabTaskNews\DAL\bin\Debug\EntityFramework.dll
+C:\Users\student\Desktop\task\LabTaskNews\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\student\Desktop\task\LabTaskNews\DAL\bin\Debug\EntityFramework.xml
+C:\Users\student\Desktop\task\LabTaskNews\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\student\Desktop\task\LabTaskNews\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\task\LabTaskNews\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\task\LabTaskNews\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\student\Desktop\task\LabTaskNews\DAL\obj\Debug\DAL.dll
+C:\Users\student\Desktop\task\LabTaskNews\DAL\obj\Debug\DAL.pdb
+C:\Users\student\Desktop\task\LabTaskNews\DAL\obj\Debug\DAL.Migrations.InitialCreate.resources
+C:\Users\student\Desktop\task\LabTaskNews\DAL\obj\Debug\DAL.csproj.GenerateResource.cache

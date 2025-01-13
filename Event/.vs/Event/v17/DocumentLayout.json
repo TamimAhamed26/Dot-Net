@@ -1,0 +1,347 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\event\\dal\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{410742F1-343E-43FC-A058-E5545E5275ED}|Event\\Event.csproj|c:\\users\\gigabyte\\desktop\\dot net\\event\\event\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{410742F1-343E-43FC-A058-E5545E5275ED}|Event\\Event.csproj|solutionrelative:event\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A38104FC-CF20-49D3-98FD-B2C7982B91B4}|BAL\\BAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\event\\bal\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A38104FC-CF20-49D3-98FD-B2C7982B91B4}|BAL\\BAL.csproj|solutionrelative:bal\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\event\\dal\\repos\\eventrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\eventrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\event\\dal\\interface\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|solutionrelative:dal\\interface\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\event\\dal\\repos\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\event\\dal\\interface\\ieventrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|solutionrelative:dal\\interface\\ieventrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\event\\dal\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|solutionrelative:dal\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A38104FC-CF20-49D3-98FD-B2C7982B91B4}|BAL\\BAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\event\\bal\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A38104FC-CF20-49D3-98FD-B2C7982B91B4}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\event\\dal\\migrations\\202501131650557_base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202501131650557_base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\event\\dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\event\\dal\\ef\\layercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\layercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\event\\dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|solutionrelative:dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\event\\dal\\ef\\entities\\speaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\entities\\speaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\event\\dal\\ef\\entities\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\entities\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A38104FC-CF20-49D3-98FD-B2C7982B91B4}|BAL\\BAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\event\\bal\\dtos\\speakerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A38104FC-CF20-49D3-98FD-B2C7982B91B4}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\speakerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\event\\dal\\migrations\\202501131704285_correction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202501131704285_correction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\event\\dal\\migrations\\202501131645076_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B87A3E-6D33-41D1-BD74-1CDA1307FA15}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202501131645076_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{410742F1-343E-43FC-A058-E5545E5275ED}|Event\\Event.csproj|c:\\users\\gigabyte\\desktop\\dot net\\event\\event\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{410742F1-343E-43FC-A058-E5545E5275ED}|Event\\Event.csproj|solutionrelative:event\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\BAL\\Services\\EventService.cs",
+              "RelativeDocumentMoniker": "BAL\\Services\\EventService.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\BAL\\Services\\EventService.cs",
+              "RelativeToolTip": "BAL\\Services\\EventService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAowDoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T20:55:57.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\packages.config",
+              "RelativeDocumentMoniker": "DAL\\packages.config",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\packages.config",
+              "RelativeToolTip": "DAL\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-13T20:32:33.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventRepo.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\Repos\\EventRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\EventRepo.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\Repos\\EventRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\EventRepo.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T20:12:12.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Repo.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\Repos\\Repo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\Repo.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\Repos\\Repo.cs",
+              "RelativeToolTip": "DAL\\Repos\\Repo.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T20:00:07.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEventRepo.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\Interface\\IEventRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Interface\\IEventRepo.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\Interface\\IEventRepo.cs",
+              "RelativeToolTip": "DAL\\Interface\\IEventRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T19:57:49.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRepo.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\Interface\\IRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Interface\\IRepo.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\Interface\\IRepo.cs",
+              "RelativeToolTip": "DAL\\Interface\\IRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T19:06:35.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EventDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\BAL\\DTOs\\EventDTO.cs",
+              "RelativeDocumentMoniker": "BAL\\DTOs\\EventDTO.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\BAL\\DTOs\\EventDTO.cs",
+              "RelativeToolTip": "BAL\\DTOs\\EventDTO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T17:30:22.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\DataAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\DataAccess.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\DataAccess.cs",
+              "RelativeToolTip": "DAL\\DataAccess.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:01:25.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\Event\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Event\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\Event\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Event\\Controllers\\EventController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:00:32.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "202501131650557_base.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\Migrations\\202501131650557_base.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202501131650557_base.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\Migrations\\202501131650557_base.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202501131650557_base.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:51:00.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "DAL\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:44:19.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LayerContext.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\EF\\LayerContext.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\LayerContext.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\EF\\LayerContext.cs",
+              "RelativeToolTip": "DAL\\EF\\LayerContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:03:24.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\App.config",
+              "RelativeDocumentMoniker": "DAL\\App.config",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\App.config",
+              "RelativeToolTip": "DAL\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-13T16:25:37.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Speaker.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\EF\\Entities\\Speaker.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Entities\\Speaker.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\EF\\Entities\\Speaker.cs",
+              "RelativeToolTip": "DAL\\EF\\Entities\\Speaker.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:04:50.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\EF\\Entities\\Event.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Entities\\Event.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\EF\\Entities\\Event.cs",
+              "RelativeToolTip": "DAL\\EF\\Entities\\Event.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:04:25.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SpeakerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\BAL\\DTOs\\SpeakerDTO.cs",
+              "RelativeDocumentMoniker": "BAL\\DTOs\\SpeakerDTO.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\BAL\\DTOs\\SpeakerDTO.cs",
+              "RelativeToolTip": "BAL\\DTOs\\SpeakerDTO.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowBQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T17:30:47.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "202501131704285_correction.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\Migrations\\202501131704285_correction.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202501131704285_correction.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\Migrations\\202501131704285_correction.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202501131704285_correction.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T17:04:33.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "202501131645076_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\Migrations\\202501131645076_InitialCreate.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202501131645076_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\DAL\\Migrations\\202501131645076_InitialCreate.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202501131645076_InitialCreate.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:45:21.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\Event\\Web.config",
+              "RelativeDocumentMoniker": "Event\\Web.config",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\Event\\Event\\Web.config",
+              "RelativeToolTip": "Event\\Web.config",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAD4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-13T16:22:44.399Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

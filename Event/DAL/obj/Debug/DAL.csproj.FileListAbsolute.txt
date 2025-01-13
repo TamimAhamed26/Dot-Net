@@ -1,0 +1,16 @@
+C:\Users\GIGABYTE\Desktop\DOT NET\Event\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\GIGABYTE\Desktop\DOT NET\Event\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\GIGABYTE\Desktop\DOT NET\Event\DAL\bin\Debug\DAL.dll.config
+C:\Users\GIGABYTE\Desktop\DOT NET\Event\DAL\bin\Debug\DAL.dll
+C:\Users\GIGABYTE\Desktop\DOT NET\Event\DAL\bin\Debug\DAL.pdb
+C:\Users\GIGABYTE\Desktop\DOT NET\Event\DAL\bin\Debug\EntityFramework.dll
+C:\Users\GIGABYTE\Desktop\DOT NET\Event\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\GIGABYTE\Desktop\DOT NET\Event\DAL\bin\Debug\EntityFramework.xml
+C:\Users\GIGABYTE\Desktop\DOT NET\Event\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\GIGABYTE\Desktop\DOT NET\Event\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\GIGABYTE\Desktop\DOT NET\Event\DAL\obj\Debug\DAL.dll
+C:\Users\GIGABYTE\Desktop\DOT NET\Event\DAL\obj\Debug\DAL.pdb
+C:\Users\GIGABYTE\Desktop\DOT NET\Event\DAL\obj\Debug\DAL.Migrations.InitialCreate.resources
+C:\Users\GIGABYTE\Desktop\DOT NET\Event\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\GIGABYTE\Desktop\DOT NET\Event\DAL\obj\Debug\DAL.Migrations._base.resources
+C:\Users\GIGABYTE\Desktop\DOT NET\Event\DAL\obj\Debug\DAL.Migrations.correction.resources

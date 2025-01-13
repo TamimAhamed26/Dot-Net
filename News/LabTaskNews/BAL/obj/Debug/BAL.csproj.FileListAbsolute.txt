@@ -1,0 +1,14 @@
+C:\Users\student\Desktop\task\LabTaskNews\BAL\bin\Debug\BAL.dll
+C:\Users\student\Desktop\task\LabTaskNews\BAL\bin\Debug\BAL.pdb
+C:\Users\student\Desktop\task\LabTaskNews\BAL\bin\Debug\AutoMapper.dll
+C:\Users\student\Desktop\task\LabTaskNews\BAL\bin\Debug\DAL.dll
+C:\Users\student\Desktop\task\LabTaskNews\BAL\bin\Debug\DAL.pdb
+C:\Users\student\Desktop\task\LabTaskNews\BAL\bin\Debug\DAL.dll.config
+C:\Users\student\Desktop\task\LabTaskNews\BAL\bin\Debug\AutoMapper.xml
+C:\Users\student\Desktop\task\LabTaskNews\BAL\obj\Debug\BAL.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\task\LabTaskNews\BAL\obj\Debug\BAL.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\task\LabTaskNews\BAL\obj\Debug\BAL.csproj.CopyComplete
+C:\Users\student\Desktop\task\LabTaskNews\BAL\obj\Debug\BAL.dll
+C:\Users\student\Desktop\task\LabTaskNews\BAL\obj\Debug\BAL.pdb
+C:\Users\student\Desktop\task\LabTaskNews\BAL\bin\Debug\EntityFramework.dll
+C:\Users\student\Desktop\task\LabTaskNews\BAL\bin\Debug\EntityFramework.xml
