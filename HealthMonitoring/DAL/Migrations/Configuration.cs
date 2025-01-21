@@ -58,7 +58,7 @@
 
             // Seed Health Goals
             context.HealthGoals.AddOrUpdate(
-                g => g.Id, // Avoid duplicates based on Id
+                g => g.Id, 
                 new HealthGoal
                 {
                     Username = "user1",
@@ -66,17 +66,38 @@
                     TargetValue = 65,
                     StartDate = new DateTime(2025, 1, 1),
                     EndDate = new DateTime(2025, 6, 1),
-                    Status = "Active"
+                    Status = "In Progress"
                 },
                 new HealthGoal
                 {
                     Username = "user1",
                     GoalType = "Exercise",
                     TargetValue = 30, // Target minutes per day
-                    StartDate = new DateTime(2025, 1, 1),
+                    StartDate = new DateTime(2024, 1, 1),
                     EndDate = new DateTime(2025, 12, 31),
                     Status = "Active"
-                }
+                },
+                   new HealthGoal
+                   {
+                       Username = "jane",
+                       GoalType = "Exercise",
+                       TargetValue = 40, // Target minutes per day
+                       StartDate = new DateTime(2024, 1, 1),
+                       EndDate = new DateTime(2025, 02, 28),
+                       Status = "In Progress"
+                   },
+                    new HealthGoal
+                    {
+                        Username = "jane",
+                        GoalType = "Weight Loss",
+                        TargetValue = 40, // Target minutes per day
+                        StartDate = new DateTime(2024, 1, 1),
+                        EndDate = new DateTime(2026, 12, 31),
+                        Status = "In Progress"
+                    }
+
+
+
             );
 
             // Seed Device Data

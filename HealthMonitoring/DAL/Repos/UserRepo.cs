@@ -43,13 +43,13 @@ namespace DAL.Repos
             return obj;
 
         }
-        public bool Authenticate(string uname, string pass)
+        public User Authenticate(string uname, string pass)
         {
-            var user = db.Users.SingleOrDefault(
-                    u => u.Username.Equals(uname) &&
-                    u.Password.Equals(pass)
-                );
-            return user != null;
+            return db.Users.SingleOrDefault(
+                u => u.Username.Equals(uname) &&
+                u.Password.Equals(pass)
+            );
         }
+
     }
 }

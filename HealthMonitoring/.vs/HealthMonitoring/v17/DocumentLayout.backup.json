@@ -3,40 +3,116 @@
   "WorkspaceRootPath": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\healthmonitoring\\dal\\migrations\\202501202134122_trackuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202501202134122_trackuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|c:\\users\\gigabyte\\desktop\\dot net\\healthmonitoring\\healthmonitoring\\controllers\\shareddatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|solutionrelative:healthmonitoring\\controllers\\shareddatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|c:\\users\\gigabyte\\desktop\\dot net\\healthmonitoring\\healthmonitoring\\controllers\\healthgoalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|solutionrelative:healthmonitoring\\controllers\\healthgoalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\migrations\\202501201040181_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202501201040181_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\dtos\\shareddatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\shareddatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\dtos\\shareddatawithuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\shareddatawithuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\healthmonitoring\\bal\\services\\shareddataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\services\\shareddataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|c:\\users\\gigabyte\\desktop\\dot net\\healthmonitoring\\healthmonitoring\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|solutionrelative:healthmonitoring\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\healthmonitoring\\dal\\interfaces\\ihealthgoalfeatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\ihealthgoalfeatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\repos\\healthmetricrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\healthmetricrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\healthmonitoring\\controllers\\healthmetriccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|solutionrelative:healthmonitoring\\controllers\\healthmetriccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\healthmonitoring\\dal\\interfaces\\ishareddatafeatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\ishareddatafeatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\ef\\hcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\hcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\healthmonitoring\\dal\\repos\\shareddatarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\shareddatarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\healthmonitoring\\dal\\interfaces\\ihealthmetricfeatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\ihealthmetricfeatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\services\\healthmetricservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\services\\healthmetricservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\healthmonitoring\\bal\\services\\healthgoalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\services\\healthgoalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\ef\\entities\\healthgoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\entities\\healthgoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|c:\\users\\gigabyte\\desktop\\dot net\\healthmonitoring\\dal\\repos\\healthgoalrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\healthgoalrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|c:\\users\\gigabyte\\desktop\\dot net\\healthmonitoring\\healthmonitoring\\controllers\\healthmetriccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|solutionrelative:healthmonitoring\\controllers\\healthmetriccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\dtos\\healthgoaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\healthgoaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\ef\\entities\\healthmetric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\entities\\healthmetric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\healthmonitoring\\auth\\logged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|solutionrelative:healthmonitoring\\auth\\logged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\healthmonitoring\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|solutionrelative:healthmonitoring\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\healthmonitoring\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|solutionrelative:healthmonitoring\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\ef\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,64 +123,52 @@
       "RelativeMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|solutionrelative:healthmonitoring\\auth\\adminacces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\interfaces\\iauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\repos\\tokenrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\tokenrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\repos\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\ef\\entities\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\entities\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\services\\healthmetricservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\services\\healthmetricservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|c:\\users\\gigabyte\\desktop\\dot net\\healthmonitoring\\healthmonitoring\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|solutionrelative:healthmonitoring\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\ef\\entities\\shareddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\entities\\shareddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\ef\\entities\\healthmetric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\entities\\healthmetric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\ef\\entities\\healthgoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\entities\\healthgoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\ef\\entities\\devicedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\entities\\devicedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\interfaces\\iauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\healthmonitoring\\auth\\useracces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|solutionrelative:healthmonitoring\\auth\\useracces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\dtos\\healthmetricdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\healthmetricdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\healthmonitoring\\auth\\logged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|solutionrelative:healthmonitoring\\auth\\logged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\repos\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\dtos\\healthmetricwithuserdto .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\healthmetricwithuserdto .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\ef\\entities\\shareddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\entities\\shareddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\ef\\entities\\devicedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\entities\\devicedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\migrations\\202501202134122_trackuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202501202134122_trackuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\migrations\\202501201040181_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202501201040181_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\healthmonitoring\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -115,24 +179,12 @@
       "RelativeMoniker": "D:0:0:{0896E868-9A1C-486C-B4C5-A04C4D66A4D4}|HealthMonitoring\\HealthMonitoring.csproj|solutionrelative:healthmonitoring\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\dtos\\healthmetricdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\healthmetricdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\dtos\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\dtos\\shareddatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\shareddatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\dtos\\healthgoalwithuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\healthgoalwithuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\dtos\\healthgoaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\healthgoaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\dtos\\devicedatawithuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -143,24 +195,8 @@
       "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\devicedatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\dtos\\healthmetricwithuserdto .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\healthmetricwithuserdto .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\dtos\\shareddatawithuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\shareddatawithuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\bal\\dtos\\tokenwithuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F26A590F-421B-4774-819B-8E3F9A20380A}|BAL\\BAL.csproj|solutionrelative:bal\\dtos\\tokenwithuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\dal\\ef\\hcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C02F6446-8F5F-45A4-B508-E345CAC12975}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\hcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -179,188 +215,474 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "202501202134122_TrackUser.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Migrations\\202501202134122_TrackUser.cs",
-              "RelativeDocumentMoniker": "DAL\\Migrations\\202501202134122_TrackUser.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Migrations\\202501202134122_TrackUser.cs",
-              "RelativeToolTip": "DAL\\Migrations\\202501202134122_TrackUser.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Title": "SharedDataController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Controllers\\SharedDataController.cs",
+              "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\SharedDataController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Controllers\\SharedDataController.cs*",
+              "RelativeToolTip": "HealthMonitoring\\Controllers\\SharedDataController.cs*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T21:34:17.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "BAL\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\Services\\UserService.cs",
-              "RelativeToolTip": "BAL\\Services\\UserService.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowDIAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T12:40:11.963Z",
+              "WhenOpened": "2025-01-21T20:27:21.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UserRepo.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Repos\\UserRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Repos\\UserRepo.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Repos\\UserRepo.cs",
-              "RelativeToolTip": "DAL\\Repos\\UserRepo.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAowBMAAAAAAAAAAAAAAA==",
+              "Title": "SharedDataService.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\Services\\SharedDataService.cs",
+              "RelativeDocumentMoniker": "BAL\\Services\\SharedDataService.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\Services\\SharedDataService.cs",
+              "RelativeToolTip": "BAL\\Services\\SharedDataService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T11:36:00.6Z",
+              "WhenOpened": "2025-01-21T20:21:35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IHealthGoalFeatures.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Interfaces\\IHealthGoalFeatures.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IHealthGoalFeatures.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Interfaces\\IHealthGoalFeatures.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IHealthGoalFeatures.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:54:12.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "DataAccessFactory.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\DataAccessFactory.cs",
+              "RelativeDocumentMoniker": "DAL\\DataAccessFactory.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\DataAccessFactory.cs",
+              "RelativeToolTip": "DAL\\DataAccessFactory.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowCoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T12:27:53.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "BAL\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\Services\\AuthService.cs",
+              "RelativeToolTip": "BAL\\Services\\AuthService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T12:32:08.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SharedDataWithUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\SharedDataWithUserDTO.cs",
+              "RelativeDocumentMoniker": "BAL\\DTOs\\SharedDataWithUserDTO.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\SharedDataWithUserDTO.cs",
+              "RelativeToolTip": "BAL\\DTOs\\SharedDataWithUserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T14:33:59.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SharedDataDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\SharedDataDTO.cs",
+              "RelativeDocumentMoniker": "BAL\\DTOs\\SharedDataDTO.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\SharedDataDTO.cs",
+              "RelativeToolTip": "BAL\\DTOs\\SharedDataDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T13:47:03.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HealthGoalController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Controllers\\HealthGoalController.cs",
+              "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\HealthGoalController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Controllers\\HealthGoalController.cs",
+              "RelativeToolTip": "HealthMonitoring\\Controllers\\HealthGoalController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAowHkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:05:14.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "HealthMetricRepo.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Repos\\HealthMetricRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\HealthMetricRepo.cs",
               "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Repos\\HealthMetricRepo.cs",
               "RelativeToolTip": "DAL\\Repos\\HealthMetricRepo.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T12:26:47.472Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Controllers\\UserController.cs",
-              "RelativeToolTip": "HealthMonitoring\\Controllers\\UserController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAowDsAAAABAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "ISharedDataFeatures.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Interfaces\\ISharedDataFeatures.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\ISharedDataFeatures.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Interfaces\\ISharedDataFeatures.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\ISharedDataFeatures.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T20:49:31.396Z",
+              "WhenOpened": "2025-01-21T20:14:01.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HealthMetricController.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Controllers\\HealthMetricController.cs",
-              "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\HealthMetricController.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Controllers\\HealthMetricController.cs",
-              "RelativeToolTip": "HealthMonitoring\\Controllers\\HealthMetricController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T12:56:34.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\UserDTO.cs",
               "RelativeDocumentMoniker": "BAL\\DTOs\\UserDTO.cs",
               "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\UserDTO.cs",
               "RelativeToolTip": "BAL\\DTOs\\UserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T12:43:33.34Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "202501201040181_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Migrations\\202501201040181_InitialCreate.cs",
-              "RelativeDocumentMoniker": "DAL\\Migrations\\202501201040181_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Migrations\\202501201040181_InitialCreate.cs",
-              "RelativeToolTip": "DAL\\Migrations\\202501201040181_InitialCreate.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "HContext.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\HContext.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\HContext.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\HContext.cs",
+              "RelativeToolTip": "DAL\\EF\\HContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T10:40:30.913Z",
+              "WhenOpened": "2025-01-20T10:15:33.092Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Migrations\\Configuration.cs",
-              "RelativeDocumentMoniker": "DAL\\Migrations\\Configuration.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Migrations\\Configuration.cs",
-              "RelativeToolTip": "DAL\\Migrations\\Configuration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAGkAAAABAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "SharedDataRepo.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Repos\\SharedDataRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\SharedDataRepo.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Repos\\SharedDataRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\SharedDataRepo.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T10:39:42.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\Entities\\User.cs",
-              "RelativeToolTip": "DAL\\EF\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T10:18:03.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AdminAcces.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Auth\\AdminAcces.cs",
-              "RelativeDocumentMoniker": "HealthMonitoring\\Auth\\AdminAcces.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Auth\\AdminAcces.cs",
-              "RelativeToolTip": "HealthMonitoring\\Auth\\AdminAcces.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T15:16:21.083Z",
+              "WhenOpened": "2025-01-21T20:14:43.439Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BAL\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\Services\\UserService.cs",
+              "RelativeToolTip": "BAL\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T12:40:11.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HealthMetricService.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\Services\\HealthMetricService.cs",
+              "RelativeDocumentMoniker": "BAL\\Services\\HealthMetricService.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\Services\\HealthMetricService.cs",
+              "RelativeToolTip": "BAL\\Services\\HealthMetricService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T12:41:06.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HealthGoalService.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\Services\\HealthGoalService.cs",
+              "RelativeDocumentMoniker": "BAL\\Services\\HealthGoalService.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\Services\\HealthGoalService.cs",
+              "RelativeToolTip": "BAL\\Services\\HealthGoalService.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAYwEYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:08:17.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HealthGoal.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\Entities\\HealthGoal.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Entities\\HealthGoal.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\Entities\\HealthGoal.cs",
+              "RelativeToolTip": "DAL\\EF\\Entities\\HealthGoal.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAlwBEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:24:20.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IHealthMetricFeatures.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Interfaces\\IHealthMetricFeatures.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IHealthMetricFeatures.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Interfaces\\IHealthMetricFeatures.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IHealthMetricFeatures.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T10:27:36.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HealthGoalRepo.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Repos\\HealthGoalRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\HealthGoalRepo.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Repos\\HealthGoalRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\HealthGoalRepo.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwC8AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:55:21.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HealthGoalDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\HealthGoalDTO.cs",
+              "RelativeDocumentMoniker": "BAL\\DTOs\\HealthGoalDTO.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\HealthGoalDTO.cs",
+              "RelativeToolTip": "BAL\\DTOs\\HealthGoalDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T13:46:04.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "IRepo.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Interfaces\\IRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IRepo.cs",
               "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Interfaces\\IRepo.cs",
               "RelativeToolTip": "DAL\\Interfaces\\IRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAtwA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T11:12:47.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IAuth.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Interfaces\\IAuth.cs",
-              "RelativeDocumentMoniker": "DAL\\Interfaces\\IAuth.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Interfaces\\IAuth.cs",
-              "RelativeToolTip": "DAL\\Interfaces\\IAuth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "HealthMetricController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Controllers\\HealthMetricController.cs",
+              "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\HealthMetricController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Controllers\\HealthMetricController.cs",
+              "RelativeToolTip": "HealthMonitoring\\Controllers\\HealthMetricController.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAowIcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T11:13:11.376Z",
+              "WhenOpened": "2025-01-20T12:56:34.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "BAL\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "BAL\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:24:49.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HealthMetric.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\Entities\\HealthMetric.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Entities\\HealthMetric.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\Entities\\HealthMetric.cs",
+              "RelativeToolTip": "DAL\\EF\\Entities\\HealthMetric.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:21:32.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "HealthMonitoring\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:22:48.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Logged.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Auth\\Logged.cs",
+              "RelativeDocumentMoniker": "HealthMonitoring\\Auth\\Logged.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Auth\\Logged.cs",
+              "RelativeToolTip": "HealthMonitoring\\Auth\\Logged.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:15:08.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "DAL\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:39:42.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Controllers\\UserController.cs",
+              "RelativeToolTip": "HealthMonitoring\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T20:49:31.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\Entities\\User.cs",
+              "RelativeToolTip": "DAL\\EF\\Entities\\User.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:18:03.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AdminAcces.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Auth\\AdminAcces.cs",
+              "RelativeDocumentMoniker": "HealthMonitoring\\Auth\\AdminAcces.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Auth\\AdminAcces.cs",
+              "RelativeToolTip": "HealthMonitoring\\Auth\\AdminAcces.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:16:21.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Repos\\UserRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\UserRepo.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Repos\\UserRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\UserRepo.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T11:36:00.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "TokenRepo.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Repos\\TokenRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\TokenRepo.cs",
               "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Repos\\TokenRepo.cs",
               "RelativeToolTip": "DAL\\Repos\\TokenRepo.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T11:36:44.1Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 33,
+              "Title": "IAuth.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Interfaces\\IAuth.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IAuth.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Interfaces\\IAuth.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IAuth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T11:13:11.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Token.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\Entities\\Token.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Entities\\Token.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\Entities\\Token.cs",
+              "RelativeToolTip": "DAL\\EF\\Entities\\Token.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:17:10.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserAcces.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Auth\\UserAcces.cs",
+              "RelativeDocumentMoniker": "HealthMonitoring\\Auth\\UserAcces.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Auth\\UserAcces.cs",
+              "RelativeToolTip": "HealthMonitoring\\Auth\\UserAcces.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:19:33.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HealthMetricDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\HealthMetricDTO.cs",
+              "RelativeDocumentMoniker": "BAL\\DTOs\\HealthMetricDTO.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\HealthMetricDTO.cs",
+              "RelativeToolTip": "BAL\\DTOs\\HealthMetricDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T12:47:22.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
               "Title": "Repo.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Repos\\Repo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\Repo.cs",
@@ -373,136 +695,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Token.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\Entities\\Token.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\Entities\\Token.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\Entities\\Token.cs",
-              "RelativeToolTip": "DAL\\EF\\Entities\\Token.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 37,
+              "Title": "HealthMetricWithUserDTO .cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\HealthMetricWithUserDTO .cs",
+              "RelativeDocumentMoniker": "BAL\\DTOs\\HealthMetricWithUserDTO .cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\HealthMetricWithUserDTO .cs",
+              "RelativeToolTip": "BAL\\DTOs\\HealthMetricWithUserDTO .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T10:17:10.634Z",
+              "WhenOpened": "2025-01-20T14:17:55.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "HealthMetricService.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\Services\\HealthMetricService.cs",
-              "RelativeDocumentMoniker": "BAL\\Services\\HealthMetricService.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\Services\\HealthMetricService.cs",
-              "RelativeToolTip": "BAL\\Services\\HealthMetricService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T12:41:06.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "BAL\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\Services\\AuthService.cs",
-              "RelativeToolTip": "BAL\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAgwEMAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T12:32:08.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 38,
               "Title": "SharedData.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\Entities\\SharedData.cs",
               "RelativeDocumentMoniker": "DAL\\EF\\Entities\\SharedData.cs",
               "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\Entities\\SharedData.cs",
               "RelativeToolTip": "DAL\\EF\\Entities\\SharedData.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAowBgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T10:27:58.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "HealthMetric.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\Entities\\HealthMetric.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\Entities\\HealthMetric.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\Entities\\HealthMetric.cs",
-              "RelativeToolTip": "DAL\\EF\\Entities\\HealthMetric.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T10:21:32.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "HealthGoal.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\Entities\\HealthGoal.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\Entities\\HealthGoal.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\Entities\\HealthGoal.cs",
-              "RelativeToolTip": "DAL\\EF\\Entities\\HealthGoal.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAowBgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T10:24:20.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 39,
               "Title": "DeviceData.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\Entities\\DeviceData.cs",
               "RelativeDocumentMoniker": "DAL\\EF\\Entities\\DeviceData.cs",
               "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\Entities\\DeviceData.cs",
               "RelativeToolTip": "DAL\\EF\\Entities\\DeviceData.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T10:25:17.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "HealthMonitoring\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAABoAAABqAAAAAAAAAA==",
+              "DocumentIndex": 40,
+              "Title": "202501202134122_TrackUser.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Migrations\\202501202134122_TrackUser.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202501202134122_TrackUser.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Migrations\\202501202134122_TrackUser.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202501202134122_TrackUser.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T15:22:48.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T21:34:17.726Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "UserAcces.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Auth\\UserAcces.cs",
-              "RelativeDocumentMoniker": "HealthMonitoring\\Auth\\UserAcces.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Auth\\UserAcces.cs",
-              "RelativeToolTip": "HealthMonitoring\\Auth\\UserAcces.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAYwAsAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 41,
+              "Title": "202501201040181_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Migrations\\202501201040181_InitialCreate.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202501201040181_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\Migrations\\202501201040181_InitialCreate.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202501201040181_InitialCreate.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T15:19:33.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T10:40:30.913Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "SharedDataDTO.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\SharedDataDTO.cs",
-              "RelativeDocumentMoniker": "BAL\\DTOs\\SharedDataDTO.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\SharedDataDTO.cs",
-              "RelativeToolTip": "BAL\\DTOs\\SharedDataDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T13:47:03.343Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 45,
               "Title": "HealthGoalWithUserDTO.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\HealthGoalWithUserDTO.cs",
               "RelativeDocumentMoniker": "BAL\\DTOs\\HealthGoalWithUserDTO.cs",
@@ -514,7 +770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 46,
               "Title": "DeviceDataWithUserDTO.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\DeviceDataWithUserDTO.cs",
               "RelativeDocumentMoniker": "BAL\\DTOs\\DeviceDataWithUserDTO.cs",
@@ -526,31 +782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Logged.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Auth\\Logged.cs",
-              "RelativeDocumentMoniker": "HealthMonitoring\\Auth\\Logged.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Auth\\Logged.cs",
-              "RelativeToolTip": "HealthMonitoring\\Auth\\Logged.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T15:15:08.188Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "BAL\\DTOs\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\LoginDTO.cs",
-              "RelativeToolTip": "BAL\\DTOs\\LoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T15:24:49.232Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 44,
               "Title": "TokenDTO.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\TokenDTO.cs",
               "RelativeDocumentMoniker": "BAL\\DTOs\\TokenDTO.cs",
@@ -562,19 +794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "HealthMetricDTO.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\HealthMetricDTO.cs",
-              "RelativeDocumentMoniker": "BAL\\DTOs\\HealthMetricDTO.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\HealthMetricDTO.cs",
-              "RelativeToolTip": "BAL\\DTOs\\HealthMetricDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T12:47:22.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 43,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Web.config",
               "RelativeDocumentMoniker": "HealthMonitoring\\Web.config",
@@ -587,7 +807,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 42,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\HealthMonitoring\\Global.asax.cs",
               "RelativeDocumentMoniker": "HealthMonitoring\\Global.asax.cs",
@@ -599,19 +819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "HealthGoalDTO.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\HealthGoalDTO.cs",
-              "RelativeDocumentMoniker": "BAL\\DTOs\\HealthGoalDTO.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\HealthGoalDTO.cs",
-              "RelativeToolTip": "BAL\\DTOs\\HealthGoalDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T13:46:04.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 47,
               "Title": "DeviceDataDTO.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\DeviceDataDTO.cs",
               "RelativeDocumentMoniker": "BAL\\DTOs\\DeviceDataDTO.cs",
@@ -623,31 +831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "HealthMetricWithUserDTO .cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\HealthMetricWithUserDTO .cs",
-              "RelativeDocumentMoniker": "BAL\\DTOs\\HealthMetricWithUserDTO .cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\HealthMetricWithUserDTO .cs",
-              "RelativeToolTip": "BAL\\DTOs\\HealthMetricWithUserDTO .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T14:17:55.837Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "SharedDataWithUserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\SharedDataWithUserDTO.cs",
-              "RelativeDocumentMoniker": "BAL\\DTOs\\SharedDataWithUserDTO.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\SharedDataWithUserDTO.cs",
-              "RelativeToolTip": "BAL\\DTOs\\SharedDataWithUserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T14:33:59.328Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 48,
               "Title": "TokenWithUserDTO.cs",
               "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\BAL\\DTOs\\TokenWithUserDTO.cs",
               "RelativeDocumentMoniker": "BAL\\DTOs\\TokenWithUserDTO.cs",
@@ -656,30 +840,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T14:36:08.149Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "DataAccessFactory.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\DataAccessFactory.cs",
-              "RelativeDocumentMoniker": "DAL\\DataAccessFactory.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\DataAccessFactory.cs",
-              "RelativeToolTip": "DAL\\DataAccessFactory.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAowBwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T12:27:53.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "HContext.cs",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\HContext.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\HContext.cs",
-              "ToolTip": "C:\\Users\\GIGABYTE\\Desktop\\DOT NET\\HealthMonitoring\\DAL\\EF\\HContext.cs",
-              "RelativeToolTip": "DAL\\EF\\HContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T10:15:33.092Z"
             }
           ]
         }

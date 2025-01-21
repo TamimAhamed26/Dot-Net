@@ -32,14 +32,15 @@ namespace BAL.Services
         }
         public static bool VerifyUser(string username)
         {
-            var userRepo = DataAccessFactory.UserData();
-            var user = userRepo.Get(username);
-
-            if (user == null) return false;
-
-            user.IsVerified = true; 
-            return true;
+            var user = DataAccessFactory.UserData().Get(username);
+            if (user != null)
+            {
+                user.IsVerified = true; 
+                return DataAccessFactory.UserData().Update(user) != null; 
+            }
+            return false;
         }
+
 
         public static bool DenyUser(string username)
         {

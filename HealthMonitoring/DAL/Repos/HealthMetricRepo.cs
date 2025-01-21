@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class HealthMetricRepo : Repo, IRepo<HealthMetric, int, bool>
+    internal class HealthMetricRepo : Repo, IRepo<HealthMetric, int, bool>, IHealthMetricFeatures
     {
         public bool Create(HealthMetric obj)
         {
@@ -46,6 +46,53 @@ namespace DAL.Repos
                 return db.SaveChanges() > 0;
             }
             return false;
+        }
+
+        public List<HealthMetric> GetMetricsByDateRange(string username, DateTime startDate, DateTime endDate)
+        {
+            return db.HealthMetrics
+                .Where(hm => hm.Username == username && hm.Date >= startDate && hm.Date <= endDate)
+                .ToList();
+        }
+
+        public double GetAverageMetricValue(string username, string metricType, DateTime startDate, DateTime endDate)
+        {
+            return db.HealthMetrics
+                .Where(hm => hm.Username == username && hm.MetricType == metricType && hm.Date >= startDate && hm.Date <= endDate)
+                .Select(hm => hm.Value)
+                .DefaultIfEmpty(0)
+                .Average();
+        }
+
+        public (double minValue, double maxValue) GetMinMaxMetricValues(string username, string metricType, DateTime startDate, DateTime endDate)
+        {
+            var metrics = db.HealthMetrics
+                .Where(hm => hm.Username == username && hm.MetricType == metricType && hm.Date >= startDate && hm.Date <= endDate)
+                .Select(hm => hm.Value);
+
+            return metrics.Any()
+                ? (metrics.Min(), metrics.Max())
+                : (0, 0);
+        }
+
+        public Dictionary<string, int> GetMetricTrends(string username, DateTime startDate, DateTime endDate)
+        {
+            return db.HealthMetrics
+                .Where(hm => hm.Username == username && hm.Date >= startDate && hm.Date <= endDate)
+                .GroupBy(hm => hm.MetricType)
+                .ToDictionary(g => g.Key, g => g.Count());
+        }
+
+        public List<(DateTime Date, double Value)> GetMetricHistory(string username, string metricType, DateTime startDate, DateTime endDate)
+        {
+            return db.HealthMetrics
+                .Where(hm => hm.Username == username && hm.MetricType == metricType && hm.Date >= startDate && hm.Date <= endDate)
+                .OrderBy(hm => hm.Date) // Order by date 
+                .Select(hm => new { hm.Date, hm.Value })
+                .AsEnumerable()
+                .Select(hm => (hm.Date, hm.Value))
+                .ToList();
+
         }
     }
 }

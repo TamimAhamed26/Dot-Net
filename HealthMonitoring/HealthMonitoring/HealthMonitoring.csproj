@@ -96,7 +96,9 @@
     <Compile Include="Auth\Logged.cs" />
     <Compile Include="Auth\UserAcces.cs" />
     <Compile Include="Controllers\AuthController.cs" />
+    <Compile Include="Controllers\HealthGoalController.cs" />
     <Compile Include="Controllers\HealthMetricController.cs" />
+    <Compile Include="Controllers\SharedDataController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

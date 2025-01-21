@@ -15,7 +15,10 @@ namespace DAL
         {
             return new HealthMetricRepo();
         }
-
+        public static IRepo<HealthGoal, int, bool> HealthGoalData()
+        {
+            return new HealthGoalRepo();
+        }
         public static IRepo<User, string, User> UserData()
         {
             return new UserRepo();
@@ -28,5 +31,19 @@ namespace DAL
         {
             return new TokenRepo();
         }
+
+        public static IHealthMetricFeatures HealthMetricFeatures()
+        {
+            return new HealthMetricRepo();
+        }
+        public static IHealthGoalFeatures HealthGoalFeatures()
+        {
+            return new HealthGoalRepo();
+        }
+        public static ISharedDataFeatures SharedDataFeatures()
+        {
+            return new SharedDataRepo();
+        }
+
     }
 }
