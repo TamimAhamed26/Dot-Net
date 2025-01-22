@@ -5,5 +5,4 @@
 			 providerName="System.Data.SqlClient" />
 </connectionStrings>
 
-
 2.package manager console:(1)Enable-Migrations (2) Add-Migration InitialCreate (3)Update-Database
