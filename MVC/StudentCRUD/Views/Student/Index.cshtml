@@ -1,0 +1,38 @@
+﻿@model List<StudentCRUD.Models.Student>
+
+<h1>Student List</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Student</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Address</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.Id</td>
+                <td>@student.Name</td>
+                <td>@student.Age</td>
+                <td>@student.Address</td>
+                <td>
+                    <a href="/Student/Details/@student.Id">Details</a> |
+                    <a href="/Student/Edit/@student.Id">Edit</a> |
+                    <a href="/Student/Delete/@student.Id">Delete</a>
+                </td>
+            </tr>
+    
+        }
+
+
+    </tbody>
+</table>
