@@ -1,0 +1,46 @@
+﻿@model PictureU.Models.Employee
+
+@{
+    ViewData["Title"] = "Edit Employee";
+}
+
+<h2>Edit Employee</h2>
+
+<form asp-action="Edit" asp-controller="Employee" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="EmployeeId" />
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" type="email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Current Picture</label><br />
+        @if (!string.IsNullOrEmpty(Model.PicturePath))
+        {
+            <img src="@Url.Content(Model.PicturePath)" alt="Current Picture" style="width:100px; height:100px;" />
+        }
+        else
+        {
+            <span>No Image</span>
+        }
+    </div>
+
+    <div class="form-group">
+        <label>Change Picture</label>
+        <input asp-for="Picture" type="file" class="form-control" />
+        <span asp-validation-for="Picture" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+
