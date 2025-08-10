@@ -15,5 +15,8 @@ namespace StudentCRUD.DTOs
 
         [StringLength(100, ErrorMessage = "Address can't exceed 100 characters")]
         public string? Address { get; set; }  // nullable string to make it optional
+
+        public IFormFile? PictureFile { get; set; }
+
     }
 }

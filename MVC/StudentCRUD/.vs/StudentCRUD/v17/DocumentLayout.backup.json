@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "J:\\Project\\StudentCRUD\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|j:\\project\\studentcrud\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|solutionrelative:views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|j:\\project\\studentcrud\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|solutionrelative:views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|j:\\project\\studentcrud\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|j:\\project\\studentcrud\\dtos\\createstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|solutionrelative:dtos\\createstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|j:\\project\\studentcrud\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|solutionrelative:views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|j:\\project\\studentcrud\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|solutionrelative:views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|j:\\project\\studentcrud\\migrations\\20250809191543_addstudentpicture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|solutionrelative:migrations\\20250809191543_addstudentpicture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|j:\\project\\studentcrud\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|j:\\project\\studentcrud\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,24 +39,16 @@
       "RelativeMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|solutionrelative:dtos\\editstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|j:\\project\\studentcrud\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|solutionrelative:views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|j:\\project\\studentcrud\\dtos\\createstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|solutionrelative:dtos\\createstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|j:\\project\\studentcrud\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|solutionrelative:views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|j:\\project\\studentcrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|j:\\project\\studentcrud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|j:\\project\\studentcrud\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|j:\\project\\studentcrud\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|solutionrelative:views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|j:\\project\\studentcrud\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|j:\\project\\studentcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|j:\\project\\studentcrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0A55EFAD-4722-4E6D-97F6-DF8888CA85F6}|StudentCRUD.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,69 +66,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateStudentDto.cs",
-              "DocumentMoniker": "J:\\Project\\StudentCRUD\\DTOs\\CreateStudentDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\CreateStudentDto.cs",
-              "ToolTip": "J:\\Project\\StudentCRUD\\DTOs\\CreateStudentDto.cs",
-              "RelativeToolTip": "DTOs\\CreateStudentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "20250809191543_AddStudentPicture.cs",
+              "DocumentMoniker": "J:\\Project\\StudentCRUD\\Migrations\\20250809191543_AddStudentPicture.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250809191543_AddStudentPicture.cs",
+              "ToolTip": "J:\\Project\\StudentCRUD\\Migrations\\20250809191543_AddStudentPicture.cs",
+              "RelativeToolTip": "Migrations\\20250809191543_AddStudentPicture.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T19:38:00.144Z",
+              "WhenOpened": "2025-08-09T19:59:52.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Student.cs",
+              "DocumentMoniker": "J:\\Project\\StudentCRUD\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "J:\\Project\\StudentCRUD\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T15:06:38.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "J:\\Project\\StudentCRUD\\Views\\Student\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Details.cshtml",
+              "ToolTip": "J:\\Project\\StudentCRUD\\Views\\Student\\Details.cshtml",
+              "RelativeToolTip": "Views\\Student\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-08T18:51:55.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "EditStudentDto.cs",
-              "DocumentMoniker": "J:\\Project\\StudentCRUD\\DTOs\\EditStudentDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\EditStudentDto.cs",
-              "ToolTip": "J:\\Project\\StudentCRUD\\DTOs\\EditStudentDto.cs",
-              "RelativeToolTip": "DTOs\\EditStudentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T19:37:34.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "J:\\Project\\StudentCRUD\\Views\\Student\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Student\\Edit.cshtml",
-              "ToolTip": "J:\\Project\\StudentCRUD\\Views\\Student\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Student\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-08T18:59:20.25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "J:\\Project\\StudentCRUD\\Views\\Student\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Student\\Delete.cshtml",
-              "ToolTip": "J:\\Project\\StudentCRUD\\Views\\Student\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Student\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-08T18:53:50.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "J:\\Project\\StudentCRUD\\Views\\Student\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Student\\Create.cshtml",
               "ToolTip": "J:\\Project\\StudentCRUD\\Views\\Student\\Create.cshtml",
               "RelativeToolTip": "Views\\Student\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-08T16:56:31.52Z",
               "EditorCaption": ""
@@ -132,32 +123,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Student.cs",
-              "DocumentMoniker": "J:\\Project\\StudentCRUD\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "Models\\Student.cs",
-              "ToolTip": "J:\\Project\\StudentCRUD\\Models\\Student.cs",
-              "RelativeToolTip": "Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T15:06:38.912Z",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "J:\\Project\\StudentCRUD\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Edit.cshtml",
+              "ToolTip": "J:\\Project\\StudentCRUD\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Student\\Edit.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-08T18:59:20.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "J:\\Project\\StudentCRUD\\Views\\Student\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Delete.cshtml",
+              "ToolTip": "J:\\Project\\StudentCRUD\\Views\\Student\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Student\\Delete.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-08T18:53:50.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "StudentController.cs",
               "DocumentMoniker": "J:\\Project\\StudentCRUD\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
-              "ToolTip": "J:\\Project\\StudentCRUD\\Controllers\\StudentController.cs*",
-              "RelativeToolTip": "Controllers\\StudentController.cs*",
-              "ViewState": "AgIAACIAAAAAAAAAAAAtwDQAAAAiAAAAAAAAAA==",
+              "ToolTip": "J:\\Project\\StudentCRUD\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAtwGQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T16:20:20.34Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
+              "Title": "EditStudentDto.cs",
+              "DocumentMoniker": "J:\\Project\\StudentCRUD\\DTOs\\EditStudentDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\EditStudentDto.cs",
+              "ToolTip": "J:\\Project\\StudentCRUD\\DTOs\\EditStudentDto.cs",
+              "RelativeToolTip": "DTOs\\EditStudentDto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAtwBEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T19:37:34.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateStudentDto.cs",
+              "DocumentMoniker": "J:\\Project\\StudentCRUD\\DTOs\\CreateStudentDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreateStudentDto.cs",
+              "ToolTip": "J:\\Project\\StudentCRUD\\DTOs\\CreateStudentDto.cs",
+              "RelativeToolTip": "DTOs\\CreateStudentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T19:38:00.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "J:\\Project\\StudentCRUD\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
+              "ToolTip": "J:\\Project\\StudentCRUD\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-08T16:35:00.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "J:\\Project\\StudentCRUD\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "J:\\Project\\StudentCRUD\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-08T14:57:12.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "J:\\Project\\StudentCRUD\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -165,38 +221,11 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-08T16:33:32.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-08T16:33:32.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "J:\\Project\\StudentCRUD\\Views\\Student\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
-              "ToolTip": "J:\\Project\\StudentCRUD\\Views\\Student\\Index.cshtml",
-              "RelativeToolTip": "Views\\Student\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-08T16:35:00.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "J:\\Project\\StudentCRUD\\Views\\Student\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Student\\Details.cshtml",
-              "ToolTip": "J:\\Project\\StudentCRUD\\Views\\Student\\Details.cshtml",
-              "RelativeToolTip": "Views\\Student\\Details.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-08T18:51:55.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "J:\\Project\\StudentCRUD\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -208,19 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "J:\\Project\\StudentCRUD\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "J:\\Project\\StudentCRUD\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-08T14:57:12.203Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "J:\\Project\\StudentCRUD\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

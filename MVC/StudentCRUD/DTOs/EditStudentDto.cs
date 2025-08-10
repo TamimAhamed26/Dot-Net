@@ -16,5 +16,10 @@ namespace StudentCRUD.DTOs
 
         [StringLength(100)]
         public string Address { get; set; }
+
+        public IFormFile? PictureFile { get; set; }
+
+        public string? ExistingPicturePath { get; set; }
+
     }
 }

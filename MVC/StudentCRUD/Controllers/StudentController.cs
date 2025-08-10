@@ -2,6 +2,7 @@
 using StudentCRUD.Data;
 using StudentCRUD.Models;
 using StudentCRUD.DTOs;
+using System.IO;
 
 namespace StudentCRUD.Controllers
 {
@@ -16,7 +17,7 @@ namespace StudentCRUD.Controllers
 
         public IActionResult Index()
         {
-            List<Student> students = _db.Students.ToList();
+            var students = _db.Students.ToList();
             return View(students);
         }
 
@@ -24,7 +25,6 @@ namespace StudentCRUD.Controllers
         public IActionResult Details(int id)
         {
             var student = _db.Students.FirstOrDefault(s => s.Id == id);
-
             if (student == null)
                 return NotFound();
 
@@ -42,11 +42,40 @@ namespace StudentCRUD.Controllers
         {
             if (ModelState.IsValid)
             {
+                string? picturePath = null;
+
+                if (dto.PictureFile != null)
+                {
+                    string fileName = Path.GetFileName(dto.PictureFile.FileName);
+                    string extension = Path.GetExtension(fileName).ToLower();
+
+                    if (extension != ".jpg" && extension != ".png" && extension != ".jpeg")
+                    {
+                        ModelState.AddModelError("PictureFile", "Only .jpg, .png, and .jpeg files are allowed.");
+                        return View(dto);
+                    }
+
+                    string uploadsDir = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Pictures");
+                    if (!Directory.Exists(uploadsDir))
+                        Directory.CreateDirectory(uploadsDir);
+
+                    string savedFileName = dto.Name.Replace(" ", "_") + extension;
+                    string filePath = Path.Combine(uploadsDir, savedFileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        dto.PictureFile.CopyTo(stream);
+                    }
+
+                    picturePath = "/Pictures/" + savedFileName;
+                }
+
                 var student = new Student
                 {
                     Name = dto.Name,
-                    Age = (int)dto.Age,
-                    Address = dto.Address
+                    Age = dto.Age ?? 0,
+                    Address = dto.Address,
+                    PicturePath = picturePath
                 };
 
                 _db.Students.Add(student);
@@ -55,46 +84,6 @@ namespace StudentCRUD.Controllers
             }
 
             return View(dto);
-        }
-
-        /*
-        [HttpPost]
-        public IActionResult Create(Student student)
-        {
-            if (ModelState.IsValid)
-            {
-                _db.Students.Add(student);
-                _db.SaveChanges();
-                return RedirectToAction("Index");
-            }
-
-            return View(student);
-        }
-        */
-
-        [HttpGet]
-        public IActionResult Delete(int id)
-        {
-            var student = _db.Students.FirstOrDefault(s => s.Id == id);
-
-            if (student == null)
-                return NotFound();
-
-            return View(student);
-        }
-
-        [HttpPost, ActionName("Delete")]
-        public IActionResult DeleteConfirmed(int id)
-        {
-            var student = _db.Students.FirstOrDefault(s => s.Id == id);
-
-            if (student == null)
-                return NotFound();
-
-            _db.Students.Remove(student);
-            _db.SaveChanges();
-
-            return RedirectToAction("Index");
         }
 
         [HttpGet]
@@ -109,7 +98,8 @@ namespace StudentCRUD.Controllers
                 Id = student.Id,
                 Name = student.Name,
                 Age = student.Age,
-                Address = student.Address
+                Address = student.Address,
+                ExistingPicturePath = student.PicturePath
             };
 
             return View(dto);
@@ -124,6 +114,32 @@ namespace StudentCRUD.Controllers
                 if (student == null)
                     return NotFound();
 
+                if (dto.PictureFile != null)
+                {
+                    string fileName = Path.GetFileName(dto.PictureFile.FileName);
+                    string extension = Path.GetExtension(fileName).ToLower();
+
+                    if (extension != ".jpg" && extension != ".png" && extension != ".jpeg")
+                    {
+                        ModelState.AddModelError("PictureFile", "Only .jpg, .png, and .jpeg files are allowed.");
+                        return View(dto);
+                    }
+
+                    string uploadsDir = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Pictures");
+                    if (!Directory.Exists(uploadsDir))
+                        Directory.CreateDirectory(uploadsDir);
+
+                    string savedFileName = dto.Name.Replace(" ", "_") + extension;
+                    string filePath = Path.Combine(uploadsDir, savedFileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        dto.PictureFile.CopyTo(stream);
+                    }
+
+                    student.PicturePath = "/Pictures/" + savedFileName;
+                }
+
                 student.Name = dto.Name;
                 student.Age = dto.Age;
                 student.Address = dto.Address;
@@ -136,19 +152,27 @@ namespace StudentCRUD.Controllers
             return View(dto);
         }
 
-        /*
-        [HttpPost]
-        public IActionResult Edit(Student student)
+        [HttpGet]
+        public IActionResult Delete(int id)
         {
-            if (ModelState.IsValid)
-            {
-                _db.Students.Update(student);
-                _db.SaveChanges();
-                return RedirectToAction("Index");
-            }
+            var student = _db.Students.FirstOrDefault(s => s.Id == id);
+            if (student == null)
+                return NotFound();
 
             return View(student);
         }
-        */
+
+        [HttpPost, ActionName("Delete")]
+        public IActionResult DeleteConfirmed(int id)
+        {
+            var student = _db.Students.FirstOrDefault(s => s.Id == id);
+            if (student == null)
+                return NotFound();
+
+            _db.Students.Remove(student);
+            _db.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
     }
 }

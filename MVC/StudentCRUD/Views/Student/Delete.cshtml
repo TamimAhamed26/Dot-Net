@@ -17,6 +17,18 @@
 
     <dt class="col-sm-2">Address</dt>
     <dd class="col-sm-10">@Model.Address</dd>
+
+    <dt class="col-sm-2">Picture</dt>
+    <dd class="col-sm-10">
+        @if (!string.IsNullOrEmpty(Model.PicturePath))
+        {
+            <img src="@Model.PicturePath" alt="Student Picture" width="150" />
+        }
+        else
+        {
+            <span>No picture available</span>
+        }
+    </dd>
 </dl>
 
 <form asp-action="Delete" method="post">
