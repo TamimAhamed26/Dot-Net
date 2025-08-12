@@ -61,9 +61,8 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\Pictures\dsadsaz.jpeg
-wwwroot\Pictures\dsadsaz_0874df57-722d-430a-8fcf-32bbf6499625.jpeg
-wwwroot\Pictures\dsadsaz_fc28fd7c-59ba-4c94-81a4-176809b4d53d.png
+wwwroot\Pictures\dsa13.jpg
+wwwroot\Pictures\Tamimds12.jpg
 J:\Project\Picture\wwwroot\lib\jquery\LICENSE.txt
 J:\Project\Picture\wwwroot\lib\jquery\dist\jquery.slim.min.map
 J:\Project\Picture\wwwroot\lib\jquery\dist\jquery.slim.min.js

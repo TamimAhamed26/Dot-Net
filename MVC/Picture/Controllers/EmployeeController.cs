@@ -73,7 +73,7 @@ namespace PictureU.Controllers
             return View(eMployee);
         }
 
-        // GET: Employee/Edit/5
+
         public IActionResult Edit(int? id)
         {
             if (id == null)
@@ -92,22 +92,23 @@ namespace PictureU.Controllers
             if (id != eMployee.EmployeeId)
                 return NotFound();
 
+            var existingEmployee = _context.Employees.Find(id);
+            if (existingEmployee == null)
+                return NotFound();
+
             if (ModelState.IsValid)
             {
-                var existingEmployee = _context.Employees.Find(id);
-                if (existingEmployee == null)
-                    return NotFound();
-
                 existingEmployee.Name = eMployee.Name;
                 existingEmployee.Email = eMployee.Email;
 
                 if (eMployee.Picture != null)
                 {
                     string fileName = Path.GetFileName(eMployee.Picture.FileName);
-                    string extension = Path.GetExtension(fileName);
+                    string extension = Path.GetExtension(fileName).ToLower();
 
                     if (extension != ".jpg" && extension != ".png" && extension != ".jpeg")
                     {
+                        eMployee.PicturePath = existingEmployee.PicturePath;
                         ModelState.AddModelError("Picture", "Only .jpg, .png, and .jpeg files are allowed.");
                         return View(eMployee);
                     }
@@ -118,18 +119,37 @@ namespace PictureU.Controllers
                         Directory.CreateDirectory(directoryPath);
                     }
 
-                    string filePath = Path.Combine(directoryPath, eMployee.Name + extension);
+                    string newFileName = $"{eMployee.Name}{eMployee.EmployeeId}{extension}";
+                    string filePath = Path.Combine(directoryPath, newFileName);
 
+             
                     using (var stream = new FileStream(filePath, FileMode.Create))
                     {
                         eMployee.Picture.CopyTo(stream);
                     }
 
-                    existingEmployee.PicturePath = "/Pictures/" + eMployee.Name + extension;
+                    if (!string.IsNullOrEmpty(existingEmployee.PicturePath))
+                    {
+                        string oldFilePath = Path.Combine(directoryPath, Path.GetFileName(existingEmployee.PicturePath));
+                        if (System.IO.File.Exists(oldFilePath) && !oldFilePath.Equals(filePath, StringComparison.OrdinalIgnoreCase))
+                        {
+                            try
+                            {
+                                System.IO.File.Delete(oldFilePath);
+                            }
+                            catch
+                            {
+                           
+                               
+                            }
+                        }
+                    }
+
+                    existingEmployee.PicturePath = "/Pictures/" + newFileName;
                 }
 
-                _context.Employees.Update(existingEmployee);
 
+                _context.Employees.Update(existingEmployee);
                 if (_context.SaveChanges() > 0)
                 {
                     return RedirectToAction("Index");
@@ -137,14 +157,17 @@ namespace PictureU.Controllers
             }
             else
             {
+                eMployee.PicturePath = existingEmployee.PicturePath;
+
                 var message = string.Join(" | ", ModelState.Values
                     .SelectMany(v => v.Errors)
                     .Select(e => e.ErrorMessage));
-                ModelState.AddModelError(" ", message);
+                ModelState.AddModelError("", message);
             }
 
             return View(eMployee);
         }
+
 
         public IActionResult Delete(int? id)
         {

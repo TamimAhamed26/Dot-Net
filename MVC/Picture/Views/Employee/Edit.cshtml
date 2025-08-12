@@ -23,19 +23,44 @@
 
     <div class="form-group">
         <label>Current Picture</label><br />
+        <div style="display: flex; align-items: center; gap: 20px;">
+            @if (!string.IsNullOrEmpty(Model.PicturePath))
+            {
+                <div>
+                    <img id="currentPicture" src="@Url.Content(Model.PicturePath)" alt="Current Picture" style="width:100px; height:100px; object-fit:cover;" />
+                </div>
+            }
+            else
+            {
+                <div>
+                    <p>Current</p>
+                    <span>No Image</span>
+                </div>
+            }
+
+            <div id="newPicturePreviewContainer" style="display:none;">
+                <p>New Preview</p>
+                <img id="newPicturePreview" src="#" alt="New Picture Preview" style="width:100px; height:100px; object-fit:cover; border: 1px solid #ccc;" />
+            </div>
+        </div>
+
+        <br />
+
         @if (!string.IsNullOrEmpty(Model.PicturePath))
         {
-            <img src="@Url.Content(Model.PicturePath)" alt="Current Picture" style="width:100px; height:100px;" />
+            <button type="button" id="btnChangePic" class="btn btn-sm btn-warning mt-2">Change Picture</button>
         }
         else
         {
-            <span>No Image</span>
+            <div id="pictureUpload" style="display:block;">
+                <input asp-for="Picture" type="file" class="form-control" />
+                <span asp-validation-for="Picture" class="text-danger"></span>
+            </div>
         }
     </div>
 
-    <div class="form-group">
-        <label>Change Picture</label>
-        <input asp-for="Picture" type="file" class="form-control" />
+    <div id="pictureUpload" style="display:none; margin-top: 10px;">
+        <input asp-for="Picture" type="file" class="form-control" id="pictureInput" />
         <span asp-validation-for="Picture" class="text-danger"></span>
     </div>
 
@@ -43,4 +68,36 @@
     <a asp-action="Index" class="btn btn-secondary">Cancel</a>
 </form>
 
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 
+    <script>
+        document.getElementById("btnChangePic")?.addEventListener("click", function () {
+            document.getElementById("pictureUpload").style.display = "block";
+            this.style.display = "none";
+        });
+
+        const pictureInput = document.getElementById("pictureInput");
+        const newPreviewContainer = document.getElementById("newPicturePreviewContainer");
+        const newPreview = document.getElementById("newPicturePreview");
+
+        pictureInput?.addEventListener("change", function (event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+
+                reader.onload = function (e) {
+                    newPreview.src = e.target.result;
+                    newPreviewContainer.style.display = "block";
+                };
+
+                reader.readAsDataURL(file);
+            } else {
+                newPreviewContainer.style.display = "none";
+                newPreview.src = "#";
+            }
+        });
+    </script>
+}

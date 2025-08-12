@@ -220,10 +220,10 @@ J:\Project\Picture\obj\Debug\net9.0\staticwebassets.build.json
 J:\Project\Picture\obj\Debug\net9.0\staticwebassets.build.json.cache
 J:\Project\Picture\obj\Debug\net9.0\staticwebassets.development.json
 J:\Project\Picture\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-J:\Project\Picture\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 J:\Project\Picture\obj\Debug\net9.0\PictureU.csproj.Up2Date
 J:\Project\Picture\obj\Debug\net9.0\PictureU.dll
 J:\Project\Picture\obj\Debug\net9.0\refint\PictureU.dll
 J:\Project\Picture\obj\Debug\net9.0\PictureU.pdb
 J:\Project\Picture\obj\Debug\net9.0\PictureU.genruntimeconfig.cache
 J:\Project\Picture\obj\Debug\net9.0\ref\PictureU.dll
+J:\Project\Picture\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
