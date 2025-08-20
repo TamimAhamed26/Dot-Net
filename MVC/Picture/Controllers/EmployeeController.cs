@@ -78,94 +78,93 @@ namespace PictureU.Controllers
         {
             if (id == null)
                 return NotFound();
-
+           
             var employee = _context.Employees.Find(id);
             if (employee == null)
                 return NotFound();
-
+          
             return View(employee);
         }
 
         [HttpPost]
-        public IActionResult Edit(int id, Employee eMployee)
+        public async Task<IActionResult> Edit(int id, Employee employee)
         {
-            if (id != eMployee.EmployeeId)
-                return NotFound();
+           
 
-            var existingEmployee = _context.Employees.Find(id);
+            var existingEmployee = await _context.Employees.FindAsync(id);
             if (existingEmployee == null)
                 return NotFound();
 
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                existingEmployee.Name = eMployee.Name;
-                existingEmployee.Email = eMployee.Email;
+                employee.PicturePath = existingEmployee.PicturePath;
+                return View(employee);
+            }
 
-                if (eMployee.Picture != null)
+            existingEmployee.Name = employee.Name.Trim();
+            existingEmployee.Email = employee.Email.Trim();
+
+            if (employee.Picture != null && employee.Picture.Length > 0)
+            {
+                var allowedExtensions = new[] { ".jpg", ".jpeg", ".png" };
+                string extension = Path.GetExtension(employee.Picture.FileName).ToLowerInvariant();
+
+                if (!allowedExtensions.Contains(extension))
                 {
-                    string fileName = Path.GetFileName(eMployee.Picture.FileName);
-                    string extension = Path.GetExtension(fileName).ToLower();
+                    ModelState.AddModelError("Picture", "Only JPG, JPEG, and PNG formats are allowed.");
+                    employee.PicturePath = existingEmployee.PicturePath;
+                    return View(employee);
+                }
 
-                    if (extension != ".jpg" && extension != ".png" && extension != ".jpeg")
+                if (employee.Picture.Length > 5 * 1024 * 1024)
+                {
+                    ModelState.AddModelError("Picture", "File size cannot exceed 5 MB.");
+                    employee.PicturePath = existingEmployee.PicturePath;
+                    return View(employee);
+                }
+
+                string uploadDir = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Pictures");
+                if (!Directory.Exists(uploadDir))
+                    Directory.CreateDirectory(uploadDir);
+
+                string safeFileName = $"{Guid.NewGuid()}{extension}";
+                string filePath = Path.Combine(uploadDir, safeFileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await employee.Picture.CopyToAsync(stream);
+                }
+
+                if (!string.IsNullOrEmpty(existingEmployee.PicturePath))
+                {
+                    string oldFilePath = Path.Combine(uploadDir, Path.GetFileName(existingEmployee.PicturePath));
+                    if (System.IO.File.Exists(oldFilePath))
                     {
-                        eMployee.PicturePath = existingEmployee.PicturePath;
-                        ModelState.AddModelError("Picture", "Only .jpg, .png, and .jpeg files are allowed.");
-                        return View(eMployee);
-                    }
-
-                    string directoryPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Pictures");
-                    if (!Directory.Exists(directoryPath))
-                    {
-                        Directory.CreateDirectory(directoryPath);
-                    }
-
-                    string newFileName = $"{eMployee.Name}{eMployee.EmployeeId}{extension}";
-                    string filePath = Path.Combine(directoryPath, newFileName);
-
-             
-                    using (var stream = new FileStream(filePath, FileMode.Create))
-                    {
-                        eMployee.Picture.CopyTo(stream);
-                    }
-
-                    if (!string.IsNullOrEmpty(existingEmployee.PicturePath))
-                    {
-                        string oldFilePath = Path.Combine(directoryPath, Path.GetFileName(existingEmployee.PicturePath));
-                        if (System.IO.File.Exists(oldFilePath) && !oldFilePath.Equals(filePath, StringComparison.OrdinalIgnoreCase))
+                        try { System.IO.File.Delete(oldFilePath); }
+                        catch (Exception ex)
                         {
-                            try
-                            {
-                                System.IO.File.Delete(oldFilePath);
-                            }
-                            catch
-                            {
-                           
-                               
-                            }
+                            Console.WriteLine($"Error deleting old file: {ex.Message}");
                         }
                     }
-
-                    existingEmployee.PicturePath = "/Pictures/" + newFileName;
                 }
 
-
-                _context.Employees.Update(existingEmployee);
-                if (_context.SaveChanges() > 0)
-                {
-                    return RedirectToAction("Index");
-                }
+                existingEmployee.PicturePath = $"/Pictures/{safeFileName}";
             }
-            else
+
+            try
             {
-                eMployee.PicturePath = existingEmployee.PicturePath;
-
-                var message = string.Join(" | ", ModelState.Values
-                    .SelectMany(v => v.Errors)
-                    .Select(e => e.ErrorMessage));
-                ModelState.AddModelError("", message);
+                _context.Employees.Update(existingEmployee);
+                await _context.SaveChangesAsync();
+                TempData["SuccessMessage"] = "Employee updated successfully!";
+                return RedirectToAction("Index");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Database update failed: {ex.Message}");
+                ModelState.AddModelError("", "Something went wrong while saving. Please try again.");
             }
 
-            return View(eMployee);
+            return View(employee);
         }
 
 

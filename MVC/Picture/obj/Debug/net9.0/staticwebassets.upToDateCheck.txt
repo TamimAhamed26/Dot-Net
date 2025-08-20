@@ -61,67 +61,70 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\Pictures\dsa.png
 wwwroot\Pictures\dsa13.jpg
-wwwroot\Pictures\Tamimds12.jpg
-J:\Project\Picture\wwwroot\lib\jquery\LICENSE.txt
-J:\Project\Picture\wwwroot\lib\jquery\dist\jquery.slim.min.map
-J:\Project\Picture\wwwroot\lib\jquery\dist\jquery.slim.min.js
-J:\Project\Picture\wwwroot\lib\jquery\dist\jquery.slim.js
-J:\Project\Picture\wwwroot\lib\jquery\dist\jquery.min.map
-J:\Project\Picture\wwwroot\lib\jquery\dist\jquery.min.js
-J:\Project\Picture\wwwroot\lib\jquery\dist\jquery.js
-J:\Project\Picture\wwwroot\lib\jquery-validation\LICENSE.md
-J:\Project\Picture\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
-J:\Project\Picture\wwwroot\lib\jquery-validation\dist\jquery.validate.js
-J:\Project\Picture\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-J:\Project\Picture\wwwroot\lib\jquery-validation\dist\additional-methods.js
-J:\Project\Picture\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-J:\Project\Picture\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
-J:\Project\Picture\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-J:\Project\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-J:\Project\Picture\wwwroot\js\site.js
-J:\Project\Picture\wwwroot\css\site.css
-J:\Project\Picture\wwwroot\favicon.ico
+wwwroot\Pictures\dsadsaz.png
+wwwroot\Pictures\1f38aa33-deac-4ccf-8421-2fefd9be6a75.jpg
+wwwroot\Pictures\dsadsaz.jpeg
+J:\DOT NET\MVC\Picture\wwwroot\css\site.css
+J:\DOT NET\MVC\Picture\wwwroot\favicon.ico
+J:\DOT NET\MVC\Picture\wwwroot\js\site.js
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+J:\DOT NET\MVC\Picture\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+J:\DOT NET\MVC\Picture\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+J:\DOT NET\MVC\Picture\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+J:\DOT NET\MVC\Picture\wwwroot\lib\jquery-validation\dist\additional-methods.js
+J:\DOT NET\MVC\Picture\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+J:\DOT NET\MVC\Picture\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+J:\DOT NET\MVC\Picture\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+J:\DOT NET\MVC\Picture\wwwroot\lib\jquery-validation\LICENSE.md
+J:\DOT NET\MVC\Picture\wwwroot\lib\jquery\dist\jquery.js
+J:\DOT NET\MVC\Picture\wwwroot\lib\jquery\dist\jquery.min.js
+J:\DOT NET\MVC\Picture\wwwroot\lib\jquery\dist\jquery.min.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\jquery\dist\jquery.slim.js
+J:\DOT NET\MVC\Picture\wwwroot\lib\jquery\dist\jquery.slim.min.js
+J:\DOT NET\MVC\Picture\wwwroot\lib\jquery\dist\jquery.slim.min.map
+J:\DOT NET\MVC\Picture\wwwroot\lib\jquery\LICENSE.txt

@@ -1,0 +1,162 @@
+﻿@model IEnumerable<TaskManagement.Models.AssignedTask>
+
+@{
+    ViewData["Title"] = "Assigned Tasks";
+}
+
+<h2>Assigned Tasks</h2>
+
+<button id="btnAdd" class="btn btn-primary mb-2">Add Assigned Task</button>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Task</th>
+            <th>User</th>
+            <th>Assigned Date</th>
+            <th>Due Date</th>
+            <th>Submit Date</th>
+            <th>Status</th>
+            <th>Remarks</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var a in Model)
+        {
+            <tr>
+                <td>@a.Task.Title</td>
+                <td>@a.User.Name</td>
+                <td>@a.AssignedDate.ToShortDateString()</td>
+                <td>@a.DueDate.ToShortDateString()</td>
+                <td>@a.SubmitDate.ToShortDateString()</td>
+                <td>@a.Status</td>
+                <td>@a.Remarks</td>
+                <td>
+                    <button class="btn btn-sm btn-warning btn-edit" data-id="@a.Id">Edit</button>
+                    <button class="btn btn-sm btn-danger btn-delete" data-id="@a.Id">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Modal -->
+<div class="modal fade" id="taskModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Assigned Task</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form id="taskForm">
+                    <input type="hidden" id="Id" name="Id" />
+
+                    <div class="mb-2">
+                        <label class="form-label">Task</label>
+                        <select id="TaskId" name="TaskId" class="form-control">
+                            <option value="">-- Select Task --</option>
+                            @foreach (var t in ViewBag.Tasks)
+                            {
+                                <option value="@t.Id">@t.Title</option>
+                            }
+                        </select>
+                    </div>
+
+                    <div class="mb-2">
+                        <label class="form-label">User</label>
+                        <select id="UserId" name="UserId" class="form-control">
+                            <option value="">-- Select User --</option>
+                            @foreach (var u in ViewBag.Users)
+                            {
+                                <option value="@u.Id">@u.Name</option>
+                            }
+                        </select>
+                    </div>
+
+                    <div class="mb-2">
+                        <label class="form-label">Assigned Date</label>
+                        <input type="date" id="AssignedDate" name="AssignedDate" class="form-control" />
+                    </div>
+
+                    <div class="mb-2">
+                        <label class="form-label">Due Date</label>
+                        <input type="date" id="DueDate" name="DueDate" class="form-control" />
+                    </div>
+
+                    <div class="mb-2">
+                        <label class="form-label">Submit Date</label>
+                        <input type="date" id="SubmitDate" name="SubmitDate" class="form-control" />
+                    </div>
+
+                    <div class="mb-2">
+                        <label class="form-label">Status</label>
+                        <input type="text" id="Status" name="Status" class="form-control" value="Pending" />
+                    </div>
+
+                    <div class="mb-2">
+                        <label class="form-label">Remarks</label>
+                        <input type="text" id="Remarks" name="Remarks" class="form-control" />
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button id="btnSave" class="btn btn-success">Save</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(function () {
+            // Open Add Modal
+            $("#btnAdd").click(function () {
+                $("#taskForm")[0].reset();
+                $("#Id").val(0);
+                $("#taskModal").modal("show");
+            });
+
+            // Save
+            $("#btnSave").click(function () {
+                $.ajax({
+                    url: '@Url.Action("Save", "AssignedTask")',
+                    type: "POST",
+                    data: $("#taskForm").serialize(),
+                    success: function () {
+                        location.reload();
+                    }
+                });
+            });
+
+            // Edit
+            $(".btn-edit").click(function () {
+                var id = $(this).data("id");
+                $.get('@Url.Action("GetById", "AssignedTask")', { id: id }, function (data) {
+                    $("#Id").val(data.id);
+                    $("#TaskId").val(data.taskId);
+                    $("#UserId").val(data.userId);
+                    $("#AssignedDate").val(data.assignedDate.split('T')[0]);
+                    $("#DueDate").val(data.dueDate.split('T')[0]);
+                    $("#SubmitDate").val(data.submitDate.split('T')[0]);
+                    $("#Status").val(data.status);
+                    $("#Remarks").val(data.remarks);
+                    $("#taskModal").modal("show");
+                });
+            });
+
+            // Delete
+            $(".btn-delete").click(function () {
+                if (!confirm("Are you sure to delete?")) return;
+
+                var id = $(this).data("id");
+                $.post('@Url.Action("Delete", "AssignedTask")', { id: id }, function () {
+                    location.reload();
+                });
+            });
+        });
+    </script>
+}

@@ -4,34 +4,45 @@
     ViewData["Title"] = "Delete Employee";
 }
 
-<h2>Delete Employee</h2>
+<h2 class="mb-3">Delete Employee</h2>
 
-<h3>Are you sure you want to delete this employee?</h3>
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+        {
+            <div>@error.ErrorMessage</div>
+        }
+    </div>
+}
 
-<div>
-    <dl class="row">
-        <dt class="col-sm-2">Name</dt>
-        <dd class="col-sm-10">@Model.Name</dd>
+<h4 class="text-danger">Are you sure you want to delete this employee?</h4>
 
-        <dt class="col-sm-2">Email</dt>
-        <dd class="col-sm-10">@Model.Email</dd>
+<div class="card shadow-sm p-3 mt-3">
+    <dl class="row mb-0">
+        <dt class="col-sm-3">Name</dt>
+        <dd class="col-sm-9">@Model.Name</dd>
 
-        <dt class="col-sm-2">Picture</dt>
-        <dd class="col-sm-10">
+        <dt class="col-sm-3">Email</dt>
+        <dd class="col-sm-9">@Model.Email</dd>
+
+        <dt class="col-sm-3">Picture</dt>
+        <dd class="col-sm-9">
             @if (!string.IsNullOrEmpty(Model.PicturePath))
             {
-                <img src="@Url.Content(Model.PicturePath)" alt="@Model.Name" style="width:100px; height:100px;" />
+                <img src="@Url.Content(Model.PicturePath)" alt="@Model.Name" class="img-thumbnail" style="max-width:150px;" />
             }
             else
             {
-                <span>No Image</span>
+                <span class="text-muted">No Image</span>
             }
         </dd>
     </dl>
-
-    <form asp-action="Delete" asp-controller="Employee" method="post">
-        <input type="hidden" asp-for="EmployeeId" />
-        <button type="submit" class="btn btn-danger">Delete</button>
-        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
-    </form>
 </div>
+
+<form asp-action="Delete" asp-controller="Employee" method="post" class="mt-3"
+      onsubmit="return confirm('⚠️ Are you sure you want to delete this employee? This action cannot be undone.');">
+    <input type="hidden" asp-for="EmployeeId" />
+    <button type="submit" class="btn btn-danger me-2">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

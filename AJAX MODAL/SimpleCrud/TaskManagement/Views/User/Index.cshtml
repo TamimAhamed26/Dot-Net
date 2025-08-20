@@ -1,0 +1,97 @@
+﻿@{
+    ViewData["Title"] = "Users";
+}
+
+<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#userModal">Add User</button>
+
+<table id="userTbl" class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Phone</td>
+            <td>Actions</td>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<!-- Modal -->
+<div class="modal fade" id="userModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header"><h5>User</h5></div>
+            <div class="modal-body">
+                <input type="hidden" id="UserId" />
+                <label>Name</label>
+                <input type="text" id="UserName" class="form-control" required />
+                <label>Phone</label>
+                <input type="text" id="PhoneNo" class="form-control" required />
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="btnSaveUser" class="btn btn-primary">Save</button>
+                <button type="button" id="btnUpdateUser" class="btn btn-warning">Update</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function(){
+            $("#btnUpdateUser").hide();
+            loadUsers();
+
+            function loadUsers() {
+                $.get('/User/Get', function(data){
+                    let rows = "";
+                    $.each(data, function(i, user){
+                        rows += `<tr>
+                            <td>${user.id}</td>
+                            <td>${user.name}</td>
+                            <td>${user.phoneNo}</td>
+                            <td>
+                              <button class='btn btn-warning' onclick='editUser(${user.id})'>Edit</button>
+                              <button class='btn btn-danger' onclick='deleteUser(${user.id})'>Delete</button>
+                            </td>
+                        </tr>`;
+                    });
+                    $("#userTbl tbody").html(rows);
+                });
+            }
+
+            $("#btnSaveUser").click(function(){
+                let obj = { Name: $("#UserName").val(), PhoneNo: $("#PhoneNo").val() };
+                $.post('/User/Save', obj, function(){
+                    loadUsers();
+                    $("#userModal").modal('hide');
+                });
+            });
+
+            $("#btnUpdateUser").click(function(){
+                let obj = { Id: $("#UserId").val(), Name: $("#UserName").val(), PhoneNo: $("#PhoneNo").val() };
+                $.post('/User/Update', obj, function(){
+                    loadUsers();
+                    $("#userModal").modal('hide');
+                });
+            });
+
+            window.editUser = function(id) {
+                $.get('/User/GetById/'+id, function(data){
+                    $("#UserId").val(data.id);
+                    $("#UserName").val(data.name);
+                    $("#PhoneNo").val(data.phoneNo);
+                    $("#btnSaveUser").hide();
+                    $("#btnUpdateUser").show();
+                    $("#userModal").modal('show');
+                });
+            }
+
+            window.deleteUser = function(id){
+                $.get('/User/Delete/'+id, function(){
+                    loadUsers();
+                });
+            }
+        });
+    </script>
+}

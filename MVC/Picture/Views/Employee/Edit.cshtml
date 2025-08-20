@@ -6,66 +6,60 @@
 
 <h2>Edit Employee</h2>
 
-<form asp-action="Edit" asp-controller="Employee" method="post" enctype="multipart/form-data">
+<form asp-action="Edit" asp-controller="Employee" method="post" enctype="multipart/form-data" id="editEmployeeForm">
     <input type="hidden" asp-for="EmployeeId" />
 
-    <div class="form-group">
+    <div class="form-group mb-3">
         <label asp-for="Name"></label>
-        <input asp-for="Name" class="form-control" />
+        <input asp-for="Name" class="form-control" placeholder="Enter employee name" />
         <span asp-validation-for="Name" class="text-danger"></span>
     </div>
 
-    <div class="form-group">
+    <div class="form-group mb-3">
         <label asp-for="Email"></label>
-        <input asp-for="Email" type="email" class="form-control" />
+        <input asp-for="Email" type="email" class="form-control" placeholder="Enter employee email" />
         <span asp-validation-for="Email" class="text-danger"></span>
     </div>
 
-    <div class="form-group">
-        <label>Current Picture</label><br />
-        <div style="display: flex; align-items: center; gap: 20px;">
-            @if (!string.IsNullOrEmpty(Model.PicturePath))
-            {
-                <div>
-                    <img id="currentPicture" src="@Url.Content(Model.PicturePath)" alt="Current Picture" style="width:100px; height:100px; object-fit:cover;" />
-                </div>
-            }
-            else
-            {
-                <div>
-                    <p>Current</p>
-                    <span>No Image</span>
-                </div>
-            }
+    <div class="form-group mb-3">
+        <label>Picture</label><br />
+
+        <div class="d-flex align-items-start gap-4">
+            <div>
+                <p class="mb-1">Current</p>
+                @if (!string.IsNullOrEmpty(Model.PicturePath))
+                {
+                    <img id="currentPicture" src="@Url.Content(Model.PicturePath)" alt="Current Picture"
+                         style="width:100px; height:100px; object-fit:cover; border: 1px solid #ccc;" />
+                }
+                else
+                {
+                    <span class="text-muted">No Image</span>
+                }
+            </div>
 
             <div id="newPicturePreviewContainer" style="display:none;">
-                <p>New Preview</p>
-                <img id="newPicturePreview" src="#" alt="New Picture Preview" style="width:100px; height:100px; object-fit:cover; border: 1px solid #ccc;" />
+                <p class="mb-1">New Preview</p>
+                <img id="newPicturePreview" src="#"
+                     style="width:100px; height:100px; object-fit:cover; border: 1px solid #ccc;" />
             </div>
         </div>
-
-        <br />
 
         @if (!string.IsNullOrEmpty(Model.PicturePath))
         {
             <button type="button" id="btnChangePic" class="btn btn-sm btn-warning mt-2">Change Picture</button>
         }
-        else
-        {
-            <div id="pictureUpload" style="display:block;">
-                <input asp-for="Picture" type="file" class="form-control" />
-                <span asp-validation-for="Picture" class="text-danger"></span>
-            </div>
-        }
+
+        <div id="pictureUpload" style="display:@(string.IsNullOrEmpty(Model.PicturePath) ? "block" : "none"); margin-top: 10px;">
+            <input asp-for="Picture" type="file" class="form-control" id="pictureInput" accept=".jpg,.jpeg,.png" />
+            <span asp-validation-for="Picture" class="text-danger"></span>
+        </div>
     </div>
 
-    <div id="pictureUpload" style="display:none; margin-top: 10px;">
-        <input asp-for="Picture" type="file" class="form-control" id="pictureInput" />
-        <span asp-validation-for="Picture" class="text-danger"></span>
+    <div class="mt-4">
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
     </div>
-
-    <button type="submit" class="btn btn-primary">Save</button>
-    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
 </form>
 
 @section Scripts {
@@ -86,13 +80,19 @@
         pictureInput?.addEventListener("change", function (event) {
             const file = event.target.files[0];
             if (file) {
-                const reader = new FileReader();
+                const allowedTypes = ['image/jpeg', 'image/png', 'image/jpg'];
+                if (!allowedTypes.includes(file.type)) {
+                    alert("Only .jpg, .jpeg, and .png files are allowed.");
+                    event.target.value = '';
+                    newPreviewContainer.style.display = "none";
+                    return;
+                }
 
+                const reader = new FileReader();
                 reader.onload = function (e) {
                     newPreview.src = e.target.result;
                     newPreviewContainer.style.display = "block";
                 };
-
                 reader.readAsDataURL(file);
             } else {
                 newPreviewContainer.style.display = "none";

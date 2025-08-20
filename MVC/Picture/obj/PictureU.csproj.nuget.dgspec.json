@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "J:\\Project\\Picture\\PictureU.csproj": {}
+    "J:\\DOT NET\\MVC\\Picture\\PictureU.csproj": {}
   },
   "projects": {
-    "J:\\Project\\Picture\\PictureU.csproj": {
+    "J:\\DOT NET\\MVC\\Picture\\PictureU.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "J:\\Project\\Picture\\PictureU.csproj",
+        "projectUniqueName": "J:\\DOT NET\\MVC\\Picture\\PictureU.csproj",
         "projectName": "PictureU",
-        "projectPath": "J:\\Project\\Picture\\PictureU.csproj",
+        "projectPath": "J:\\DOT NET\\MVC\\Picture\\PictureU.csproj",
         "packagesPath": "C:\\Users\\GIGABYTE\\.nuget\\packages\\",
-        "outputPath": "J:\\Project\\Picture\\obj\\",
+        "outputPath": "J:\\DOT NET\\MVC\\Picture\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\vs shared\\NuGetPackages"
