@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "J:\\Project\\TaskManagement_B08-master\\TaskManagement\\TaskManagement.csproj": {}
+    "J:\\DOT NET\\AJAX MODAL\\SimpleCrud\\TaskManagement\\TaskManagement.csproj": {}
   },
   "projects": {
-    "J:\\Project\\TaskManagement_B08-master\\TaskManagement\\TaskManagement.csproj": {
+    "J:\\DOT NET\\AJAX MODAL\\SimpleCrud\\TaskManagement\\TaskManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "J:\\Project\\TaskManagement_B08-master\\TaskManagement\\TaskManagement.csproj",
+        "projectUniqueName": "J:\\DOT NET\\AJAX MODAL\\SimpleCrud\\TaskManagement\\TaskManagement.csproj",
         "projectName": "TaskManagement",
-        "projectPath": "J:\\Project\\TaskManagement_B08-master\\TaskManagement\\TaskManagement.csproj",
+        "projectPath": "J:\\DOT NET\\AJAX MODAL\\SimpleCrud\\TaskManagement\\TaskManagement.csproj",
         "packagesPath": "C:\\Users\\GIGABYTE\\.nuget\\packages\\",
-        "outputPath": "J:\\Project\\TaskManagement_B08-master\\TaskManagement\\obj\\",
+        "outputPath": "J:\\DOT NET\\AJAX MODAL\\SimpleCrud\\TaskManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\vs shared\\NuGetPackages"

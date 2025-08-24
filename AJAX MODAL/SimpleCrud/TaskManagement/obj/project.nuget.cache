@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3xwCUry1Rpg=",
+  "dgSpecHash": "fdGha6S6Mpg=",
   "success": true,
-  "projectFilePath": "J:\\Project\\TaskManagement_B08-master\\TaskManagement\\TaskManagement.csproj",
+  "projectFilePath": "J:\\DOT NET\\AJAX MODAL\\SimpleCrud\\TaskManagement\\TaskManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GIGABYTE\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\GIGABYTE\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
