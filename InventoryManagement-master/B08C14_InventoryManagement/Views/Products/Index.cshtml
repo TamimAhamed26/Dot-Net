@@ -1,0 +1,164 @@
+﻿@model IEnumerable<B08C14_InventoryManagement.Data.Product>
+@{
+    ViewData["Title"] = "Products";
+}
+
+<h1>Products</h1>
+
+<button id="btnCreate" class="btn btn-primary mb-2">Create New</button>
+
+<table class="table table-bordered table-striped" id="productsTable">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Stock</th>
+            <th>Category</th>
+            <th>Supplier</th>
+            <th>Created At</th>
+            <th>Created By</th>
+            <th>Updated At</th>
+            <th>Updated By</th>
+            <th>Is Active</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr data-id="@item.Id">
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+                <td>@item.Price</td>
+                <td>@item.StockQuantity</td>
+                <td>@item.Category?.Name</td>
+                <td>@item.Supplier?.Name</td>
+                <td>@item.CreatedAt</td>
+                <td>@item.CreatedBy</td>
+                <td>@item.UpdatedAt</td>
+                <td>@item.UpdatedBy</td>
+                <td>@item.IsActive</td>
+                <td>
+                    <button class="btn btn-sm btn-warning btnEdit" data-id="@item.Id">Edit</button>
+                    <button class="btn btn-sm btn-danger btnDelete" data-id="@item.Id">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Modal -->
+<div class="modal fade" id="productModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalTitle">Product</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form id="productForm">
+                    <input type="hidden" id="Id" name="Id" />
+                    <div class="mb-3">
+                        <label>Name</label>
+                        <input type="text" class="form-control" id="Name" name="Name" required />
+                    </div>
+                    <div class="mb-3">
+                        <label>Description</label>
+                        <textarea class="form-control" id="Description" name="Description"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label>Price</label>
+                        <input type="number" step="0.01" class="form-control" id="Price" name="Price" required />
+                    </div>
+                    <div class="mb-3">
+                        <label>Stock Quantity</label>
+                        <input type="number" class="form-control" id="StockQuantity" name="StockQuantity" required />
+                    </div>
+                    <div class="mb-3">
+                        <label>Category</label>
+                        <select class="form-control" id="CategoryId" name="CategoryId" required>
+                            <option value="">Select Category</option>
+                            @foreach (var cat in ViewBag.Categories as List<B08C14_InventoryManagement.Data.Categoty>)
+                            {
+                                <option value="@cat.Id">@cat.Name</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label>Supplier</label>
+                        <select class="form-control" id="SupplierId" name="SupplierId" required>
+                            <option value="">Select Supplier</option>
+                            @foreach (var sup in ViewBag.Suppliers as List<B08C14_InventoryManagement.Data.Supplier>)
+                            {
+                                <option value="@sup.Id">@sup.Name</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="text-danger" id="formErrors"></div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" id="btnSave" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function(){
+
+            // Create
+            $('#btnCreate').click(function(){
+                $('#productForm')[0].reset();
+                $('#Id').val('');
+                $('#modalTitle').text('Create Product');
+                $('#productModal').modal('show');
+            });
+
+            // Edit
+            $('.btnEdit').click(function(){
+                var id = $(this).data('id');
+                $.get('@Url.Action("GetProduct")', {id:id}, function(res){
+                    if(res.success){
+                        $('#Id').val(res.data.id);
+                        $('#Name').val(res.data.name);
+                        $('#Description').val(res.data.description);
+                        $('#Price').val(res.data.price);
+                        $('#StockQuantity').val(res.data.stockQuantity);
+                        $('#CategoryId').val(res.data.categoryId);
+                        $('#SupplierId').val(res.data.supplierId);
+                        $('#modalTitle').text('Edit Product');
+                        $('#productModal').modal('show');
+                    } else alert(res.message);
+                });
+            });
+
+            // Save
+            $('#btnSave').click(function(){
+                var formData = $('#productForm').serialize();
+                var id = $('#Id').val();
+                var url = id ? '@Url.Action("Edit")' : '@Url.Action("Create")';
+                $.post(url, formData, function(res){
+                    if(res.success){
+                        location.reload();
+                    } else {
+                        $('#formErrors').text(res.message);
+                    }
+                });
+            });
+
+            // Delete
+            $('.btnDelete').click(function(){
+                if(!confirm("Are you sure?")) return;
+                var id = $(this).data('id');
+                $.post('@Url.Action("DeleteConfirmed")', {id:id}, function(res){
+                    if(res.success) location.reload();
+                    else alert(res.message);
+                });
+            });
+        });
+    </script>
+}

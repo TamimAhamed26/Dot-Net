@@ -1,0 +1,109 @@
+﻿@model B08C14_InventoryManagement.Data.Order
+
+<div class="modal fade" tabindex="-1">
+<div class="modal-dialog modal-xl">
+<div class="modal-content">
+<div class="modal-header">
+    <h5 class="modal-title">@((Model.Id==0?"Create":"Edit") + " Order")</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+</div>
+<div class="modal-body">
+<form id="orderForm">
+<input type="hidden" asp-for="Id" />
+<div class="mb-2"><label asp-for="OrderDate"></label><input asp-for="OrderDate" class="form-control" /></div>
+<div class="mb-2"><label asp-for="CustomerId"></label>
+<select asp-for="CustomerId" class="form-control" asp-items="ViewBag.CustomerId"></select></div>
+
+<button id="btnAddDetail" class="btn btn-sm btn-dark mb-2">Add Product</button>
+
+<table class="table table-bordered" id="tblOrderDetails">
+<thead><tr><th>Product</th><th>Qty</th><th>Price</th><th>Total</th><th>Action</th></tr></thead>
+<tbody>
+@for(int i=0;i<Model.OrderDetails.Count;i++){
+<tr>
+    <td>
+        @{
+            var orderDetail = Model.OrderDetails[i];
+            var productList = (SelectList)ViewBag.ProductId;
+        }
+        <select name="OrderDetails[@i].ProductId" class="form-control product-dropdown">
+            @foreach(var p in productList)
+            {
+                <option value="@p.Value" selected="@(p.Value == orderDetail.ProductId.ToString() ? "selected" : null)">@p.Text</option>
+            }
+        </select>
+    </td>
+    <td><input type="number" name="OrderDetails[@i].Quantity" value="@Model.OrderDetails[i].Quantity" class="form-control quantity" /></td>
+    <td><input type="number" name="OrderDetails[@i].UnitPrice" value="@Model.OrderDetails[i].UnitPrice" class="form-control unitprice" readonly/></td>
+    <td><input type="number" name="OrderDetails[@i].TotalPrice" value="@Model.OrderDetails[i].TotalPrice" class="form-control totalprice" readonly/></td>
+    <td><button type="button" class="btn btn-sm btn-danger btn-remove">Remove</button></td>
+</tr>
+}
+</tbody>
+</table>
+
+<div class="mb-2"><label>Total Amount</label><input type="number" asp-for="TotalAmount" id="TotalAmount" class="form-control" readonly /></div>
+</form>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+<button type="button" id="btnSaveOrder" class="btn btn-primary">Save</button>
+</div>
+</div>
+</div>
+</div>
+
+@section Scripts{
+<script>
+$(document).ready(function(){
+
+// ADD ROW
+$('#btnAddDetail').click(function(e){ e.preventDefault();
+var index = $('#tblOrderDetails tbody tr').length;
+var options = $('.product-dropdown:first').html();
+var newRow = `<tr>
+<td><select name="OrderDetails[${index}].ProductId" class="form-control product-dropdown">${options}</select></td>
+<td><input type="number" name="OrderDetails[${index}].Quantity" class="form-control quantity" value="1"/></td>
+<td><input type="number" name="OrderDetails[${index}].UnitPrice" class="form-control unitprice" readonly/></td>
+<td><input type="number" name="OrderDetails[${index}].TotalPrice" class="form-control totalprice" readonly/></td>
+<td><button type="button" class="btn btn-sm btn-danger btn-remove">Remove</button></td></tr>`;
+$('#tblOrderDetails tbody').append(newRow);
+fetchUnitPrices(); calculateTotal();
+});
+
+// REMOVE ROW
+$(document).on('click','.btn-remove', function(){ $(this).closest('tr').remove(); reindexRows(); calculateTotal(); });
+function reindexRows(){ $('#tblOrderDetails tbody tr').each(function(i,row){
+$(row).find('select, input').each(function(){ var name=$(this).attr('name'); if(name) $(this).attr('name', name.replace(/\[\d+\]/, `[${i}]`));});});}
+
+// PRODUCT CHANGE
+$(document).on('change','.product-dropdown', function(){ fetchUnitPrices(); calculateTotal();});
+$(document).on('input','.quantity', function(){ calculateTotal(); });
+
+// FETCH PRICE
+function fetchUnitPrices(){
+$('#tblOrderDetails tbody tr').each(function(){
+var select=$(this).find('.product-dropdown'); var productId=select.val(); var inputPrice=$(this).find('.unitprice');
+$.get('/Orders/GetPrice',{id:productId}, function(res){ inputPrice.val(res.price); calculateTotal(); });
+});}
+
+// CALCULATE TOTAL
+function calculateTotal(){ var total=0;
+$('#tblOrderDetails tbody tr').each(function(){ 
+var qty=parseFloat($(this).find('.quantity').val())||0;
+var price=parseFloat($(this).find('.unitprice').val())||0;
+var subtotal = qty*price; $(this).find('.totalprice').val(subtotal); total+=subtotal; });
+$('#TotalAmount').val(total); }
+
+// SAVE ORDER
+$('#btnSaveOrder').click(function(){
+var formData = $('#orderForm').serialize();
+var url = '@Url.Action("CreateOrEdit")';
+$.post(url, formData, function(res){
+if(res.success) location.reload(); else alert(res.message);
+});
+});
+
+});
+</script>
+}
