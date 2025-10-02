@@ -18,9 +18,9 @@ namespace B08C14_InventoryManagement.Data
         //[ValidateNever]
         public Categoty? Category { get; set; }
         [ForeignKey("Supplier")]
-        public int SupplierId { get; set; }
+        public int? SupplierId { get; set; }
         [ValidateNever]
-        public Supplier Supplier { get; set; }
+        public Supplier? Supplier { get; set; }
         [ValidateNever]
         public ICollection<OrderDetails> OrderDetails { get; set; }
     }
