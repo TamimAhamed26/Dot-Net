@@ -22,9 +22,12 @@ namespace B08C14_InventoryManagement.Controllers
         public async Task<IActionResult> Index()
         {
             var orders = await _context.Orders
+                
                 .Include(o => o.Customer)
+                  
                 .Include(o => o.OrderDetails)
                     .ThenInclude(od => od.Product)
+
                 .ToListAsync();
 
             ViewBag.Products = await _context.Products.ToListAsync();

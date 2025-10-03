@@ -12,8 +12,7 @@ namespace B08C14_InventoryManagement.Data
         public Product? Product { get; set; }
         public int Quantity { get; set; }
         public decimal UnitPrice { get; set; }
-         
         public decimal TotalPrice { get; set; }
-
+        public bool IsShipped { get; set; } = false;
     }
 }

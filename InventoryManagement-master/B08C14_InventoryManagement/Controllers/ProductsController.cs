@@ -29,7 +29,6 @@ namespace B08C14_InventoryManagement.Controllers
                 .Include(p => p.Supplier)
                 .ToListAsync();
 
-            // Populate ViewBag for modal dropdowns
             ViewBag.Categories = await _context.Categories.OrderBy(c => c.Name).ToListAsync();
             ViewBag.Suppliers = await _context.Suppliers.OrderBy(s => s.Name).ToListAsync();
 
@@ -37,7 +36,6 @@ namespace B08C14_InventoryManagement.Controllers
         }
 
 
-        // AJAX: Get single product
         [HttpGet]
         public async Task<IActionResult> GetProduct(int id)
         {
@@ -62,7 +60,6 @@ namespace B08C14_InventoryManagement.Controllers
             return Json(new { success = true, data = product });
         }
 
-        // AJAX: Create
         [HttpPost]
         public async Task<IActionResult> Create([Bind("Name,Description,Price,StockQuantity,CategoryId,SupplierId")] Product product)
         {
@@ -79,7 +76,6 @@ namespace B08C14_InventoryManagement.Controllers
             return Json(new { success = false, message = "Validation failed." });
         }
 
-        // AJAX: Edit
         [HttpPost]
         public async Task<IActionResult> Edit([Bind("Id,Name,Description,Price,StockQuantity,CategoryId,SupplierId")] Product product)
         {
@@ -104,7 +100,6 @@ namespace B08C14_InventoryManagement.Controllers
             return Json(new { success = false, message = "Validation failed." });
         }
 
-        // AJAX: Delete
         [HttpPost]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {

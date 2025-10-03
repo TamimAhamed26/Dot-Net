@@ -25,7 +25,6 @@ namespace B08C14_InventoryManagement.Controllers
             _userManager = userManager;
         }
 
-        // GET: Customers
         public async Task<IActionResult> Index()
         {
             var customers = await _context.Customers
@@ -34,7 +33,6 @@ namespace B08C14_InventoryManagement.Controllers
             return View(customers);
         }
 
-        // AJAX: Get single customer
         [HttpGet]
         public async Task<IActionResult> GetCustomer(int id)
         {
@@ -46,7 +44,6 @@ namespace B08C14_InventoryManagement.Controllers
             return Json(new { success = true, data = customer });
         }
 
-        // AJAX: Create
         [HttpPost]
         public async Task<IActionResult> Create([Bind("Name,Email,Mobile,Address")] Customer customer)
         {
@@ -56,7 +53,6 @@ namespace B08C14_InventoryManagement.Controllers
                 customer.CreatedBy = User.Identity?.Name ?? "Admin";
                 customer.IsActive = true;
 
-                // Create linked ApplicationUser
                 var user = new ApplicationUser
                 {
                     UserName = customer.Email,
@@ -83,7 +79,6 @@ namespace B08C14_InventoryManagement.Controllers
             return Json(new { success = false, message = "Validation failed." });
         }
 
-        // AJAX: Edit
         [HttpPost]
         public async Task<IActionResult> Edit([Bind("Id,Name,Email,Mobile,Address")] Customer customer)
         {
@@ -99,7 +94,6 @@ namespace B08C14_InventoryManagement.Controllers
                 existing.UpdatedAt = DateTime.Now;
                 existing.UpdatedBy = User.Identity?.Name ?? "Admin";
 
-                // update linked ApplicationUser
                 if (!string.IsNullOrEmpty(existing.UserId))
                 {
                     var user = await _userManager.FindByIdAsync(existing.UserId);
@@ -120,7 +114,6 @@ namespace B08C14_InventoryManagement.Controllers
             return Json(new { success = false, message = "Validation failed." });
         }
 
-        // AJAX: Delete
         [HttpPost]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {

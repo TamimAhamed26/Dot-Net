@@ -1,0 +1,381 @@
+﻿@model IEnumerable<B08C14_InventoryManagement.Data.Order>
+@{
+    ViewData["Title"] = "My Orders";
+}
+
+<style>
+    .orders-header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 2.5rem 0;
+        margin: -1rem -1rem 2rem -1rem;
+        border-radius: 0 0 20px 20px;
+        box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);
+    }
+
+    .order-card {
+        background: white;
+        border-radius: 16px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+        margin-bottom: 1.5rem;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        border: 1px solid rgba(0, 0, 0, 0.05);
+    }
+
+        .order-card:hover {
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+            transform: translateY(-2px);
+        }
+
+    .order-header {
+        padding: 1.5rem;
+        background: linear-gradient(to right, #f8f9fa, #ffffff);
+        border-bottom: 2px solid #f0f0f0;
+    }
+
+    .order-id {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #667eea;
+        margin-bottom: 0.5rem;
+    }
+
+    .order-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        align-items: center;
+    }
+
+    .meta-item {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .meta-label {
+        font-size: 0.85rem;
+        color: #6c757d;
+        font-weight: 500;
+    }
+
+    .meta-value {
+        font-size: 1rem;
+        font-weight: 600;
+        color: #212529;
+    }
+
+    .status-badge {
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .status-pending {
+        background: #fff3cd;
+        color: #856404;
+    }
+
+    .status-processing {
+        background: #cfe2ff;
+        color: #084298;
+    }
+
+    .status-shipped {
+        background: #d1e7dd;
+        color: #0f5132;
+    }
+
+    .status-delivered {
+        background: #d1e7dd;
+        color: #0f5132;
+    }
+
+    .status-cancelled {
+        background: #f8d7da;
+        color: #842029;
+    }
+
+    .order-actions {
+        padding: 1.5rem;
+        background: #fafbfc;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .btn-modern {
+        padding: 0.6rem 1.5rem;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 0.9rem;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .btn-details {
+        background: #667eea;
+        color: white;
+    }
+
+        .btn-details:hover {
+            background: #5568d3;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+    .btn-cancel {
+        background: #dc3545;
+        color: white;
+        margin-right: 0.5rem;
+    }
+
+        .btn-cancel:hover {
+            background: #c82333;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(220, 53, 69, 0.4);
+        }
+
+    .btn-accept {
+        background: #28a745;
+        color: white;
+    }
+
+        .btn-accept:hover {
+            background: #218838;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
+        }
+
+    .order-details-section {
+        padding: 1.5rem;
+        background: #f8f9fa;
+        border-top: 2px solid #e9ecef;
+    }
+
+    .details-table {
+        background: white;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+        .details-table table {
+            margin: 0;
+        }
+
+        .details-table thead {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .details-table th {
+            padding: 1rem;
+            font-weight: 600;
+            border: none;
+        }
+
+        .details-table td {
+            padding: 1rem;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .details-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+    .product-name {
+        font-weight: 600;
+        color: #212529;
+    }
+
+    .shipped-badge {
+        background: #d1e7dd;
+        color: #0f5132;
+        padding: 0.25rem 0.75rem;
+        border-radius: 12px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        margin-left: 0.5rem;
+    }
+
+    .empty-state {
+        text-align: center;
+        padding: 4rem 2rem;
+        background: white;
+        border-radius: 16px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .empty-state-icon {
+        font-size: 4rem;
+        color: #667eea;
+        margin-bottom: 1rem;
+    }
+
+    .empty-state-text {
+        font-size: 1.25rem;
+        color: #6c757d;
+        font-weight: 500;
+    }
+
+    .action-buttons {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .no-action {
+        color: #adb5bd;
+        font-style: italic;
+    }
+</style>
+
+<div class="container mt-4">
+    <div class="orders-header">
+        <div class="container">
+            <h1 class="mb-0" style="font-weight: 700;">My Orders</h1>
+            <p class="mb-0 mt-2" style="opacity: 0.9;">Track and manage your purchases</p>
+        </div>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="empty-state">
+            <div class="empty-state-icon">📦</div>
+            <div class="empty-state-text">You haven't placed any orders yet</div>
+            <p class="text-muted mt-2">Start shopping to see your orders here!</p>
+        </div>
+    }
+    else
+    {
+        @foreach (var order in Model.OrderByDescending(o => o.OrderDate))
+        {
+            <div class="order-card">
+                <div class="order-header">
+                    <div class="order-id">Order #@order.Id</div>
+                    <div class="order-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">📅 Date:</span>
+                            <span class="meta-value">@order.OrderDate.ToString("dd MMM yyyy")</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">💰 Total:</span>
+                            <span class="meta-value">@order.TotalAmount.ToString("C")</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Status:</span>
+                            @switch (order.Status)
+                            {
+                                case B08C14_InventoryManagement.Data.OrderStatus.Pending:
+                                    <span class="status-badge status-pending">Pending</span>
+                                    break;
+                                case B08C14_InventoryManagement.Data.OrderStatus.Processing:
+                                    <span class="status-badge status-processing">Processing</span>
+                                    break;
+                                case B08C14_InventoryManagement.Data.OrderStatus.Shipped:
+                                    <span class="status-badge status-shipped">Shipped</span>
+                                    break;
+                                case B08C14_InventoryManagement.Data.OrderStatus.Delivered:
+                                    <span class="status-badge status-delivered">Delivered</span>
+                                    break;
+                                case B08C14_InventoryManagement.Data.OrderStatus.Cancelled:
+                                    <span class="status-badge status-cancelled">Cancelled</span>
+                                    break;
+                            }
+                        </div>
+                    </div>
+                </div>
+
+                <div class="collapse" id="order-@order.Id">
+                    <div class="order-details-section">
+                        <div class="details-table">
+                            <table class="table mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Product</th>
+                                        <th>Quantity</th>
+                                        <th>Unit Price</th>
+                                        <th>Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var d in order.OrderDetails)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <span class="product-name">@d.Product?.Name</span>
+                                                @if (d.IsShipped)
+                                                {
+                                                    <span class="shipped-badge">Shipped</span>
+                                                }
+                                            </td>
+                                            <td>@d.Quantity</td>
+                                            <td>@d.UnitPrice.ToString("C")</td>
+                                            <td><strong>@d.TotalPrice.ToString("C")</strong></td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order-actions">
+                    <button class="btn btn-modern btn-details" type="button" data-bs-toggle="collapse" data-bs-target="#order-@order.Id">
+                        📋 View Details
+                    </button>
+                    <div class="action-buttons">
+                        @if (order.Status == B08C14_InventoryManagement.Data.OrderStatus.Shipped)
+                        {
+                            <button class="btn btn-modern btn-cancel btnCancel" data-id="@order.Id">❌ Cancel</button>
+                            <button class="btn btn-modern btn-accept btnAccept" data-id="@order.Id">✓ Accept</button>
+                        }
+                        else
+                        {
+                            <span class="no-action">No actions available</span>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+          
+            $(".btnCancel").click(function () {
+                if (!confirm("Are you sure you want to cancel this order?")) return;
+                var id = $(this).data("id");
+                $.post('@Url.Action("CancelOrder", "CustomerOrders")', { orderId: id }, function (res) {
+                    if (res.success) {
+                        location.reload();
+                    } else {
+                        alert(res.message);
+                    }
+                });
+            });
+
+     
+            $(".btnAccept").click(function () {
+                if (!confirm("Confirm you received this order successfully?")) return;
+                var id = $(this).data("id");
+                $.post('@Url.Action("AcceptOrder", "CustomerOrders")', { orderId: id }, function (res) {
+                    if (res.success) {
+                        location.reload();
+                    } else {
+                        alert(res.message);
+                    }
+                });
+            });
+        });
+    </script>
+}

@@ -170,6 +170,9 @@ namespace B08C14_InventoryManagement.Data.Migrations
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 
+                    b.Property<bool>("IsShipped")
+                        .HasColumnType("bit");
+
                     b.Property<int>("OrderId")
                         .HasColumnType("int");
 
@@ -234,7 +237,7 @@ namespace B08C14_InventoryManagement.Data.Migrations
                     b.Property<int>("StockQuantity")
                         .HasColumnType("int");
 
-                    b.Property<int>("SupplierId")
+                    b.Property<int?>("SupplierId")
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("UpdatedAt")
@@ -559,9 +562,7 @@ namespace B08C14_InventoryManagement.Data.Migrations
 
                     b.HasOne("B08C14_InventoryManagement.Data.Supplier", "Supplier")
                         .WithMany()
-                        .HasForeignKey("SupplierId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("SupplierId");
 
                     b.Navigation("Category");
 

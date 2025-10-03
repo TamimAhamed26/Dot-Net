@@ -26,7 +26,6 @@ namespace B08C14_InventoryManagement.Controllers
             return View(categories);
         }
 
-        // AJAX: Create
         [HttpPost]
         public async Task<IActionResult> Create([Bind("Name,Description")] Categoty categoty)
         {
@@ -44,7 +43,6 @@ namespace B08C14_InventoryManagement.Controllers
             return Json(new { success = false, message = "Validation failed." });
         }
 
-        // AJAX: Edit
         [HttpGet]
         public async Task<IActionResult> GetCategory(int id)
         {
@@ -74,7 +72,6 @@ namespace B08C14_InventoryManagement.Controllers
             return Json(new { success = false, message = "Validation failed." });
         }
 
-        // AJAX: Delete
         [HttpPost]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {

@@ -23,7 +23,6 @@ namespace B08C14_InventoryManagement.Controllers
             _userManager = userManager;
         }
 
-        // GET: Suppliers
         public async Task<IActionResult> Index()
         {
             var suppliers = await _context.Suppliers
@@ -32,7 +31,6 @@ namespace B08C14_InventoryManagement.Controllers
             return View(suppliers);
         }
 
-        // AJAX: Get single supplier
         [HttpGet]
         public async Task<IActionResult> GetSupplier(int id)
         {
@@ -44,7 +42,6 @@ namespace B08C14_InventoryManagement.Controllers
             return Json(new { success = true, data = supplier });
         }
 
-        // AJAX: Create
         [HttpPost]
         public async Task<IActionResult> Create([Bind("Name,Email,Mobile,Address")] Supplier supplier)
         {
@@ -79,7 +76,6 @@ namespace B08C14_InventoryManagement.Controllers
             return Json(new { success = false, message = "Validation failed." });
         }
 
-        // AJAX: Edit
         [HttpPost]
         public async Task<IActionResult> Edit([Bind("Id,Name,Email,Mobile,Address")] Supplier supplier)
         {
@@ -95,7 +91,6 @@ namespace B08C14_InventoryManagement.Controllers
                 existing.UpdatedAt = DateTime.Now;
                 existing.UpdatedBy = User.Identity?.Name ?? "Admin";
 
-                // update linked ApplicationUser
                 if (!string.IsNullOrEmpty(existing.UserId))
                 {
                     var user = await _userManager.FindByIdAsync(existing.UserId);
@@ -116,7 +111,6 @@ namespace B08C14_InventoryManagement.Controllers
             return Json(new { success = false, message = "Validation failed." });
         }
 
-        // AJAX: Delete
         [HttpPost]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {

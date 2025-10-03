@@ -14,6 +14,7 @@
 <table class="table table-bordered">
     <thead>
         <tr>
+            <th style="width: 50px;">Details</th>
             <th>Date</th>
             <th>Total Amount</th>
             <th>Status</th>
@@ -25,17 +26,45 @@
         @foreach (var order in Model)
         {
             <tr class="order-row" data-order-id="@order.Id">
+                <td class="text-center">
+                    <button class="btn btn-sm btn-outline-secondary toggle-details" data-order-id="@order.Id">
+                        <i class="bi bi-plus-lg"></i>
+                    </button>
+                </td>
                 <td>@order.OrderDate.ToShortDateString()</td>
                 <td class="order-total">@order.TotalAmount</td>
                 <td>@order.Status</td>
                 <td>@order.Customer?.Name</td>
                 <td>
-                    <button class="btn btn-sm btn-primary btn-add-product" data-order-id="@order.Id">Add Product</button>
+                    @if (order.Status == OrderStatus.Pending || order.Status == OrderStatus.Processing)
+                    {
+                        <button class="btn btn-sm btn-primary btn-add-product" data-order-id="@order.Id">
+                            Add Product
+                        </button>
+                        @if (order.Status == OrderStatus.Pending)
+                        {
+                            <button class="btn btn-sm btn-success btn-send" data-order-id="@order.Id" title="Send for Delivery">
+                                <i class="bi bi-truck"></i>
+                            </button>
+                        }
+                    }
+                    else if (order.Status == OrderStatus.Shipped)
+                    {
+                        <span class="badge bg-info">Shipped</span>
+                    }
+                    else if (order.Status == OrderStatus.Delivered)
+                    {
+                        <span class="badge bg-success">Delivered</span>
+                    }
+                    else if (order.Status == OrderStatus.Cancelled)
+                    {
+                        <span class="badge bg-danger">Cancelled</span>
+                    }
                 </td>
             </tr>
             <tr class="order-details-row" style="display:none;">
-                <td colspan="5">
-                    <table class="table table-sm table-bordered">
+                <td colspan="6">
+                    <table class="table table-sm table-bordered mb-0">
                         <thead>
                             <tr>
                                 <th>Product</th>
@@ -49,13 +78,33 @@
                             @foreach (var d in order.OrderDetails)
                             {
                                 <tr data-id="@d.Id" data-order-id="@order.Id">
-                                    <td>@d.Product?.Name</td>
+                                    <td>
+                                        @d.Product?.Name
+                                        @Html.Raw(d.IsShipped ? " <span class='badge bg-success ms-1'>Shipped</span>" : "")
+                                    </td>
                                     <td>@d.Quantity</td>
                                     <td>@d.UnitPrice</td>
                                     <td>@d.TotalPrice</td>
                                     <td>
-                                        <button class="btn btn-sm btn-info btn-edit" data-id="@d.Id">Edit</button>
-                                        <button class="btn btn-sm btn-danger btn-delete" data-id="@d.Id">Delete</button>
+                                        @if (order.Status == OrderStatus.Pending || (order.Status == OrderStatus.Processing && !d.IsShipped))
+                                        {
+                                            <button class="btn btn-sm btn-info btn-edit" data-id="@d.Id">Edit</button>
+                                            <button class="btn btn-sm btn-danger btn-delete" data-id="@d.Id">Delete</button>
+                                            @if (!d.IsShipped)
+                                            {
+                                                <button class="btn btn-sm btn-success btn-send-detail" data-id="@d.Id" title="Send this item">
+                                                    <i class="bi bi-truck"></i>
+                                                </button>
+                                            }
+                                            else
+                                            {
+                                                <span class="text-success">Shipped</span>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted">Locked</span>
+                                        }
                                     </td>
                                 </tr>
                             }
@@ -168,14 +217,17 @@
             $("#ProductId").change(function () {
                 let productId = $(this).val();
                 if (productId) {
-                    $.get("/Order/GetPrice?productId=" + productId, function (res) {
+                    $.get("/OrderDetails/GetPrice?productId=" + productId, function (res) {
                         if (res && res.success) {
                             $("#UnitPrice").val(res.price.toFixed(2));
                             updateTotal();
                         } else {
                             $("#UnitPrice").val(0);
                             $("#TotalPrice").val(0);
+                            showToast("Failed to fetch product price.", "error");
                         }
+                    }).fail(function () {
+                        showToast("Error fetching product price.", "error");
                     });
                 } else {
                     $("#UnitPrice").val(0);
@@ -194,7 +246,8 @@
                 $("#orderModal").modal("show");
             });
 
-            $(document).on("click", ".btn-add-product", function () {
+            $(document).on("click", ".btn-add-product", function (e) {
+                e.stopPropagation();
                 clearModal();
                 let orderId = $(this).data("order-id");
                 $("#OrderId").val(orderId);
@@ -223,10 +276,16 @@
                                 $("#UnitPrice").val(p.price.toFixed(2));
                                 $("#TotalPrice").val((res.quantity * p.price).toFixed(2));
                             }
+                        }).fail(function () {
+                            showToast("Error fetching product price.", "error");
                         });
 
                         $("#orderModal").modal("show");
+                    } else {
+                        showToast("Order detail not found.", "warning");
                     }
+                }).fail(function () {
+                    showToast("Error fetching order detail.", "error");
                 });
             });
 
@@ -234,16 +293,16 @@
                 let isNewOrder = $("#IsNewOrder").val() === "true";
                 if (isNewOrder) {
                     if (!$('#CustomerId').val()) {
-                        alert("Please select a customer.");
+                        showToast("Please select a customer.", "warning");
                         return;
                     }
                     if (!$('#ProductId').val()) {
-                        alert("Please select a product.");
+                        showToast("Please select a product.", "warning");
                         return;
                     }
                 } else {
                     if (!$('#OrderId').val() || !$('#ProductId').val()) {
-                        alert("Invalid order or product.");
+                        showToast("Invalid order or product.", "error");
                         return;
                     }
                 }
@@ -257,44 +316,117 @@
                     TotalPrice: parseFloat($("#TotalPrice").val()) || 0
                 };
 
-                let url = isNewOrder ? "/OrderDetails/CreateOrder" : "/OrderDetails/Update";
                 if (isNewOrder) {
                     data.CustomerId = parseInt($("#CustomerId").val());
                     data.OrderDate = $("#OrderDate").val();
                 }
 
+                let url = isNewOrder ? "/OrderDetails/CreateOrder" : "/OrderDetails/Update";
+
                 $.post(url, data, function (res) {
                     if (res.success) {
                         $("#orderModal").modal("hide");
-                        location.reload();
+                        showToast("Order saved successfully!", "success");
+                        setTimeout(() => location.reload(), 1000);
                     } else {
-                        alert(res.message || "Error saving data");
+                        showToast(res.message || "Error saving data.", "error");
                     }
                 }).fail(function () {
-                    alert("Error occurred while saving.");
+                    showToast("Error occurred while saving.", "error");
                 });
             });
 
             $(document).on("click", ".btn-delete", function () {
-                if (!confirm("Are you sure?")) return;
                 let id = $(this).data("id");
-                $.post("/OrderDetails/Delete/" + id, function (res) {
-                    if (res.success) {
-                        location.reload();
-                    } else {
-                        alert(res.message || "Error deleting data");
-                    }
-                }).fail(function () {
-                    alert("Error occurred while deleting.");
+                const deleteModalHtml = `
+                <div class="modal fade" id="deleteConfirmModal" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-danger">Confirm Delete</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                Are you sure you want to delete this order detail?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-danger" id="confirmDelete">Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>`;
+
+                $("body").append(deleteModalHtml);
+                let deleteModal = new bootstrap.Modal(document.getElementById("deleteConfirmModal"));
+                deleteModal.show();
+
+                $("#confirmDelete").click(function () {
+                    $.post("/OrderDetails/Delete/" + id, function (res) {
+                        if (res.success) {
+                            showToast("Order detail deleted!", "success");
+                            setTimeout(() => location.reload(), 800);
+                        } else {
+                            showToast(res.message || "Error deleting data.", "error");
+                        }
+                        deleteModal.hide();
+                    }).fail(function () {
+                        showToast("Error occurred while deleting.", "error");
+                        deleteModal.hide();
+                    });
+                });
+
+                $('#deleteConfirmModal').on('hidden.bs.modal', function () {
+                    $(this).remove();
                 });
             });
 
-            $(document).on("click", ".order-row", function (e) {
-                if (!$(e.target).hasClass('btn')) {
-                    $(this).next(".order-details-row").toggle();
-                }
+            $(document).on("click", ".btn-send", function () {
+                let orderId = $(this).data("order-id");
+                if (!confirm("Send this order for delivery?")) return;
+
+                $.post("/OrderDetails/SendOrder", { orderId: orderId }, function (res) {
+                    if (res.success) {
+                        showToast("Order sent for delivery!", "success");
+                        setTimeout(() => location.reload(), 800);
+                    } else {
+                        showToast(res.message || "Error updating order.", "error");
+                    }
+                }).fail(function () {
+                    showToast("Error occurred while sending order.", "error");
+                });
             });
 
+            $(document).on("click", ".btn-send-detail", function () {
+                let detailId = $(this).data("id");
+                if (!confirm("Send this product for delivery?")) return;
+
+                $.post("/OrderDetails/SendDetail", { detailId: detailId }, function (res) {
+                    if (res.success) {
+                        showToast("Product sent for delivery!", "success");
+                        setTimeout(() => location.reload(), 800);
+                    } else {
+                        showToast(res.message || "Error sending product.", "error");
+                    }
+                }).fail(function () {
+                    showToast("Error occurred while sending product.", "error");
+                });
+            });
+
+            $(document).on("click", ".toggle-details", function (e) {
+                e.stopPropagation();
+                let $btn = $(this);
+                let $icon = $btn.find("i");
+                let $detailsRow = $btn.closest("tr").next(".order-details-row");
+                $detailsRow.slideToggle(300,
+                    function()
+                    {
+                      if ($detailsRow.is(":visible"))
+                    { $icon.removeClass("bi-plus-lg").addClass("bi-dash-lg"); }
+                      else { $icon.removeClass("bi-dash-lg").addClass("bi-plus-lg");
+                      }
+                   });
+                });
         });
     </script>
 }
