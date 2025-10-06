@@ -351,18 +351,25 @@
 @section Scripts {
     <script>
         $(document).ready(function () {
-          
-            $(".btnCancel").click(function () {
-                if (!confirm("Are you sure you want to cancel this order?")) return;
-                var id = $(this).data("id");
-                $.post('@Url.Action("CancelOrder", "CustomerOrders")', { orderId: id }, function (res) {
-                    if (res.success) {
-                        location.reload();
-                    } else {
-                        alert(res.message);
-                    }
-                });
-            });
+
+                 $(".btnCancel").click(function () {
+            var id = $(this).data("id");
+            var reason = prompt("Please enter the reason for cancellation:");
+            if (!reason || reason.trim() === "") {
+                alert("Cancellation reason is required.");
+                return;
+            }
+
+            var isDamaged = confirm("Is the order damaged or incorrect?\n\nClick OK if damaged (stock won't be restored), or Cancel if it's fine.");
+
+            $.post('@Url.Action("CancelOrder", "CustomerOrders")',
+                { orderId: id, reason: reason, isDamaged: isDamaged },
+                function (res) {
+                    alert(res.message);
+                    if (res.success) location.reload();
+                }
+            );
+        });
 
      
             $(".btnAccept").click(function () {

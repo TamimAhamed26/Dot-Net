@@ -20,7 +20,8 @@
         public int CustomerId { get; set; }
         public Customer? Customer { get; set; }
         public List<OrderDetails> OrderDetails { get; set; }
+        public string? CancellationReason { get; set; }
+        public bool IsDamagedCancellation { get; set; } = false;
 
-      
     }
 }

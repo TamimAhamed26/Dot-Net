@@ -40,7 +40,7 @@ namespace B08C14_InventoryManagement.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CancelOrder(int orderId)
+        public async Task<IActionResult> CancelOrder(int orderId, string reason, bool isDamaged)
         {
             using var transaction = await _context.Database.BeginTransactionAsync();
             try
@@ -59,21 +59,33 @@ namespace B08C14_InventoryManagement.Controllers
                 if (order.Status != OrderStatus.Shipped)
                     return Json(new { success = false, message = "Only shipped orders can be cancelled." });
 
-                foreach (var detail in order.OrderDetails)
+                // Only restore stock if not damaged
+                if (!isDamaged)
                 {
-                    if (detail.Product != null)
+                    foreach (var detail in order.OrderDetails)
                     {
-                        detail.Product.StockQuantity += detail.Quantity;
-                        _context.Products.Update(detail.Product);
+                        if (detail.Product != null)
+                        {
+                            detail.Product.StockQuantity += detail.Quantity;
+                            _context.Products.Update(detail.Product);
+                        }
                     }
                 }
 
                 order.Status = OrderStatus.Cancelled;
+                order.CancellationReason = reason;
+                order.IsDamagedCancellation = isDamaged;
+
                 _context.Update(order);
                 await _context.SaveChangesAsync();
 
                 await transaction.CommitAsync();
-                return Json(new { success = true, message = "Order cancelled and stock restored successfully." });
+
+                string message = isDamaged
+                    ? "Order cancelled (damaged) — stock not restored."
+                    : "Order cancelled and stock restored.";
+
+                return Json(new { success = true, message });
             }
             catch
             {
@@ -81,6 +93,7 @@ namespace B08C14_InventoryManagement.Controllers
                 return Json(new { success = false, message = "An error occurred while cancelling the order." });
             }
         }
+
 
         [HttpPost]
         public async Task<IActionResult> AcceptOrder(int orderId)

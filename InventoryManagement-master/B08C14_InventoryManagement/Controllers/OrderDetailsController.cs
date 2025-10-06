@@ -265,27 +265,38 @@ namespace B08C14_InventoryManagement.Controllers
             using var transaction = await _context.Database.BeginTransactionAsync();
             try
             {
-                var od = await _context.OrderDetails.FindAsync(id);
+                var od = await _context.OrderDetails
+                    .Include(d => d.Product) 
+                    .FirstOrDefaultAsync(d => d.Id == id);
+
                 if (od == null)
-                    return Json(new { success = false, message = "Not found" });
+                    return Json(new { success = false, message = "Order detail not found." });
+
+        
+                if (od.Product != null)
+                {
+                    od.Product.StockQuantity += od.Quantity;
+                    _context.Products.Update(od.Product);
+                }
 
                 int orderId = od.OrderId;
                 _context.OrderDetails.Remove(od);
                 await _context.SaveChangesAsync();
 
+       
                 var order = await _context.Orders
                     .Include(o => o.OrderDetails)
                     .FirstOrDefaultAsync(o => o.Id == orderId);
 
                 if (order != null)
                 {
-                    order.TotalAmount = order.OrderDetails.Sum(od => od.TotalPrice);
-                    _context.Update(order);
+                    order.TotalAmount = order.OrderDetails.Sum(x => x.TotalPrice);
+                    _context.Orders.Update(order);
                     await _context.SaveChangesAsync();
                 }
 
                 await transaction.CommitAsync();
-                return Json(new { success = true });
+                return Json(new { success = true, message = "Order detail deleted and stock updated." });
             }
             catch (Exception ex)
             {
@@ -293,5 +304,29 @@ namespace B08C14_InventoryManagement.Controllers
                 return Json(new { success = false, message = "Transaction failed: " + ex.Message });
             }
         }
+        [HttpPost]
+        public async Task<JsonResult> UpdateCancellationReason(int orderId, string reason)
+        {
+            try
+            {
+                var order = await _context.Orders.FirstOrDefaultAsync(o => o.Id == orderId);
+                if (order == null)
+                    return Json(new { success = false, message = "Order not found." });
+
+                if (order.Status != OrderStatus.Cancelled)
+                    return Json(new { success = false, message = "Only cancelled orders can have reasons updated." });
+
+                order.CancellationReason = reason;
+                _context.Update(order);
+                await _context.SaveChangesAsync();
+
+                return Json(new { success = true, message = "Cancellation reason updated successfully." });
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = "Error: " + ex.Message });
+            }
+        }
+
     }
 }

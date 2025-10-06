@@ -77,17 +77,17 @@ namespace B08C14_InventoryManagement.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit([Bind("Id,Name,Description,Price,StockQuantity,CategoryId,SupplierId")] Product product)
+        public async Task<IActionResult> Edit([Bind("Id,Name,Description,Price,CategoryId,SupplierId")] Product product)
         {
             if (ModelState.IsValid)
             {
                 var existing = await _context.Products.FindAsync(product.Id);
-                if (existing == null) return Json(new { success = false, message = "Product not found." });
+                if (existing == null)
+                    return Json(new { success = false, message = "Product not found." });
 
                 existing.Name = product.Name;
                 existing.Description = product.Description;
                 existing.Price = product.Price;
-                existing.StockQuantity = product.StockQuantity;
                 existing.CategoryId = product.CategoryId;
                 existing.SupplierId = product.SupplierId;
                 existing.UpdatedAt = DateTime.Now;
@@ -95,10 +95,43 @@ namespace B08C14_InventoryManagement.Controllers
 
                 _context.Products.Update(existing);
                 await _context.SaveChangesAsync();
+
                 return Json(new { success = true, message = "Product updated successfully." });
             }
             return Json(new { success = false, message = "Validation failed." });
         }
+
+        [HttpPost]
+        public async Task<IActionResult> AdjustStock(int id, int adjustment)
+        {
+            using var transaction = await _context.Database.BeginTransactionAsync();
+            try
+            {
+                var product = await _context.Products.FindAsync(id);
+                if (product == null)
+                    return Json(new { success = false, message = "Product not found." });
+
+                int newQuantity = product.StockQuantity + adjustment;
+                if (newQuantity < 0)
+                    return Json(new { success = false, message = "Stock cannot go below zero." });
+
+                product.StockQuantity = newQuantity;
+                product.UpdatedAt = DateTime.Now;
+                product.UpdatedBy = User.Identity.Name ?? "Admin";
+
+                _context.Products.Update(product);
+                await _context.SaveChangesAsync();
+                await transaction.CommitAsync();
+
+                return Json(new { success = true, message = "Stock quantity updated successfully." });
+            }
+            catch
+            {
+                await transaction.RollbackAsync();
+                return Json(new { success = false, message = "An error occurred while updating stock." });
+            }
+        }
+
 
         [HttpPost]
         public async Task<IActionResult> DeleteConfirmed(int id)
